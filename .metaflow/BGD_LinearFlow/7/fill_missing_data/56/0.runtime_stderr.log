@@ -1,0 +1,49 @@
+[MFLOG|0|2024-07-19T10:24:01.435344Z|runtime|b84e3f65-441f-4203-bb03-485d44e9b1f3]INFO:__main__:Filling missing data points using weighted average..
+[MFLOG|0|2024-07-19T10:24:01.439084Z|runtime|448def03-ce35-40cc-b79c-95502e2fdbef]INFO:__main__:NaN counts per column:
+[MFLOG|0|2024-07-19T10:24:01.439366Z|runtime|48915f5e-1f48-4d41-8e9a-dacc043cf21f]INFO:__main__:Panther_education_Misty        20
+[MFLOG|0|2024-07-19T10:24:01.439513Z|runtime|af712bd2-31b8-4400-8db0-5166e8770057]Panther_education_Jonathan    647
+[MFLOG|0|2024-07-19T10:24:01.439552Z|runtime|929ce765-aa8c-49c3-b497-e3f9bb15185e]dtype: int64
+[MFLOG|0|2024-07-19T10:24:01.439595Z|runtime|60353d35-2425-44b7-990a-38c1c8f0bd20]--- Logging error ---
+[MFLOG|0|2024-07-19T10:24:01.440167Z|runtime|4e912a72-ff50-4d55-b00a-1a1d41d50bd5]Traceback (most recent call last):
+[MFLOG|0|2024-07-19T10:24:01.440207Z|runtime|fc23c9f0-e9a6-4733-8aaa-092c9619d2df]  File "/Users/nikhilkapila/miniconda3/envs/8903env/lib/python3.10/logging/__init__.py", line 1100, in emit
+[MFLOG|0|2024-07-19T10:24:01.440830Z|runtime|317d05f6-63d5-4606-977f-00ddc139ff11]    msg = self.format(record)
+[MFLOG|0|2024-07-19T10:24:01.440968Z|runtime|d8bd1392-f25a-4e7c-9758-ef646491360f]  File "/Users/nikhilkapila/miniconda3/envs/8903env/lib/python3.10/logging/__init__.py", line 943, in format
+[MFLOG|0|2024-07-19T10:24:01.441036Z|runtime|99af0ecb-a4c5-4c09-9cff-b487218ed3b2]    return fmt.format(record)
+[MFLOG|0|2024-07-19T10:24:01.441078Z|runtime|4932e7e1-6c77-45a1-8033-7d212b9aafce]  File "/Users/nikhilkapila/miniconda3/envs/8903env/lib/python3.10/logging/__init__.py", line 678, in format
+[MFLOG|0|2024-07-19T10:24:01.441117Z|runtime|19343275-d72d-424c-a706-d13d0cf6bf42]    record.message = record.getMessage()
+[MFLOG|0|2024-07-19T10:24:01.441153Z|runtime|3689a296-b1c8-480d-9bb0-139407ed058f]  File "/Users/nikhilkapila/miniconda3/envs/8903env/lib/python3.10/logging/__init__.py", line 368, in getMessage
+[MFLOG|0|2024-07-19T10:24:01.441193Z|runtime|aed2a27f-91d6-4339-b686-beea58fc51bc]    msg = msg % self.args
+[MFLOG|0|2024-07-19T10:24:01.441232Z|runtime|13fb5348-4cf1-47b3-971f-586f29db6290]TypeError: not all arguments converted during string formatting
+[MFLOG|0|2024-07-19T10:24:01.441268Z|runtime|38f38f90-fe0f-4af9-918a-47b7c2930119]Call stack:
+[MFLOG|0|2024-07-19T10:24:01.441306Z|runtime|c6b9c3a0-75d3-4129-856e-99658c0429d2]  File "/Users/nikhilkapila/Developer/lstm-training/bgd_flow.py", line 337, in <module>
+[MFLOG|0|2024-07-19T10:24:02.158610Z|runtime|76579986-08a7-47ed-bada-fdf605e59192]    BGD_LinearFlow()
+[MFLOG|0|2024-07-19T10:24:02.158783Z|runtime|06bb3c54-db12-4b80-b56c-04fa762129e0]  File "/Users/nikhilkapila/miniconda3/envs/8903env/lib/python3.10/site-packages/metaflow/flowspec.py", line 120, in __init__
+[MFLOG|0|2024-07-19T10:24:02.158825Z|runtime|65118347-7f58-43ab-aff6-19c9e4e8edbf]    cli.main(self)
+[MFLOG|0|2024-07-19T10:24:02.158855Z|runtime|954495ee-2e6a-49d5-b91a-473037eb8962]  File "/Users/nikhilkapila/miniconda3/envs/8903env/lib/python3.10/site-packages/metaflow/cli.py", line 1126, in main
+[MFLOG|0|2024-07-19T10:24:02.158885Z|runtime|0151e6b8-643f-44c3-a76d-4e6aa455448f]    start(auto_envvar_prefix="METAFLOW", obj=state)
+[MFLOG|0|2024-07-19T10:24:02.158917Z|runtime|930065c2-9a9f-49f9-a6ab-9c203a049fbd]  File "/Users/nikhilkapila/miniconda3/envs/8903env/lib/python3.10/site-packages/metaflow/tracing/__init__.py", line 27, in wrapper_func
+[MFLOG|0|2024-07-19T10:24:02.158945Z|runtime|d4b42bfb-1cba-47be-8093-05e30d2216cc]    return func(*args, **kwargs)
+[MFLOG|0|2024-07-19T10:24:02.158970Z|runtime|6b22a928-d46a-49da-a49d-79f095b2c56b]  File "/Users/nikhilkapila/miniconda3/envs/8903env/lib/python3.10/site-packages/metaflow/_vendor/click/core.py", line 829, in __call__
+[MFLOG|0|2024-07-19T10:24:02.158995Z|runtime|5d1bd032-615c-4352-9d0e-64da70d61dda]    return self.main(*args, **kwargs)
+[MFLOG|0|2024-07-19T10:24:02.159019Z|runtime|869fd122-ae34-4868-8c17-a0270708be0a]  File "/Users/nikhilkapila/miniconda3/envs/8903env/lib/python3.10/site-packages/metaflow/_vendor/click/core.py", line 782, in main
+[MFLOG|0|2024-07-19T10:24:02.159054Z|runtime|2203e411-4c55-4ded-b879-30d9ac9a2edb]    rv = self.invoke(ctx)
+[MFLOG|0|2024-07-19T10:24:02.159084Z|runtime|107af1c9-f3dd-491d-b18b-fc371116a971]  File "/Users/nikhilkapila/miniconda3/envs/8903env/lib/python3.10/site-packages/metaflow/_vendor/click/core.py", line 1259, in invoke
+[MFLOG|0|2024-07-19T10:24:02.159108Z|runtime|6f61b1de-1107-4b65-8033-d8a5936bb948]    return _process_result(sub_ctx.command.invoke(sub_ctx))
+[MFLOG|0|2024-07-19T10:24:02.159132Z|runtime|23686fc8-2002-472e-b214-bac7208a788d]  File "/Users/nikhilkapila/miniconda3/envs/8903env/lib/python3.10/site-packages/metaflow/_vendor/click/core.py", line 1066, in invoke
+[MFLOG|0|2024-07-19T10:24:02.159160Z|runtime|69930a85-6ee3-4c24-8de1-fc042badca28]    return ctx.invoke(self.callback, **ctx.params)
+[MFLOG|0|2024-07-19T10:24:02.159190Z|runtime|c9ffee8b-ac69-4cca-a916-8bc9ad75543f]  File "/Users/nikhilkapila/miniconda3/envs/8903env/lib/python3.10/site-packages/metaflow/_vendor/click/core.py", line 610, in invoke
+[MFLOG|0|2024-07-19T10:24:02.159214Z|runtime|2a09abab-da78-4e3d-a5d1-73d78b2d1360]    return callback(*args, **kwargs)
+[MFLOG|0|2024-07-19T10:24:02.159244Z|runtime|c252300e-37d6-4977-b655-805162ac3957]  File "/Users/nikhilkapila/miniconda3/envs/8903env/lib/python3.10/site-packages/metaflow/_vendor/click/decorators.py", line 21, in new_func
+[MFLOG|0|2024-07-19T10:24:02.159269Z|runtime|c74c0149-ebcc-4674-8455-4386af783f6b]    return f(get_current_context(), *args, **kwargs)
+[MFLOG|0|2024-07-19T10:24:02.159293Z|runtime|ad4ac48e-727a-4236-91b3-087dc3e13860]  File "/Users/nikhilkapila/miniconda3/envs/8903env/lib/python3.10/site-packages/metaflow/cli.py", line 468, in step
+[MFLOG|0|2024-07-19T10:24:02.159318Z|runtime|981b89b8-bb87-49b8-aa14-bc2fcea5fd36]    task.run_step(
+[MFLOG|0|2024-07-19T10:24:02.159341Z|runtime|f9c832bd-a849-46df-a922-d18c392a12f8]  File "/Users/nikhilkapila/miniconda3/envs/8903env/lib/python3.10/site-packages/metaflow/task.py", line 650, in run_step
+[MFLOG|0|2024-07-19T10:24:02.159365Z|runtime|e4a3ecf5-f807-4c3d-a360-6e58ace1f90a]    self._exec_step_function(step_func)
+[MFLOG|0|2024-07-19T10:24:02.159389Z|runtime|ddedb41d-59b9-4196-a6c8-e52b471a673b]  File "/Users/nikhilkapila/miniconda3/envs/8903env/lib/python3.10/site-packages/metaflow/task.py", line 62, in _exec_step_function
+[MFLOG|0|2024-07-19T10:24:02.159412Z|runtime|03600c84-9fa7-4b7a-9537-600a3f6a9b46]    step_function()
+[MFLOG|0|2024-07-19T10:24:02.159437Z|runtime|827d96e4-ffee-4267-92ac-a77b08cba905]  File "/Users/nikhilkapila/Developer/lstm-training/bgd_flow.py", line 78, in fill_missing_data
+[MFLOG|0|2024-07-19T10:24:02.159462Z|runtime|4d2715ba-4c77-438a-8910-2724cf5faa90]    self.missing_values = find_nan_counts(self.df)
+[MFLOG|0|2024-07-19T10:24:02.159485Z|runtime|8003de73-a85a-4847-b3af-41d77d63ab01]  File "/Users/nikhilkapila/Developer/lstm-training/bgd_flow.py", line 292, in find_nan_counts
+[MFLOG|0|2024-07-19T10:24:02.159512Z|runtime|4c6713bc-7fcf-4eff-9874-cf01dd6cdabf]    logger.info("\nTotal NaN count in the DataFrame:", total_nan_count)
+[MFLOG|0|2024-07-19T10:24:02.159538Z|runtime|5159ec3c-0803-47fd-a578-187aeb7c7183]Message: '\nTotal NaN count in the DataFrame:'
+[MFLOG|0|2024-07-19T10:24:02.159561Z|runtime|03572e6b-d0b4-45e3-b005-280bba401c62]Arguments: (667,)

@@ -1,0 +1,2 @@
+[MFLOG|0|2024-07-19T10:29:41.275213Z|runtime|48078880-0532-4f62-a3ec-7bbacadeca19]INFO:__main__:Logging model bgd_lodging_residential_1001_5000_LSTM
+[MFLOG|0|2024-07-19T10:29:41.277011Z|runtime|890dd707-97d3-45c0-bda0-9081615a5b92]INFO:__main__:Model logged at metaflow_models//bgd_lodging_residential_1001_5000_LSTM//bgd_lodging_residential_1001_5000_LSTM.pth

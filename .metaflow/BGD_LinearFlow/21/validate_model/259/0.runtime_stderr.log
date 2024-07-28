@@ -1,0 +1,3 @@
+[MFLOG|0|2024-07-19T11:09:48.670736Z|runtime|64527a0a-f46c-4716-837f-e95e9c71adbb]INFO:__main__:Validating LSTM on test set..
+[MFLOG|0|2024-07-19T11:09:48.875910Z|runtime|ab724caf-ac49-4f2f-adec-9eb31c42e3bb]INFO:__main__:Test Set MAPE: 3.95%
+[MFLOG|0|2024-07-19T11:09:49.294770Z|runtime|07d022b6-3f30-4aca-84b5-4ad91686680b]INFO:__main__:Test image saved at metaflow_models//bgd_lodging_residential_50001_100000_LSTM//test_bgd_lodging_residential_50001_100000_LSTM.png

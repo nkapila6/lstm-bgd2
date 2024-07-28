@@ -1,0 +1,2 @@
+[MFLOG|0|2024-07-19T10:26:42.953599Z|runtime|a4aa6d55-4857-48f6-a2a8-c6b610724c13]INFO:__main__:Logging model bgd_education_1001_5000_LSTM
+[MFLOG|0|2024-07-19T10:26:42.954306Z|runtime|71aadf01-c064-4b87-a17a-b6075cac89cd]INFO:__main__:Model logged at metaflow_models//bgd_education_1001_5000_LSTM//bgd_education_1001_5000_LSTM.pth

@@ -1,0 +1,730 @@
+Metaflow 2.12.8 executing BGD_LinearFlow for user:nikhilkapila
+Validating your flow...
+    The graph looks good!
+2024-07-19 14:23:50.718 Workflow starting (run-id 7):
+2024-07-19 14:23:50.794 [7/start/53 (pid 99255)] Task is starting.
+2024-07-19 14:23:52.330 [7/start/53 (pid 99255)] INFO:__main__:Starting BGD linear flow..
+2024-07-19 14:23:52.634 [7/start/53 (pid 99255)] Task finished successfully.
+2024-07-19 14:23:52.665 [7/ingest/54 (pid 99272)] Task is starting.
+2024-07-19 14:23:54.126 [7/ingest/54 (pid 99272)] INFO:__main__:Fetching dataframe..
+2024-07-19 14:23:54.139 [7/ingest/54 (pid 99272)] INFO:__main__:Dataframe fetching complete..
+2024-07-19 14:23:58.056 [7/ingest/54 (pid 99272)] Task finished successfully.
+2024-07-19 14:23:58.089 [7/pick_2017_data/55 (pid 99305)] Task is starting.
+2024-07-19 14:23:59.581 [7/pick_2017_data/55 (pid 99305)] INFO:__main__:Picking 2017 data..
+2024-07-19 14:23:59.893 [7/pick_2017_data/55 (pid 99305)] Task finished successfully.
+2024-07-19 14:23:59.925 [7/fill_missing_data/56 (pid 99316)] Task is starting.
+2024-07-19 14:24:01.435 [7/fill_missing_data/56 (pid 99316)] INFO:__main__:Filling missing data points using weighted average..
+2024-07-19 14:24:01.439 [7/fill_missing_data/56 (pid 99316)] INFO:__main__:NaN counts per column:
+2024-07-19 14:24:01.439 [7/fill_missing_data/56 (pid 99316)] INFO:__main__:Panther_education_Misty        20
+2024-07-19 14:24:01.439 [7/fill_missing_data/56 (pid 99316)] Panther_education_Jonathan    647
+2024-07-19 14:24:01.439 [7/fill_missing_data/56 (pid 99316)] dtype: int64
+2024-07-19 14:24:01.439 [7/fill_missing_data/56 (pid 99316)] --- Logging error ---
+2024-07-19 14:24:01.440 [7/fill_missing_data/56 (pid 99316)] Traceback (most recent call last):
+2024-07-19 14:24:01.440 [7/fill_missing_data/56 (pid 99316)] File "/Users/nikhilkapila/miniconda3/envs/8903env/lib/python3.10/logging/__init__.py", line 1100, in emit
+2024-07-19 14:24:01.440 [7/fill_missing_data/56 (pid 99316)] msg = self.format(record)
+2024-07-19 14:24:01.440 [7/fill_missing_data/56 (pid 99316)] File "/Users/nikhilkapila/miniconda3/envs/8903env/lib/python3.10/logging/__init__.py", line 943, in format
+2024-07-19 14:24:01.441 [7/fill_missing_data/56 (pid 99316)] return fmt.format(record)
+2024-07-19 14:24:01.441 [7/fill_missing_data/56 (pid 99316)] File "/Users/nikhilkapila/miniconda3/envs/8903env/lib/python3.10/logging/__init__.py", line 678, in format
+2024-07-19 14:24:01.441 [7/fill_missing_data/56 (pid 99316)] record.message = record.getMessage()
+2024-07-19 14:24:01.441 [7/fill_missing_data/56 (pid 99316)] File "/Users/nikhilkapila/miniconda3/envs/8903env/lib/python3.10/logging/__init__.py", line 368, in getMessage
+2024-07-19 14:24:01.441 [7/fill_missing_data/56 (pid 99316)] msg = msg % self.args
+2024-07-19 14:24:01.441 [7/fill_missing_data/56 (pid 99316)] TypeError: not all arguments converted during string formatting
+2024-07-19 14:24:01.441 [7/fill_missing_data/56 (pid 99316)] Call stack:
+2024-07-19 14:24:01.441 [7/fill_missing_data/56 (pid 99316)] File "/Users/nikhilkapila/Developer/lstm-training/bgd_flow.py", line 337, in <module>
+2024-07-19 14:24:02.158 [7/fill_missing_data/56 (pid 99316)] BGD_LinearFlow()
+2024-07-19 14:24:02.158 [7/fill_missing_data/56 (pid 99316)] File "/Users/nikhilkapila/miniconda3/envs/8903env/lib/python3.10/site-packages/metaflow/flowspec.py", line 120, in __init__
+2024-07-19 14:24:02.158 [7/fill_missing_data/56 (pid 99316)] cli.main(self)
+2024-07-19 14:24:02.158 [7/fill_missing_data/56 (pid 99316)] File "/Users/nikhilkapila/miniconda3/envs/8903env/lib/python3.10/site-packages/metaflow/cli.py", line 1126, in main
+2024-07-19 14:24:02.158 [7/fill_missing_data/56 (pid 99316)] start(auto_envvar_prefix="METAFLOW", obj=state)
+2024-07-19 14:24:02.158 [7/fill_missing_data/56 (pid 99316)] File "/Users/nikhilkapila/miniconda3/envs/8903env/lib/python3.10/site-packages/metaflow/tracing/__init__.py", line 27, in wrapper_func
+2024-07-19 14:24:02.158 [7/fill_missing_data/56 (pid 99316)] return func(*args, **kwargs)
+2024-07-19 14:24:02.158 [7/fill_missing_data/56 (pid 99316)] File "/Users/nikhilkapila/miniconda3/envs/8903env/lib/python3.10/site-packages/metaflow/_vendor/click/core.py", line 829, in __call__
+2024-07-19 14:24:02.158 [7/fill_missing_data/56 (pid 99316)] return self.main(*args, **kwargs)
+2024-07-19 14:24:02.159 [7/fill_missing_data/56 (pid 99316)] File "/Users/nikhilkapila/miniconda3/envs/8903env/lib/python3.10/site-packages/metaflow/_vendor/click/core.py", line 782, in main
+2024-07-19 14:24:02.159 [7/fill_missing_data/56 (pid 99316)] rv = self.invoke(ctx)
+2024-07-19 14:24:02.159 [7/fill_missing_data/56 (pid 99316)] File "/Users/nikhilkapila/miniconda3/envs/8903env/lib/python3.10/site-packages/metaflow/_vendor/click/core.py", line 1259, in invoke
+2024-07-19 14:24:02.159 [7/fill_missing_data/56 (pid 99316)] return _process_result(sub_ctx.command.invoke(sub_ctx))
+2024-07-19 14:24:02.159 [7/fill_missing_data/56 (pid 99316)] File "/Users/nikhilkapila/miniconda3/envs/8903env/lib/python3.10/site-packages/metaflow/_vendor/click/core.py", line 1066, in invoke
+2024-07-19 14:24:02.159 [7/fill_missing_data/56 (pid 99316)] return ctx.invoke(self.callback, **ctx.params)
+2024-07-19 14:24:02.159 [7/fill_missing_data/56 (pid 99316)] File "/Users/nikhilkapila/miniconda3/envs/8903env/lib/python3.10/site-packages/metaflow/_vendor/click/core.py", line 610, in invoke
+2024-07-19 14:24:02.159 [7/fill_missing_data/56 (pid 99316)] return callback(*args, **kwargs)
+2024-07-19 14:24:02.159 [7/fill_missing_data/56 (pid 99316)] File "/Users/nikhilkapila/miniconda3/envs/8903env/lib/python3.10/site-packages/metaflow/_vendor/click/decorators.py", line 21, in new_func
+2024-07-19 14:24:02.159 [7/fill_missing_data/56 (pid 99316)] return f(get_current_context(), *args, **kwargs)
+2024-07-19 14:24:02.159 [7/fill_missing_data/56 (pid 99316)] File "/Users/nikhilkapila/miniconda3/envs/8903env/lib/python3.10/site-packages/metaflow/cli.py", line 468, in step
+2024-07-19 14:24:02.159 [7/fill_missing_data/56 (pid 99316)] task.run_step(
+2024-07-19 14:24:02.159 [7/fill_missing_data/56 (pid 99316)] File "/Users/nikhilkapila/miniconda3/envs/8903env/lib/python3.10/site-packages/metaflow/task.py", line 650, in run_step
+2024-07-19 14:24:02.159 [7/fill_missing_data/56 (pid 99316)] self._exec_step_function(step_func)
+2024-07-19 14:24:02.159 [7/fill_missing_data/56 (pid 99316)] File "/Users/nikhilkapila/miniconda3/envs/8903env/lib/python3.10/site-packages/metaflow/task.py", line 62, in _exec_step_function
+2024-07-19 14:24:02.159 [7/fill_missing_data/56 (pid 99316)] step_function()
+2024-07-19 14:24:02.159 [7/fill_missing_data/56 (pid 99316)] File "/Users/nikhilkapila/Developer/lstm-training/bgd_flow.py", line 78, in fill_missing_data
+2024-07-19 14:24:02.159 [7/fill_missing_data/56 (pid 99316)] self.missing_values = find_nan_counts(self.df)
+2024-07-19 14:24:02.159 [7/fill_missing_data/56 (pid 99316)] File "/Users/nikhilkapila/Developer/lstm-training/bgd_flow.py", line 292, in find_nan_counts
+2024-07-19 14:24:02.159 [7/fill_missing_data/56 (pid 99316)] logger.info("\nTotal NaN count in the DataFrame:", total_nan_count)
+2024-07-19 14:24:02.159 [7/fill_missing_data/56 (pid 99316)] Message: '\nTotal NaN count in the DataFrame:'
+2024-07-19 14:24:02.159 [7/fill_missing_data/56 (pid 99316)] Arguments: (667,)
+2024-07-19 14:24:02.160 [7/fill_missing_data/56 (pid 99316)] Task finished successfully.
+2024-07-19 14:24:02.192 [7/find_median/57 (pid 99333)] Task is starting.
+2024-07-19 14:24:03.682 [7/find_median/57 (pid 99333)] INFO:__main__:Computing and using median..
+2024-07-19 14:24:04.196 [7/find_median/57 (pid 99333)] Task finished successfully.
+2024-07-19 14:24:04.227 [7/aggregate_data/58 (pid 99344)] Task is starting.
+2024-07-19 14:24:05.712 [7/aggregate_data/58 (pid 99344)] INFO:__main__:Skipping.. data is on hourly basis.
+2024-07-19 14:24:09.597 [7/aggregate_data/58 (pid 99344)] Task finished successfully.
+2024-07-19 14:24:09.625 [7/split_data/59 (pid 99383)] Task is starting.
+2024-07-19 14:24:11.139 [7/split_data/59 (pid 99383)] INFO:__main__:Splitting data into test and train...
+2024-07-19 14:24:15.044 [7/split_data/59 (pid 99383)] Task finished successfully.
+2024-07-19 14:24:15.074 [7/make_x_y/60 (pid 99422)] Task is starting.
+2024-07-19 14:24:16.904 [7/make_x_y/60 (pid 99422)] INFO:__main__:Shape of X_train: (6978, 30, 1)
+2024-07-19 14:24:17.226 [7/make_x_y/60 (pid 99422)] Shape of y_train: (6978, 1)
+2024-07-19 14:24:17.226 [7/make_x_y/60 (pid 99422)] Shape of X_test: (1722, 30, 1)
+2024-07-19 14:24:17.226 [7/make_x_y/60 (pid 99422)] Shape of y_test: (1722, 1)
+2024-07-19 14:24:17.227 [7/make_x_y/60 (pid 99422)] Task finished successfully.
+2024-07-19 14:24:17.260 [7/cross_validate_train/61 (pid 99439)] Task is starting.
+2024-07-19 14:24:18.707 [7/cross_validate_train/61 (pid 99439)] INFO:__main__:Creating bgd_education_1001_5000_LSTM
+2024-07-19 14:24:18.708 [7/cross_validate_train/61 (pid 99439)] INFO:__main__:Performing cross validation..
+2024-07-19 14:24:19.451 [7/cross_validate_train/61 (pid 99439)] INFO:__main__:Epoch 1/50, Train Loss: 0.1916567465743503, Val Loss: 0.11219305232972712
+2024-07-19 14:24:19.667 [7/cross_validate_train/61 (pid 99439)] INFO:__main__:Epoch 2/50, Train Loss: 0.11700044461601489, Val Loss: 0.09875198639929295
+2024-07-19 14:24:19.882 [7/cross_validate_train/61 (pid 99439)] INFO:__main__:Epoch 3/50, Train Loss: 0.11259059185111844, Val Loss: 0.09274196886533015
+2024-07-19 14:24:20.094 [7/cross_validate_train/61 (pid 99439)] INFO:__main__:Epoch 4/50, Train Loss: 0.10793047307713612, Val Loss: 0.08821646335559923
+2024-07-19 14:24:20.305 [7/cross_validate_train/61 (pid 99439)] INFO:__main__:Epoch 5/50, Train Loss: 0.1026727043696352, Val Loss: 0.08415179719796052
+2024-07-19 14:24:20.526 [7/cross_validate_train/61 (pid 99439)] INFO:__main__:Epoch 6/50, Train Loss: 0.09555055100370098, Val Loss: 0.08210076170193183
+2024-07-19 14:24:20.735 [7/cross_validate_train/61 (pid 99439)] INFO:__main__:Epoch 7/50, Train Loss: 0.08876192514356729, Val Loss: 0.08004550268319813
+2024-07-19 14:24:20.951 [7/cross_validate_train/61 (pid 99439)] INFO:__main__:Epoch 8/50, Train Loss: 0.07755800366804406, Val Loss: 0.0649598288173611
+2024-07-19 14:24:21.165 [7/cross_validate_train/61 (pid 99439)] INFO:__main__:Epoch 9/50, Train Loss: 0.07635425630252103, Val Loss: 0.0698615077480271
+2024-07-19 14:24:21.399 [7/cross_validate_train/61 (pid 99439)] INFO:__main__:Epoch 10/50, Train Loss: 0.06849927082657814, Val Loss: 0.06113914531227704
+2024-07-19 14:24:21.623 [7/cross_validate_train/61 (pid 99439)] INFO:__main__:Epoch 11/50, Train Loss: 0.0650296599881069, Val Loss: 0.06225554896770297
+2024-07-19 14:24:21.835 [7/cross_validate_train/61 (pid 99439)] INFO:__main__:Epoch 12/50, Train Loss: 0.06374221924390341, Val Loss: 0.06229889256930029
+2024-07-19 14:24:22.051 [7/cross_validate_train/61 (pid 99439)] INFO:__main__:Epoch 13/50, Train Loss: 0.0624004856658143, Val Loss: 0.06163083691452
+2024-07-19 14:24:22.261 [7/cross_validate_train/61 (pid 99439)] INFO:__main__:Epoch 14/50, Train Loss: 0.059987120582042516, Val Loss: 0.057938645719676406
+2024-07-19 14:24:22.478 [7/cross_validate_train/61 (pid 99439)] INFO:__main__:Epoch 15/50, Train Loss: 0.05748258445512604, Val Loss: 0.05424085888709571
+2024-07-19 14:24:22.702 [7/cross_validate_train/61 (pid 99439)] INFO:__main__:Epoch 16/50, Train Loss: 0.055913753455152385, Val Loss: 0.05261589762930934
+2024-07-19 14:24:22.919 [7/cross_validate_train/61 (pid 99439)] INFO:__main__:Epoch 17/50, Train Loss: 0.05609496441241857, Val Loss: 0.05600084903071056
+2024-07-19 14:24:23.135 [7/cross_validate_train/61 (pid 99439)] INFO:__main__:Epoch 18/50, Train Loss: 0.05543212466747374, Val Loss: 0.05455798988003988
+2024-07-19 14:24:23.353 [7/cross_validate_train/61 (pid 99439)] INFO:__main__:Epoch 19/50, Train Loss: 0.054271601140499115, Val Loss: 0.05271896392711111
+2024-07-19 14:24:23.579 [7/cross_validate_train/61 (pid 99439)] INFO:__main__:Epoch 20/50, Train Loss: 0.05319998891571084, Val Loss: 0.05430302129605332
+2024-07-19 14:24:23.788 [7/cross_validate_train/61 (pid 99439)] INFO:__main__:Epoch 21/50, Train Loss: 0.05189713483323922, Val Loss: 0.04909670040816874
+2024-07-19 14:24:23.999 [7/cross_validate_train/61 (pid 99439)] INFO:__main__:Epoch 22/50, Train Loss: 0.05069769667209806, Val Loss: 0.049279688228223775
+2024-07-19 14:24:24.211 [7/cross_validate_train/61 (pid 99439)] INFO:__main__:Epoch 23/50, Train Loss: 0.04844446137950227, Val Loss: 0.044344830553273894
+2024-07-19 14:24:24.419 [7/cross_validate_train/61 (pid 99439)] INFO:__main__:Epoch 24/50, Train Loss: 0.04682002251816762, Val Loss: 0.04284936627624808
+2024-07-19 14:24:24.628 [7/cross_validate_train/61 (pid 99439)] INFO:__main__:Epoch 25/50, Train Loss: 0.04540485571566466, Val Loss: 0.04113922884838807
+2024-07-19 14:24:24.840 [7/cross_validate_train/61 (pid 99439)] INFO:__main__:Epoch 26/50, Train Loss: 0.04449890926480293, Val Loss: 0.0411168037838227
+2024-07-19 14:24:25.055 [7/cross_validate_train/61 (pid 99439)] INFO:__main__:Epoch 27/50, Train Loss: 0.043910230837158254, Val Loss: 0.03992302154467718
+2024-07-19 14:24:25.268 [7/cross_validate_train/61 (pid 99439)] INFO:__main__:Epoch 28/50, Train Loss: 0.04343415351232161, Val Loss: 0.03958254997190591
+2024-07-19 14:24:25.478 [7/cross_validate_train/61 (pid 99439)] INFO:__main__:Epoch 29/50, Train Loss: 0.04315314542602848, Val Loss: 0.039817681485736695
+2024-07-19 14:24:25.686 [7/cross_validate_train/61 (pid 99439)] INFO:__main__:Epoch 30/50, Train Loss: 0.04298032105371759, Val Loss: 0.03908557110038158
+2024-07-19 14:24:25.900 [7/cross_validate_train/61 (pid 99439)] INFO:__main__:Epoch 31/50, Train Loss: 0.04276499494507506, Val Loss: 0.03943177423364407
+2024-07-19 14:24:26.108 [7/cross_validate_train/61 (pid 99439)] INFO:__main__:Epoch 32/50, Train Loss: 0.04271347735177826, Val Loss: 0.03897881812441188
+2024-07-19 14:24:26.327 [7/cross_validate_train/61 (pid 99439)] INFO:__main__:Epoch 33/50, Train Loss: 0.042818008242426694, Val Loss: 0.038973822107387555
+2024-07-19 14:24:26.556 [7/cross_validate_train/61 (pid 99439)] INFO:__main__:Epoch 34/50, Train Loss: 0.04225131662914882, Val Loss: 0.03897966879948571
+2024-07-19 14:24:26.769 [7/cross_validate_train/61 (pid 99439)] INFO:__main__:Epoch 35/50, Train Loss: 0.043036362559006024, Val Loss: 0.03908728000179336
+2024-07-19 14:24:26.983 [7/cross_validate_train/61 (pid 99439)] INFO:__main__:Epoch 36/50, Train Loss: 0.04238078003195492, Val Loss: 0.038891594982831866
+2024-07-19 14:24:27.198 [7/cross_validate_train/61 (pid 99439)] INFO:__main__:Epoch 37/50, Train Loss: 0.042852812371141205, Val Loss: 0.0391956298435862
+2024-07-19 14:24:27.408 [7/cross_validate_train/61 (pid 99439)] INFO:__main__:Epoch 38/50, Train Loss: 0.042413903954061305, Val Loss: 0.03933105265369286
+2024-07-19 14:24:27.618 [7/cross_validate_train/61 (pid 99439)] INFO:__main__:Epoch 39/50, Train Loss: 0.04373990744352341, Val Loss: 0.03998782400142502
+2024-07-19 14:24:27.833 [7/cross_validate_train/61 (pid 99439)] INFO:__main__:Epoch 40/50, Train Loss: 0.04306564243460024, Val Loss: 0.03862797398422215
+2024-07-19 14:24:28.033 [7/cross_validate_train/61 (pid 99439)] INFO:__main__:Epoch 41/50, Train Loss: 0.0427834871854331, Val Loss: 0.03940204800282781
+2024-07-19 14:24:28.237 [7/cross_validate_train/61 (pid 99439)] INFO:__main__:Epoch 42/50, Train Loss: 0.04246685223502887, Val Loss: 0.03854746457088638
+2024-07-19 14:24:28.441 [7/cross_validate_train/61 (pid 99439)] INFO:__main__:Epoch 43/50, Train Loss: 0.042586662076614996, Val Loss: 0.03938081759858776
+2024-07-19 14:24:28.647 [7/cross_validate_train/61 (pid 99439)] INFO:__main__:Epoch 44/50, Train Loss: 0.04251603072358144, Val Loss: 0.03880274446832167
+2024-07-19 14:24:28.878 [7/cross_validate_train/61 (pid 99439)] INFO:__main__:Epoch 45/50, Train Loss: 0.04323482357368276, Val Loss: 0.03934194489910796
+2024-07-19 14:24:29.091 [7/cross_validate_train/61 (pid 99439)] INFO:__main__:Epoch 46/50, Train Loss: 0.04244178347289562, Val Loss: 0.03854226361255388
+2024-07-19 14:24:29.294 [7/cross_validate_train/61 (pid 99439)] INFO:__main__:Epoch 47/50, Train Loss: 0.04263651683121114, Val Loss: 0.039515811194841925
+2024-07-19 14:24:29.494 [7/cross_validate_train/61 (pid 99439)] INFO:__main__:Epoch 48/50, Train Loss: 0.042379918155839316, Val Loss: 0.03842192578658059
+2024-07-19 14:24:29.694 [7/cross_validate_train/61 (pid 99439)] INFO:__main__:Epoch 49/50, Train Loss: 0.04261906908170597, Val Loss: 0.03891126934841678
+2024-07-19 14:24:29.897 [7/cross_validate_train/61 (pid 99439)] INFO:__main__:Epoch 50/50, Train Loss: 0.042252655090713825, Val Loss: 0.03844205322801261
+2024-07-19 14:24:29.897 [7/cross_validate_train/61 (pid 99439)] INFO:__main__:Fold 0, MAPE: 6.22%
+2024-07-19 14:24:30.192 [7/cross_validate_train/61 (pid 99439)] INFO:__main__:Training image saved at metaflow_models//bgd_education_1001_5000_LSTM//train_f0_bgd_education_1001_5000_LSTM.png
+2024-07-19 14:24:30.680 [7/cross_validate_train/61 (pid 99439)] INFO:__main__:Epoch 1/50, Train Loss: 0.04177316307562263, Val Loss: 0.03980722238083143
+2024-07-19 14:24:31.026 [7/cross_validate_train/61 (pid 99439)] INFO:__main__:Epoch 2/50, Train Loss: 0.04099386413773037, Val Loss: 0.03844464930227479
+2024-07-19 14:24:31.402 [7/cross_validate_train/61 (pid 99439)] INFO:__main__:Epoch 3/50, Train Loss: 0.04063167505935855, Val Loss: 0.0382033906423965
+2024-07-19 14:24:31.812 [7/cross_validate_train/61 (pid 99439)] INFO:__main__:Epoch 4/50, Train Loss: 0.04063164269270962, Val Loss: 0.03823104571249034
+2024-07-19 14:24:32.159 [7/cross_validate_train/61 (pid 99439)] INFO:__main__:Epoch 5/50, Train Loss: 0.04070814132486304, Val Loss: 0.03842459316994693
+2024-07-19 14:24:32.503 [7/cross_validate_train/61 (pid 99439)] INFO:__main__:Epoch 6/50, Train Loss: 0.04077769095103626, Val Loss: 0.04031615492862624
+2024-07-19 14:24:32.853 [7/cross_validate_train/61 (pid 99439)] INFO:__main__:Epoch 7/50, Train Loss: 0.041171557844093404, Val Loss: 0.041430508919261595
+2024-07-19 14:24:33.196 [7/cross_validate_train/61 (pid 99439)] INFO:__main__:Epoch 8/50, Train Loss: 0.04098038931619631, Val Loss: 0.04106781858246069
+2024-07-19 14:24:33.549 [7/cross_validate_train/61 (pid 99439)] INFO:__main__:Epoch 9/50, Train Loss: 0.04073631767285605, Val Loss: 0.041183961807070554
+2024-07-19 14:24:33.909 [7/cross_validate_train/61 (pid 99439)] INFO:__main__:Epoch 10/50, Train Loss: 0.04081242810934782, Val Loss: 0.040116567894615034
+2024-07-19 14:24:34.273 [7/cross_validate_train/61 (pid 99439)] INFO:__main__:Epoch 11/50, Train Loss: 0.040676648779580854, Val Loss: 0.04052399909375487
+2024-07-19 14:24:34.639 [7/cross_validate_train/61 (pid 99439)] INFO:__main__:Epoch 12/50, Train Loss: 0.04072490446779826, Val Loss: 0.040521673984020144
+2024-07-19 14:24:35.002 [7/cross_validate_train/61 (pid 99439)] INFO:__main__:Epoch 13/50, Train Loss: 0.040532619717900883, Val Loss: 0.04013547822329644
+2024-07-19 14:24:35.372 [7/cross_validate_train/61 (pid 99439)] INFO:__main__:Epoch 14/50, Train Loss: 0.04051577076571037, Val Loss: 0.039741102908108686
+2024-07-19 14:24:35.731 [7/cross_validate_train/61 (pid 99439)] INFO:__main__:Epoch 15/50, Train Loss: 0.04050260831997411, Val Loss: 0.040474538112411626
+2024-07-19 14:24:36.093 [7/cross_validate_train/61 (pid 99439)] INFO:__main__:Epoch 16/50, Train Loss: 0.040366895420298185, Val Loss: 0.03945050836616271
+2024-07-19 14:24:36.456 [7/cross_validate_train/61 (pid 99439)] INFO:__main__:Epoch 17/50, Train Loss: 0.040290199079844234, Val Loss: 0.039691239243020884
+2024-07-19 14:24:36.813 [7/cross_validate_train/61 (pid 99439)] INFO:__main__:Epoch 18/50, Train Loss: 0.04027709199039087, Val Loss: 0.03898047046685541
+2024-07-19 14:24:37.177 [7/cross_validate_train/61 (pid 99439)] INFO:__main__:Epoch 19/50, Train Loss: 0.040117022989649476, Val Loss: 0.03913570829742664
+2024-07-19 14:24:37.544 [7/cross_validate_train/61 (pid 99439)] INFO:__main__:Epoch 20/50, Train Loss: 0.04009261759227677, Val Loss: 0.03917710916013331
+2024-07-19 14:24:37.913 [7/cross_validate_train/61 (pid 99439)] INFO:__main__:Epoch 21/50, Train Loss: 0.04001503455618473, Val Loss: 0.03805493583550324
+2024-07-19 14:24:38.273 [7/cross_validate_train/61 (pid 99439)] INFO:__main__:Epoch 22/50, Train Loss: 0.040159624223023244, Val Loss: 0.039131235859885406
+2024-07-19 14:24:38.650 [7/cross_validate_train/61 (pid 99439)] INFO:__main__:Epoch 23/50, Train Loss: 0.03999407595814499, Val Loss: 0.038368095920698064
+2024-07-19 14:24:39.027 [7/cross_validate_train/61 (pid 99439)] INFO:__main__:Epoch 24/50, Train Loss: 0.040049531548092626, Val Loss: 0.03955929761601461
+2024-07-19 14:24:39.383 [7/cross_validate_train/61 (pid 99439)] INFO:__main__:Epoch 25/50, Train Loss: 0.03991520458398617, Val Loss: 0.038718996594685154
+2024-07-19 14:24:39.731 [7/cross_validate_train/61 (pid 99439)] INFO:__main__:Epoch 26/50, Train Loss: 0.03991933816354977, Val Loss: 0.038432981391009445
+2024-07-19 14:24:40.085 [7/cross_validate_train/61 (pid 99439)] INFO:__main__:Epoch 27/50, Train Loss: 0.04007897163703017, Val Loss: 0.03963574580848217
+2024-07-19 14:24:40.453 [7/cross_validate_train/61 (pid 99439)] INFO:__main__:Epoch 28/50, Train Loss: 0.039932534443086955, Val Loss: 0.03918811150297925
+2024-07-19 14:24:40.818 [7/cross_validate_train/61 (pid 99439)] INFO:__main__:Epoch 29/50, Train Loss: 0.03999863792057723, Val Loss: 0.03912399905557568
+2024-07-19 14:24:41.185 [7/cross_validate_train/61 (pid 99439)] INFO:__main__:Epoch 30/50, Train Loss: 0.03986118524654271, Val Loss: 0.038962654140148614
+2024-07-19 14:24:41.551 [7/cross_validate_train/61 (pid 99439)] INFO:__main__:Epoch 31/50, Train Loss: 0.039774652328087044, Val Loss: 0.03861557732562761
+2024-07-19 14:24:41.915 [7/cross_validate_train/61 (pid 99439)] INFO:__main__:Epoch 32/50, Train Loss: 0.03996359259655623, Val Loss: 0.039272655556733545
+2024-07-19 14:24:42.281 [7/cross_validate_train/61 (pid 99439)] INFO:__main__:Epoch 33/50, Train Loss: 0.03977194955342845, Val Loss: 0.03832149450239297
+2024-07-19 14:24:42.645 [7/cross_validate_train/61 (pid 99439)] INFO:__main__:Epoch 34/50, Train Loss: 0.039794350004665656, Val Loss: 0.0382290856308631
+2024-07-19 14:24:43.024 [7/cross_validate_train/61 (pid 99439)] INFO:__main__:Epoch 35/50, Train Loss: 0.039827451543652845, Val Loss: 0.03877044436395974
+2024-07-19 14:24:43.390 [7/cross_validate_train/61 (pid 99439)] INFO:__main__:Epoch 36/50, Train Loss: 0.03974938103036113, Val Loss: 0.03791680375768526
+2024-07-19 14:24:43.753 [7/cross_validate_train/61 (pid 99439)] INFO:__main__:Epoch 37/50, Train Loss: 0.039853465130986414, Val Loss: 0.038811220107851804
+2024-07-19 14:24:44.111 [7/cross_validate_train/61 (pid 99439)] INFO:__main__:Epoch 38/50, Train Loss: 0.03962113482443846, Val Loss: 0.03759448708513299
+2024-07-19 14:24:44.471 [7/cross_validate_train/61 (pid 99439)] INFO:__main__:Epoch 39/50, Train Loss: 0.04005896134225473, Val Loss: 0.03773767397915189
+2024-07-19 14:24:44.832 [7/cross_validate_train/61 (pid 99439)] INFO:__main__:Epoch 40/50, Train Loss: 0.04020268688208028, Val Loss: 0.03739121901123105
+2024-07-19 14:24:45.195 [7/cross_validate_train/61 (pid 99439)] INFO:__main__:Epoch 41/50, Train Loss: 0.03994514559689041, Val Loss: 0.03750981846069162
+2024-07-19 14:24:45.556 [7/cross_validate_train/61 (pid 99439)] INFO:__main__:Epoch 42/50, Train Loss: 0.0396734962928785, Val Loss: 0.03772126299303931
+2024-07-19 14:24:45.915 [7/cross_validate_train/61 (pid 99439)] INFO:__main__:Epoch 43/50, Train Loss: 0.039815998266208665, Val Loss: 0.03762353025376797
+2024-07-19 14:24:46.286 [7/cross_validate_train/61 (pid 99439)] INFO:__main__:Epoch 44/50, Train Loss: 0.04006395250405759, Val Loss: 0.037800789886229744
+2024-07-19 14:24:46.655 [7/cross_validate_train/61 (pid 99439)] INFO:__main__:Epoch 45/50, Train Loss: 0.03981862820633878, Val Loss: 0.0376366501472689
+2024-07-19 14:24:47.020 [7/cross_validate_train/61 (pid 99439)] INFO:__main__:Epoch 46/50, Train Loss: 0.0403451339839256, Val Loss: 0.03832893901680772
+2024-07-19 14:24:47.384 [7/cross_validate_train/61 (pid 99439)] INFO:__main__:Epoch 47/50, Train Loss: 0.03950173004645191, Val Loss: 0.037620299722294546
+2024-07-19 14:24:47.746 [7/cross_validate_train/61 (pid 99439)] INFO:__main__:Epoch 48/50, Train Loss: 0.03974400774563012, Val Loss: 0.03769724735537091
+2024-07-19 14:24:48.121 [7/cross_validate_train/61 (pid 99439)] INFO:__main__:Epoch 49/50, Train Loss: 0.039921681115990634, Val Loss: 0.03793534560984856
+2024-07-19 14:24:48.482 [7/cross_validate_train/61 (pid 99439)] INFO:__main__:Epoch 50/50, Train Loss: 0.03969542092758499, Val Loss: 0.037564677916265825
+2024-07-19 14:24:48.482 [7/cross_validate_train/61 (pid 99439)] INFO:__main__:Fold 1, MAPE: 5.50%
+2024-07-19 14:24:48.577 [7/cross_validate_train/61 (pid 99439)] INFO:__main__:Training image saved at metaflow_models//bgd_education_1001_5000_LSTM//train_f1_bgd_education_1001_5000_LSTM.png
+2024-07-19 14:24:49.128 [7/cross_validate_train/61 (pid 99439)] INFO:__main__:Epoch 1/50, Train Loss: 0.040379010894420475, Val Loss: 0.03072029452871632
+2024-07-19 14:24:49.619 [7/cross_validate_train/61 (pid 99439)] INFO:__main__:Epoch 2/50, Train Loss: 0.04035430393097075, Val Loss: 0.03616292548139353
+2024-07-19 14:24:50.130 [7/cross_validate_train/61 (pid 99439)] INFO:__main__:Epoch 3/50, Train Loss: 0.040556894268163224, Val Loss: 0.03608231629068787
+2024-07-19 14:24:50.657 [7/cross_validate_train/61 (pid 99439)] INFO:__main__:Epoch 4/50, Train Loss: 0.04057450314814394, Val Loss: 0.034129921397244606
+2024-07-19 14:24:51.177 [7/cross_validate_train/61 (pid 99439)] INFO:__main__:Epoch 5/50, Train Loss: 0.04042946834286505, Val Loss: 0.03531056511643771
+2024-07-19 14:24:51.696 [7/cross_validate_train/61 (pid 99439)] INFO:__main__:Epoch 6/50, Train Loss: 0.04060216276821765, Val Loss: 0.03521864810908163
+2024-07-19 14:24:52.209 [7/cross_validate_train/61 (pid 99439)] INFO:__main__:Epoch 7/50, Train Loss: 0.040603294994004745, Val Loss: 0.03626647395258014
+2024-07-19 14:24:52.731 [7/cross_validate_train/61 (pid 99439)] INFO:__main__:Epoch 8/50, Train Loss: 0.04076183457774195, Val Loss: 0.03285392147262354
+2024-07-19 14:24:53.260 [7/cross_validate_train/61 (pid 99439)] INFO:__main__:Epoch 9/50, Train Loss: 0.04053776174445044, Val Loss: 0.03274422778269729
+2024-07-19 14:24:53.782 [7/cross_validate_train/61 (pid 99439)] INFO:__main__:Epoch 10/50, Train Loss: 0.040414251590316946, Val Loss: 0.033596662452092044
+2024-07-19 14:24:54.298 [7/cross_validate_train/61 (pid 99439)] INFO:__main__:Epoch 11/50, Train Loss: 0.04049847103147344, Val Loss: 0.03178309392486069
+2024-07-19 14:24:54.811 [7/cross_validate_train/61 (pid 99439)] INFO:__main__:Epoch 12/50, Train Loss: 0.04040929896079681, Val Loss: 0.03245833944025878
+2024-07-19 14:24:55.327 [7/cross_validate_train/61 (pid 99439)] INFO:__main__:Epoch 13/50, Train Loss: 0.04035328111018647, Val Loss: 0.03204852649690332
+2024-07-19 14:24:55.839 [7/cross_validate_train/61 (pid 99439)] INFO:__main__:Epoch 14/50, Train Loss: 0.04032940470867536, Val Loss: 0.03201678631877577
+2024-07-19 14:24:56.364 [7/cross_validate_train/61 (pid 99439)] INFO:__main__:Epoch 15/50, Train Loss: 0.0402753675441173, Val Loss: 0.031298143285754566
+2024-07-19 14:24:56.901 [7/cross_validate_train/61 (pid 99439)] INFO:__main__:Epoch 16/50, Train Loss: 0.04014254142106934, Val Loss: 0.03237052986750732
+2024-07-19 14:24:57.428 [7/cross_validate_train/61 (pid 99439)] INFO:__main__:Epoch 17/50, Train Loss: 0.04019162333147092, Val Loss: 0.03290565100473326
+2024-07-19 14:24:57.964 [7/cross_validate_train/61 (pid 99439)] INFO:__main__:Epoch 18/50, Train Loss: 0.040262150823731316, Val Loss: 0.032516358118202235
+2024-07-19 14:24:58.476 [7/cross_validate_train/61 (pid 99439)] INFO:__main__:Epoch 19/50, Train Loss: 0.04024829717183655, Val Loss: 0.03279592147147333
+2024-07-19 14:24:58.990 [7/cross_validate_train/61 (pid 99439)] INFO:__main__:Epoch 20/50, Train Loss: 0.04022143355316737, Val Loss: 0.03113937030571538
+2024-07-19 14:24:59.523 [7/cross_validate_train/61 (pid 99439)] INFO:__main__:Epoch 21/50, Train Loss: 0.04007315072654323, Val Loss: 0.03262657531209894
+2024-07-19 14:25:00.045 [7/cross_validate_train/61 (pid 99439)] INFO:__main__:Epoch 22/50, Train Loss: 0.04019140029664744, Val Loss: 0.03244467613262099
+2024-07-19 14:25:00.585 [7/cross_validate_train/61 (pid 99439)] INFO:__main__:Epoch 23/50, Train Loss: 0.040137549472803416, Val Loss: 0.03223613785529459
+2024-07-19 14:25:01.105 [7/cross_validate_train/61 (pid 99439)] INFO:__main__:Epoch 24/50, Train Loss: 0.04011798226697878, Val Loss: 0.03220800914474436
+2024-07-19 14:25:01.631 [7/cross_validate_train/61 (pid 99439)] INFO:__main__:Epoch 25/50, Train Loss: 0.0400710233995183, Val Loss: 0.03245713118765805
+2024-07-19 14:25:02.149 [7/cross_validate_train/61 (pid 99439)] INFO:__main__:Epoch 26/50, Train Loss: 0.04004379737783562, Val Loss: 0.031947155457896156
+2024-07-19 14:25:02.729 [7/cross_validate_train/61 (pid 99439)] INFO:__main__:Epoch 27/50, Train Loss: 0.04002391535111449, Val Loss: 0.03230370128074208
+2024-07-19 14:25:03.254 [7/cross_validate_train/61 (pid 99439)] INFO:__main__:Epoch 28/50, Train Loss: 0.040025780282237314, Val Loss: 0.03165694245615521
+2024-07-19 14:25:03.770 [7/cross_validate_train/61 (pid 99439)] INFO:__main__:Epoch 29/50, Train Loss: 0.03993531410497698, Val Loss: 0.03152390217056145
+2024-07-19 14:25:04.284 [7/cross_validate_train/61 (pid 99439)] INFO:__main__:Epoch 30/50, Train Loss: 0.039833273467692464, Val Loss: 0.03219009553258483
+2024-07-19 14:25:04.798 [7/cross_validate_train/61 (pid 99439)] INFO:__main__:Epoch 31/50, Train Loss: 0.03987728609618815, Val Loss: 0.03333043135903977
+2024-07-19 14:25:05.319 [7/cross_validate_train/61 (pid 99439)] INFO:__main__:Epoch 32/50, Train Loss: 0.04015843172303655, Val Loss: 0.030264964780291996
+2024-07-19 14:25:05.828 [7/cross_validate_train/61 (pid 99439)] INFO:__main__:Epoch 33/50, Train Loss: 0.03988233739510179, Val Loss: 0.033061677489329026
+2024-07-19 14:25:06.355 [7/cross_validate_train/61 (pid 99439)] INFO:__main__:Epoch 34/50, Train Loss: 0.03997780873694203, Val Loss: 0.03151127796720814
+2024-07-19 14:25:06.881 [7/cross_validate_train/61 (pid 99439)] INFO:__main__:Epoch 35/50, Train Loss: 0.039792781534858726, Val Loss: 0.03183124254684191
+2024-07-19 14:25:07.409 [7/cross_validate_train/61 (pid 99439)] INFO:__main__:Epoch 36/50, Train Loss: 0.03986643877896395, Val Loss: 0.031001282100741927
+2024-07-19 14:25:07.933 [7/cross_validate_train/61 (pid 99439)] INFO:__main__:Epoch 37/50, Train Loss: 0.03990289613773877, Val Loss: 0.030404338260760177
+2024-07-19 14:25:08.461 [7/cross_validate_train/61 (pid 99439)] INFO:__main__:Epoch 38/50, Train Loss: 0.039779071501371534, Val Loss: 0.03073345990599813
+2024-07-19 14:25:08.996 [7/cross_validate_train/61 (pid 99439)] INFO:__main__:Epoch 39/50, Train Loss: 0.03977495562285185, Val Loss: 0.031000312216378546
+2024-07-19 14:25:09.522 [7/cross_validate_train/61 (pid 99439)] INFO:__main__:Epoch 40/50, Train Loss: 0.03995233044366945, Val Loss: 0.029732347239513655
+2024-07-19 14:25:10.050 [7/cross_validate_train/61 (pid 99439)] INFO:__main__:Epoch 41/50, Train Loss: 0.04007476611401547, Val Loss: 0.028727423047294486
+2024-07-19 14:25:10.551 [7/cross_validate_train/61 (pid 99439)] INFO:__main__:Epoch 42/50, Train Loss: 0.03984022970226678, Val Loss: 0.029049979472482525
+2024-07-19 14:25:11.042 [7/cross_validate_train/61 (pid 99439)] INFO:__main__:Epoch 43/50, Train Loss: 0.03985665092583407, Val Loss: 0.028623234228910627
+2024-07-19 14:25:11.540 [7/cross_validate_train/61 (pid 99439)] INFO:__main__:Epoch 44/50, Train Loss: 0.0400168238715692, Val Loss: 0.02822733826532557
+2024-07-19 14:25:12.038 [7/cross_validate_train/61 (pid 99439)] INFO:__main__:Epoch 45/50, Train Loss: 0.03981765833767978, Val Loss: 0.028605803142528276
+2024-07-19 14:25:12.555 [7/cross_validate_train/61 (pid 99439)] INFO:__main__:Epoch 46/50, Train Loss: 0.039814714875749564, Val Loss: 0.02831442407458215
+2024-07-19 14:25:13.080 [7/cross_validate_train/61 (pid 99439)] INFO:__main__:Epoch 47/50, Train Loss: 0.03990847383710471, Val Loss: 0.028071017231087427
+2024-07-19 14:25:13.601 [7/cross_validate_train/61 (pid 99439)] INFO:__main__:Epoch 48/50, Train Loss: 0.03983083743263375, Val Loss: 0.0282788538952937
+2024-07-19 14:25:14.147 [7/cross_validate_train/61 (pid 99439)] INFO:__main__:Epoch 49/50, Train Loss: 0.03976830425248905, Val Loss: 0.02814947093862134
+2024-07-19 14:25:14.668 [7/cross_validate_train/61 (pid 99439)] INFO:__main__:Epoch 50/50, Train Loss: 0.0396361495537514, Val Loss: 0.028662713445924425
+2024-07-19 14:25:14.668 [7/cross_validate_train/61 (pid 99439)] INFO:__main__:Fold 2, MAPE: 3.30%
+2024-07-19 14:25:14.760 [7/cross_validate_train/61 (pid 99439)] INFO:__main__:Training image saved at metaflow_models//bgd_education_1001_5000_LSTM//train_f2_bgd_education_1001_5000_LSTM.png
+2024-07-19 14:25:15.467 [7/cross_validate_train/61 (pid 99439)] INFO:__main__:Epoch 1/50, Train Loss: 0.03604217484108593, Val Loss: 0.027045147493481636
+2024-07-19 14:25:16.150 [7/cross_validate_train/61 (pid 99439)] INFO:__main__:Epoch 2/50, Train Loss: 0.036136653446528604, Val Loss: 0.026734001481452503
+2024-07-19 14:25:16.794 [7/cross_validate_train/61 (pid 99439)] INFO:__main__:Epoch 3/50, Train Loss: 0.03596288518189159, Val Loss: 0.026526266910337114
+2024-07-19 14:25:17.424 [7/cross_validate_train/61 (pid 99439)] INFO:__main__:Epoch 4/50, Train Loss: 0.036023929944797736, Val Loss: 0.026867808824455417
+2024-07-19 14:25:18.075 [7/cross_validate_train/61 (pid 99439)] INFO:__main__:Epoch 5/50, Train Loss: 0.03583110768781745, Val Loss: 0.02653906202396831
+2024-07-19 14:25:18.738 [7/cross_validate_train/61 (pid 99439)] INFO:__main__:Epoch 6/50, Train Loss: 0.03608467047778915, Val Loss: 0.026995192860832084
+2024-07-19 14:25:19.430 [7/cross_validate_train/61 (pid 99439)] INFO:__main__:Epoch 7/50, Train Loss: 0.03589804383785757, Val Loss: 0.026684520564771986
+2024-07-19 14:25:20.102 [7/cross_validate_train/61 (pid 99439)] INFO:__main__:Epoch 8/50, Train Loss: 0.035891432072712136, Val Loss: 0.026026971487177385
+2024-07-19 14:25:20.793 [7/cross_validate_train/61 (pid 99439)] INFO:__main__:Epoch 9/50, Train Loss: 0.0359926312995998, Val Loss: 0.02663856855518109
+2024-07-19 14:25:21.465 [7/cross_validate_train/61 (pid 99439)] INFO:__main__:Epoch 10/50, Train Loss: 0.036139272306471654, Val Loss: 0.02706840795439643
+2024-07-19 14:25:22.141 [7/cross_validate_train/61 (pid 99439)] INFO:__main__:Epoch 11/50, Train Loss: 0.03584394580365656, Val Loss: 0.027873140885620505
+2024-07-19 14:25:22.808 [7/cross_validate_train/61 (pid 99439)] INFO:__main__:Epoch 12/50, Train Loss: 0.03598675672092462, Val Loss: 0.02698685525841004
+2024-07-19 14:25:23.483 [7/cross_validate_train/61 (pid 99439)] INFO:__main__:Epoch 13/50, Train Loss: 0.03593754980789676, Val Loss: 0.026496836965953983
+2024-07-19 14:25:24.151 [7/cross_validate_train/61 (pid 99439)] INFO:__main__:Epoch 14/50, Train Loss: 0.035931320146542704, Val Loss: 0.02757583573661946
+2024-07-19 14:25:24.820 [7/cross_validate_train/61 (pid 99439)] INFO:__main__:Epoch 15/50, Train Loss: 0.035876565204601585, Val Loss: 0.027097461845826457
+2024-07-19 14:25:25.489 [7/cross_validate_train/61 (pid 99439)] INFO:__main__:Epoch 16/50, Train Loss: 0.03593777495831864, Val Loss: 0.027171117027063627
+2024-07-19 14:25:26.157 [7/cross_validate_train/61 (pid 99439)] INFO:__main__:Epoch 17/50, Train Loss: 0.03586946478215595, Val Loss: 0.026959832103268522
+2024-07-19 14:25:26.839 [7/cross_validate_train/61 (pid 99439)] INFO:__main__:Epoch 18/50, Train Loss: 0.03588840750696724, Val Loss: 0.027747823328182503
+2024-07-19 14:25:27.512 [7/cross_validate_train/61 (pid 99439)] INFO:__main__:Epoch 19/50, Train Loss: 0.03588194396244745, Val Loss: 0.027546667871443
+2024-07-19 14:25:28.195 [7/cross_validate_train/61 (pid 99439)] INFO:__main__:Epoch 20/50, Train Loss: 0.035899621970339184, Val Loss: 0.02725689228926156
+2024-07-19 14:25:28.872 [7/cross_validate_train/61 (pid 99439)] INFO:__main__:Epoch 21/50, Train Loss: 0.03580395563518348, Val Loss: 0.0274130765952774
+2024-07-19 14:25:29.582 [7/cross_validate_train/61 (pid 99439)] INFO:__main__:Epoch 22/50, Train Loss: 0.035931353106431356, Val Loss: 0.027223208113699347
+2024-07-19 14:25:30.251 [7/cross_validate_train/61 (pid 99439)] INFO:__main__:Epoch 23/50, Train Loss: 0.0358927084375428, Val Loss: 0.027108395472168922
+2024-07-19 14:25:30.925 [7/cross_validate_train/61 (pid 99439)] INFO:__main__:Epoch 24/50, Train Loss: 0.03593332097189476, Val Loss: 0.02625206032314816
+2024-07-19 14:25:31.604 [7/cross_validate_train/61 (pid 99439)] INFO:__main__:Epoch 25/50, Train Loss: 0.035826941875562276, Val Loss: 0.027807364491997538
+2024-07-19 14:25:32.282 [7/cross_validate_train/61 (pid 99439)] INFO:__main__:Epoch 26/50, Train Loss: 0.03572934509369813, Val Loss: 0.026302074560442486
+2024-07-19 14:25:32.957 [7/cross_validate_train/61 (pid 99439)] INFO:__main__:Epoch 27/50, Train Loss: 0.03586209576883136, Val Loss: 0.02688961158934477
+2024-07-19 14:25:33.651 [7/cross_validate_train/61 (pid 99439)] INFO:__main__:Epoch 28/50, Train Loss: 0.03586143246303274, Val Loss: 0.02701861290512858
+2024-07-19 14:25:34.292 [7/cross_validate_train/61 (pid 99439)] INFO:__main__:Epoch 29/50, Train Loss: 0.035901242184567535, Val Loss: 0.026337786149736996
+2024-07-19 14:25:34.949 [7/cross_validate_train/61 (pid 99439)] INFO:__main__:Epoch 30/50, Train Loss: 0.03581035665989126, Val Loss: 0.026866652876944154
+2024-07-19 14:25:35.621 [7/cross_validate_train/61 (pid 99439)] INFO:__main__:Epoch 31/50, Train Loss: 0.03584954702639825, Val Loss: 0.02668004684351586
+2024-07-19 14:25:36.333 [7/cross_validate_train/61 (pid 99439)] INFO:__main__:Epoch 32/50, Train Loss: 0.03583317063110944, Val Loss: 0.02679313955878889
+2024-07-19 14:25:37.029 [7/cross_validate_train/61 (pid 99439)] INFO:__main__:Epoch 33/50, Train Loss: 0.03594405360341276, Val Loss: 0.026249723307587004
+2024-07-19 14:25:37.709 [7/cross_validate_train/61 (pid 99439)] INFO:__main__:Epoch 34/50, Train Loss: 0.03575762820570436, Val Loss: 0.027353524356274993
+2024-07-19 14:25:38.352 [7/cross_validate_train/61 (pid 99439)] INFO:__main__:Epoch 35/50, Train Loss: 0.03579685661610063, Val Loss: 0.026278533091818965
+2024-07-19 14:25:39.028 [7/cross_validate_train/61 (pid 99439)] INFO:__main__:Epoch 36/50, Train Loss: 0.03581486836279908, Val Loss: 0.026951763879608463
+2024-07-19 14:25:39.729 [7/cross_validate_train/61 (pid 99439)] INFO:__main__:Epoch 37/50, Train Loss: 0.035685197507630884, Val Loss: 0.028171905240899808
+2024-07-19 14:25:40.428 [7/cross_validate_train/61 (pid 99439)] INFO:__main__:Epoch 38/50, Train Loss: 0.03606069198337524, Val Loss: 0.028475719680254523
+2024-07-19 14:25:41.078 [7/cross_validate_train/61 (pid 99439)] INFO:__main__:Epoch 39/50, Train Loss: 0.03596790090892209, Val Loss: 0.027612333110458142
+2024-07-19 14:25:41.752 [7/cross_validate_train/61 (pid 99439)] INFO:__main__:Epoch 40/50, Train Loss: 0.035968022312560716, Val Loss: 0.026973526874506795
+2024-07-19 14:25:42.421 [7/cross_validate_train/61 (pid 99439)] INFO:__main__:Epoch 41/50, Train Loss: 0.03586559451172409, Val Loss: 0.02643291697510191
+2024-07-19 14:25:43.097 [7/cross_validate_train/61 (pid 99439)] INFO:__main__:Epoch 42/50, Train Loss: 0.035741464962085634, Val Loss: 0.0261285881939772
+2024-07-19 14:25:43.764 [7/cross_validate_train/61 (pid 99439)] INFO:__main__:Epoch 43/50, Train Loss: 0.035654164040588764, Val Loss: 0.02596551431594668
+2024-07-19 14:25:44.421 [7/cross_validate_train/61 (pid 99439)] INFO:__main__:Epoch 44/50, Train Loss: 0.035681500303724856, Val Loss: 0.026437254874287424
+2024-07-19 14:25:45.094 [7/cross_validate_train/61 (pid 99439)] INFO:__main__:Epoch 45/50, Train Loss: 0.03561333707240347, Val Loss: 0.027275602459102065
+2024-07-19 14:25:45.767 [7/cross_validate_train/61 (pid 99439)] INFO:__main__:Epoch 46/50, Train Loss: 0.03566870807146985, Val Loss: 0.027847325580345618
+2024-07-19 14:25:46.444 [7/cross_validate_train/61 (pid 99439)] INFO:__main__:Epoch 47/50, Train Loss: 0.0357320014808378, Val Loss: 0.028088429691018286
+2024-07-19 14:25:47.108 [7/cross_validate_train/61 (pid 99439)] INFO:__main__:Epoch 48/50, Train Loss: 0.03555107702922127, Val Loss: 0.02789197363764853
+2024-07-19 14:25:47.775 [7/cross_validate_train/61 (pid 99439)] INFO:__main__:Epoch 49/50, Train Loss: 0.035783722531050444, Val Loss: 0.027412097045295947
+2024-07-19 14:25:48.454 [7/cross_validate_train/61 (pid 99439)] INFO:__main__:Epoch 50/50, Train Loss: 0.0356381584711577, Val Loss: 0.02715139911585563
+2024-07-19 14:25:48.454 [7/cross_validate_train/61 (pid 99439)] INFO:__main__:Fold 3, MAPE: 2.55%
+2024-07-19 14:25:48.563 [7/cross_validate_train/61 (pid 99439)] INFO:__main__:Training image saved at metaflow_models//bgd_education_1001_5000_LSTM//train_f3_bgd_education_1001_5000_LSTM.png
+2024-07-19 14:25:49.427 [7/cross_validate_train/61 (pid 99439)] INFO:__main__:Epoch 1/50, Train Loss: 0.02939352942221276, Val Loss: 0.029218825826270355
+2024-07-19 14:25:50.240 [7/cross_validate_train/61 (pid 99439)] INFO:__main__:Epoch 2/50, Train Loss: 0.02925050324136084, Val Loss: 0.02620941205453631
+2024-07-19 14:25:51.035 [7/cross_validate_train/61 (pid 99439)] INFO:__main__:Epoch 3/50, Train Loss: 0.029029508648378836, Val Loss: 0.02607097547199275
+2024-07-19 14:25:51.837 [7/cross_validate_train/61 (pid 99439)] INFO:__main__:Epoch 4/50, Train Loss: 0.02896824575817356, Val Loss: 0.026410877666864042
+2024-07-19 14:25:52.621 [7/cross_validate_train/61 (pid 99439)] INFO:__main__:Epoch 5/50, Train Loss: 0.029013453583632196, Val Loss: 0.02601009655139736
+2024-07-19 14:25:53.402 [7/cross_validate_train/61 (pid 99439)] INFO:__main__:Epoch 6/50, Train Loss: 0.029017003723880747, Val Loss: 0.026384984117907448
+2024-07-19 14:25:54.184 [7/cross_validate_train/61 (pid 99439)] INFO:__main__:Epoch 7/50, Train Loss: 0.029011799303998987, Val Loss: 0.02723260792727406
+2024-07-19 14:25:54.969 [7/cross_validate_train/61 (pid 99439)] INFO:__main__:Epoch 8/50, Train Loss: 0.029005678119854286, Val Loss: 0.02704789624171885
+2024-07-19 14:25:55.757 [7/cross_validate_train/61 (pid 99439)] INFO:__main__:Epoch 9/50, Train Loss: 0.029001213640875215, Val Loss: 0.026482129633124615
+2024-07-19 14:25:56.534 [7/cross_validate_train/61 (pid 99439)] INFO:__main__:Epoch 10/50, Train Loss: 0.02903744268261797, Val Loss: 0.026989759323564736
+2024-07-19 14:25:57.320 [7/cross_validate_train/61 (pid 99439)] INFO:__main__:Epoch 11/50, Train Loss: 0.02903584234293673, Val Loss: 0.027165361969555553
+2024-07-19 14:25:58.131 [7/cross_validate_train/61 (pid 99439)] INFO:__main__:Epoch 12/50, Train Loss: 0.029038884845859075, Val Loss: 0.026505739918935137
+2024-07-19 14:25:58.959 [7/cross_validate_train/61 (pid 99439)] INFO:__main__:Epoch 13/50, Train Loss: 0.02902303817221424, Val Loss: 0.027123971917742008
+2024-07-19 14:25:59.786 [7/cross_validate_train/61 (pid 99439)] INFO:__main__:Epoch 14/50, Train Loss: 0.0290317725298087, Val Loss: 0.026456357231615362
+2024-07-19 14:26:00.632 [7/cross_validate_train/61 (pid 99439)] INFO:__main__:Epoch 15/50, Train Loss: 0.0290105299573842, Val Loss: 0.02741864518690351
+2024-07-19 14:26:01.489 [7/cross_validate_train/61 (pid 99439)] INFO:__main__:Epoch 16/50, Train Loss: 0.029072673126522983, Val Loss: 0.025981794690360892
+2024-07-19 14:26:02.318 [7/cross_validate_train/61 (pid 99439)] INFO:__main__:Epoch 17/50, Train Loss: 0.028963159421806807, Val Loss: 0.02802786572106384
+2024-07-19 14:26:03.147 [7/cross_validate_train/61 (pid 99439)] INFO:__main__:Epoch 18/50, Train Loss: 0.02908248060822978, Val Loss: 0.026109217590576893
+2024-07-19 14:26:03.974 [7/cross_validate_train/61 (pid 99439)] INFO:__main__:Epoch 19/50, Train Loss: 0.028891624616725103, Val Loss: 0.025953378805236238
+2024-07-19 14:26:04.792 [7/cross_validate_train/61 (pid 99439)] INFO:__main__:Epoch 20/50, Train Loss: 0.02897268460019604, Val Loss: 0.02745586130264643
+2024-07-19 14:26:05.645 [7/cross_validate_train/61 (pid 99439)] INFO:__main__:Epoch 21/50, Train Loss: 0.028980230728348533, Val Loss: 0.02764161004105935
+2024-07-19 14:26:06.463 [7/cross_validate_train/61 (pid 99439)] INFO:__main__:Epoch 22/50, Train Loss: 0.029274949507153297, Val Loss: 0.026058666533916384
+2024-07-19 14:26:07.274 [7/cross_validate_train/61 (pid 99439)] INFO:__main__:Epoch 23/50, Train Loss: 0.028972220013511706, Val Loss: 0.026178427078333254
+2024-07-19 14:26:08.097 [7/cross_validate_train/61 (pid 99439)] INFO:__main__:Epoch 24/50, Train Loss: 0.028851996298756573, Val Loss: 0.026263696305151726
+2024-07-19 14:26:08.927 [7/cross_validate_train/61 (pid 99439)] INFO:__main__:Epoch 25/50, Train Loss: 0.028924895629573327, Val Loss: 0.02636362546803178
+2024-07-19 14:26:09.757 [7/cross_validate_train/61 (pid 99439)] INFO:__main__:Epoch 26/50, Train Loss: 0.029113611999571652, Val Loss: 0.026189954296962636
+2024-07-19 14:26:10.614 [7/cross_validate_train/61 (pid 99439)] INFO:__main__:Epoch 27/50, Train Loss: 0.02912827461937463, Val Loss: 0.025947695346297445
+2024-07-19 14:26:11.459 [7/cross_validate_train/61 (pid 99439)] INFO:__main__:Epoch 28/50, Train Loss: 0.02905664370385009, Val Loss: 0.026121131572368984
+2024-07-19 14:26:12.286 [7/cross_validate_train/61 (pid 99439)] INFO:__main__:Epoch 29/50, Train Loss: 0.029089369683188725, Val Loss: 0.026420529226999025
+2024-07-19 14:26:13.110 [7/cross_validate_train/61 (pid 99439)] INFO:__main__:Epoch 30/50, Train Loss: 0.02900959389120504, Val Loss: 0.025822117295418237
+2024-07-19 14:26:13.931 [7/cross_validate_train/61 (pid 99439)] INFO:__main__:Epoch 31/50, Train Loss: 0.02894221165903158, Val Loss: 0.026410408242530114
+2024-07-19 14:26:14.784 [7/cross_validate_train/61 (pid 99439)] INFO:__main__:Epoch 32/50, Train Loss: 0.029110583190161448, Val Loss: 0.02594921534025186
+2024-07-19 14:26:15.614 [7/cross_validate_train/61 (pid 99439)] INFO:__main__:Epoch 33/50, Train Loss: 0.02901185222051956, Val Loss: 0.026146736524596408
+2024-07-19 14:26:16.455 [7/cross_validate_train/61 (pid 99439)] INFO:__main__:Epoch 34/50, Train Loss: 0.02892586626214804, Val Loss: 0.02604052839750374
+2024-07-19 14:26:17.276 [7/cross_validate_train/61 (pid 99439)] INFO:__main__:Epoch 35/50, Train Loss: 0.02900886259829769, Val Loss: 0.025866202582177276
+2024-07-19 14:26:18.099 [7/cross_validate_train/61 (pid 99439)] INFO:__main__:Epoch 36/50, Train Loss: 0.0290580033427002, Val Loss: 0.028133839066769625
+2024-07-19 14:26:18.892 [7/cross_validate_train/61 (pid 99439)] INFO:__main__:Epoch 37/50, Train Loss: 0.029137313580856875, Val Loss: 0.026103482632016815
+2024-07-19 14:26:19.701 [7/cross_validate_train/61 (pid 99439)] INFO:__main__:Epoch 38/50, Train Loss: 0.028968452511785123, Val Loss: 0.02587408041329803
+2024-07-19 14:26:20.495 [7/cross_validate_train/61 (pid 99439)] INFO:__main__:Epoch 39/50, Train Loss: 0.028924044149999436, Val Loss: 0.025839958742663666
+2024-07-19 14:26:21.285 [7/cross_validate_train/61 (pid 99439)] INFO:__main__:Epoch 40/50, Train Loss: 0.028959797894848243, Val Loss: 0.025805215099574747
+2024-07-19 14:26:22.078 [7/cross_validate_train/61 (pid 99439)] INFO:__main__:Epoch 41/50, Train Loss: 0.02886530086602811, Val Loss: 0.025820330867694842
+2024-07-19 14:26:22.860 [7/cross_validate_train/61 (pid 99439)] INFO:__main__:Epoch 42/50, Train Loss: 0.028903756725632553, Val Loss: 0.02585477246021902
+2024-07-19 14:26:23.664 [7/cross_validate_train/61 (pid 99439)] INFO:__main__:Epoch 43/50, Train Loss: 0.028855554493410245, Val Loss: 0.026130902102670155
+2024-07-19 14:26:24.464 [7/cross_validate_train/61 (pid 99439)] INFO:__main__:Epoch 44/50, Train Loss: 0.02883341947857004, Val Loss: 0.026353893474348494
+2024-07-19 14:26:25.259 [7/cross_validate_train/61 (pid 99439)] INFO:__main__:Epoch 45/50, Train Loss: 0.028983025432942986, Val Loss: 0.026190123671816813
+2024-07-19 14:26:26.038 [7/cross_validate_train/61 (pid 99439)] INFO:__main__:Epoch 46/50, Train Loss: 0.029034668088450538, Val Loss: 0.02668189729337354
+2024-07-19 14:26:26.823 [7/cross_validate_train/61 (pid 99439)] INFO:__main__:Epoch 47/50, Train Loss: 0.02906641810313686, Val Loss: 0.025890802763201094
+2024-07-19 14:26:27.631 [7/cross_validate_train/61 (pid 99439)] INFO:__main__:Epoch 48/50, Train Loss: 0.02885576756671071, Val Loss: 0.026001389767672564
+2024-07-19 14:26:28.461 [7/cross_validate_train/61 (pid 99439)] INFO:__main__:Epoch 49/50, Train Loss: 0.02892261016397522, Val Loss: 0.02587300314995888
+2024-07-19 14:26:29.296 [7/cross_validate_train/61 (pid 99439)] INFO:__main__:Epoch 50/50, Train Loss: 0.02880709496541665, Val Loss: 0.02638646508441181
+2024-07-19 14:26:29.297 [7/cross_validate_train/61 (pid 99439)] INFO:__main__:Fold 4, MAPE: 3.00%
+2024-07-19 14:26:29.398 [7/cross_validate_train/61 (pid 99439)] INFO:__main__:Training image saved at metaflow_models//bgd_education_1001_5000_LSTM//train_f4_bgd_education_1001_5000_LSTM.png
+2024-07-19 14:26:33.633 [7/cross_validate_train/61 (pid 99439)] Task finished successfully.
+2024-07-19 14:26:33.664 [7/model_scores/62 (pid 99994)] Task is starting.
+2024-07-19 14:26:35.130 [7/model_scores/62 (pid 99994)] INFO:__main__:Average Train Loss across all folds: 0.03720589580172491
+2024-07-19 14:26:39.024 [7/model_scores/62 (pid 99994)] INFO:__main__:Average Validation Loss across all folds: 0.03164146175809406
+2024-07-19 14:26:39.024 [7/model_scores/62 (pid 99994)] INFO:__main__:Average MAPE across all folds: 4.12%
+2024-07-19 14:26:39.026 [7/model_scores/62 (pid 99994)] Task finished successfully.
+2024-07-19 14:26:39.060 [7/validate_model/63 (pid 199)] Task is starting.
+2024-07-19 14:26:40.540 [7/validate_model/63 (pid 199)] INFO:__main__:Validating LSTM on test set..
+2024-07-19 14:26:40.646 [7/validate_model/63 (pid 199)] INFO:__main__:Test Set MAPE: 7.20%
+2024-07-19 14:26:41.009 [7/validate_model/63 (pid 199)] INFO:__main__:Test image saved at metaflow_models//bgd_education_1001_5000_LSTM//test_bgd_education_1001_5000_LSTM.png
+2024-07-19 14:26:41.459 [7/validate_model/63 (pid 199)] Task finished successfully.
+2024-07-19 14:26:41.491 [7/log_model/64 (pid 218)] Task is starting.
+2024-07-19 14:26:42.953 [7/log_model/64 (pid 218)] INFO:__main__:Logging model bgd_education_1001_5000_LSTM
+2024-07-19 14:26:42.954 [7/log_model/64 (pid 218)] INFO:__main__:Model logged at metaflow_models//bgd_education_1001_5000_LSTM//bgd_education_1001_5000_LSTM.pth
+2024-07-19 14:26:46.854 [7/log_model/64 (pid 218)] Task finished successfully.
+2024-07-19 14:26:46.884 [7/end/65 (pid 269)] Task is starting.
+2024-07-19 14:26:48.347 [7/end/65 (pid 269)] INFO:__main__:Pipeline end.
+2024-07-19 14:26:48.686 [7/end/65 (pid 269)] Task finished successfully.
+2024-07-19 14:26:48.687 Done!
+Starting Metaflow run.
+✅ Run('BGD_LinearFlow/7') succeeded:
+-- stdout --
+2024-07-19 14:23:50.718 Workflow starting (run-id 7):
+2024-07-19 14:23:50.794 [7/start/53 (pid 99255)] Task is starting.
+2024-07-19 14:23:52.330 [7/start/53 (pid 99255)] INFO:__main__:Starting BGD linear flow..
+2024-07-19 14:23:52.634 [7/start/53 (pid 99255)] Task finished successfully.
+2024-07-19 14:23:52.665 [7/ingest/54 (pid 99272)] Task is starting.
+2024-07-19 14:23:54.126 [7/ingest/54 (pid 99272)] INFO:__main__:Fetching dataframe..
+2024-07-19 14:23:54.139 [7/ingest/54 (pid 99272)] INFO:__main__:Dataframe fetching complete..
+2024-07-19 14:23:58.056 [7/ingest/54 (pid 99272)] Task finished successfully.
+2024-07-19 14:23:58.089 [7/pick_2017_data/55 (pid 99305)] Task is starting.
+2024-07-19 14:23:59.581 [7/pick_2017_data/55 (pid 99305)] INFO:__main__:Picking 2017 data..
+2024-07-19 14:23:59.893 [7/pick_2017_data/55 (pid 99305)] Task finished successfully.
+2024-07-19 14:23:59.925 [7/fill_missing_data/56 (pid 99316)] Task is starting.
+2024-07-19 14:24:01.435 [7/fill_missing_data/56 (pid 99316)] INFO:__main__:Filling missing data points using weighted average..
+2024-07-19 14:24:01.439 [7/fill_missing_data/56 (pid 99316)] INFO:__main__:NaN counts per column:
+2024-07-19 14:24:01.439 [7/fill_missing_data/56 (pid 99316)] INFO:__main__:Panther_education_Misty        20
+2024-07-19 14:24:01.439 [7/fill_missing_data/56 (pid 99316)] Panther_education_Jonathan    647
+2024-07-19 14:24:01.439 [7/fill_missing_data/56 (pid 99316)] dtype: int64
+2024-07-19 14:24:01.439 [7/fill_missing_data/56 (pid 99316)] --- Logging error ---
+2024-07-19 14:24:01.440 [7/fill_missing_data/56 (pid 99316)] Traceback (most recent call last):
+2024-07-19 14:24:01.440 [7/fill_missing_data/56 (pid 99316)] File "/Users/nikhilkapila/miniconda3/envs/8903env/lib/python3.10/logging/__init__.py", line 1100, in emit
+2024-07-19 14:24:01.440 [7/fill_missing_data/56 (pid 99316)] msg = self.format(record)
+2024-07-19 14:24:01.440 [7/fill_missing_data/56 (pid 99316)] File "/Users/nikhilkapila/miniconda3/envs/8903env/lib/python3.10/logging/__init__.py", line 943, in format
+2024-07-19 14:24:01.441 [7/fill_missing_data/56 (pid 99316)] return fmt.format(record)
+2024-07-19 14:24:01.441 [7/fill_missing_data/56 (pid 99316)] File "/Users/nikhilkapila/miniconda3/envs/8903env/lib/python3.10/logging/__init__.py", line 678, in format
+2024-07-19 14:24:01.441 [7/fill_missing_data/56 (pid 99316)] record.message = record.getMessage()
+2024-07-19 14:24:01.441 [7/fill_missing_data/56 (pid 99316)] File "/Users/nikhilkapila/miniconda3/envs/8903env/lib/python3.10/logging/__init__.py", line 368, in getMessage
+2024-07-19 14:24:01.441 [7/fill_missing_data/56 (pid 99316)] msg = msg % self.args
+2024-07-19 14:24:01.441 [7/fill_missing_data/56 (pid 99316)] TypeError: not all arguments converted during string formatting
+2024-07-19 14:24:01.441 [7/fill_missing_data/56 (pid 99316)] Call stack:
+2024-07-19 14:24:01.441 [7/fill_missing_data/56 (pid 99316)] File "/Users/nikhilkapila/Developer/lstm-training/bgd_flow.py", line 337, in <module>
+2024-07-19 14:24:02.158 [7/fill_missing_data/56 (pid 99316)] BGD_LinearFlow()
+2024-07-19 14:24:02.158 [7/fill_missing_data/56 (pid 99316)] File "/Users/nikhilkapila/miniconda3/envs/8903env/lib/python3.10/site-packages/metaflow/flowspec.py", line 120, in __init__
+2024-07-19 14:24:02.158 [7/fill_missing_data/56 (pid 99316)] cli.main(self)
+2024-07-19 14:24:02.158 [7/fill_missing_data/56 (pid 99316)] File "/Users/nikhilkapila/miniconda3/envs/8903env/lib/python3.10/site-packages/metaflow/cli.py", line 1126, in main
+2024-07-19 14:24:02.158 [7/fill_missing_data/56 (pid 99316)] start(auto_envvar_prefix="METAFLOW", obj=state)
+2024-07-19 14:24:02.158 [7/fill_missing_data/56 (pid 99316)] File "/Users/nikhilkapila/miniconda3/envs/8903env/lib/python3.10/site-packages/metaflow/tracing/__init__.py", line 27, in wrapper_func
+2024-07-19 14:24:02.158 [7/fill_missing_data/56 (pid 99316)] return func(*args, **kwargs)
+2024-07-19 14:24:02.158 [7/fill_missing_data/56 (pid 99316)] File "/Users/nikhilkapila/miniconda3/envs/8903env/lib/python3.10/site-packages/metaflow/_vendor/click/core.py", line 829, in __call__
+2024-07-19 14:24:02.158 [7/fill_missing_data/56 (pid 99316)] return self.main(*args, **kwargs)
+2024-07-19 14:24:02.159 [7/fill_missing_data/56 (pid 99316)] File "/Users/nikhilkapila/miniconda3/envs/8903env/lib/python3.10/site-packages/metaflow/_vendor/click/core.py", line 782, in main
+2024-07-19 14:24:02.159 [7/fill_missing_data/56 (pid 99316)] rv = self.invoke(ctx)
+2024-07-19 14:24:02.159 [7/fill_missing_data/56 (pid 99316)] File "/Users/nikhilkapila/miniconda3/envs/8903env/lib/python3.10/site-packages/metaflow/_vendor/click/core.py", line 1259, in invoke
+2024-07-19 14:24:02.159 [7/fill_missing_data/56 (pid 99316)] return _process_result(sub_ctx.command.invoke(sub_ctx))
+2024-07-19 14:24:02.159 [7/fill_missing_data/56 (pid 99316)] File "/Users/nikhilkapila/miniconda3/envs/8903env/lib/python3.10/site-packages/metaflow/_vendor/click/core.py", line 1066, in invoke
+2024-07-19 14:24:02.159 [7/fill_missing_data/56 (pid 99316)] return ctx.invoke(self.callback, **ctx.params)
+2024-07-19 14:24:02.159 [7/fill_missing_data/56 (pid 99316)] File "/Users/nikhilkapila/miniconda3/envs/8903env/lib/python3.10/site-packages/metaflow/_vendor/click/core.py", line 610, in invoke
+2024-07-19 14:24:02.159 [7/fill_missing_data/56 (pid 99316)] return callback(*args, **kwargs)
+2024-07-19 14:24:02.159 [7/fill_missing_data/56 (pid 99316)] File "/Users/nikhilkapila/miniconda3/envs/8903env/lib/python3.10/site-packages/metaflow/_vendor/click/decorators.py", line 21, in new_func
+2024-07-19 14:24:02.159 [7/fill_missing_data/56 (pid 99316)] return f(get_current_context(), *args, **kwargs)
+2024-07-19 14:24:02.159 [7/fill_missing_data/56 (pid 99316)] File "/Users/nikhilkapila/miniconda3/envs/8903env/lib/python3.10/site-packages/metaflow/cli.py", line 468, in step
+2024-07-19 14:24:02.159 [7/fill_missing_data/56 (pid 99316)] task.run_step(
+2024-07-19 14:24:02.159 [7/fill_missing_data/56 (pid 99316)] File "/Users/nikhilkapila/miniconda3/envs/8903env/lib/python3.10/site-packages/metaflow/task.py", line 650, in run_step
+2024-07-19 14:24:02.159 [7/fill_missing_data/56 (pid 99316)] self._exec_step_function(step_func)
+2024-07-19 14:24:02.159 [7/fill_missing_data/56 (pid 99316)] File "/Users/nikhilkapila/miniconda3/envs/8903env/lib/python3.10/site-packages/metaflow/task.py", line 62, in _exec_step_function
+2024-07-19 14:24:02.159 [7/fill_missing_data/56 (pid 99316)] step_function()
+2024-07-19 14:24:02.159 [7/fill_missing_data/56 (pid 99316)] File "/Users/nikhilkapila/Developer/lstm-training/bgd_flow.py", line 78, in fill_missing_data
+2024-07-19 14:24:02.159 [7/fill_missing_data/56 (pid 99316)] self.missing_values = find_nan_counts(self.df)
+2024-07-19 14:24:02.159 [7/fill_missing_data/56 (pid 99316)] File "/Users/nikhilkapila/Developer/lstm-training/bgd_flow.py", line 292, in find_nan_counts
+2024-07-19 14:24:02.159 [7/fill_missing_data/56 (pid 99316)] logger.info("\nTotal NaN count in the DataFrame:", total_nan_count)
+2024-07-19 14:24:02.159 [7/fill_missing_data/56 (pid 99316)] Message: '\nTotal NaN count in the DataFrame:'
+2024-07-19 14:24:02.159 [7/fill_missing_data/56 (pid 99316)] Arguments: (667,)
+2024-07-19 14:24:02.160 [7/fill_missing_data/56 (pid 99316)] Task finished successfully.
+2024-07-19 14:24:02.192 [7/find_median/57 (pid 99333)] Task is starting.
+2024-07-19 14:24:03.682 [7/find_median/57 (pid 99333)] INFO:__main__:Computing and using median..
+2024-07-19 14:24:04.196 [7/find_median/57 (pid 99333)] Task finished successfully.
+2024-07-19 14:24:04.227 [7/aggregate_data/58 (pid 99344)] Task is starting.
+2024-07-19 14:24:05.712 [7/aggregate_data/58 (pid 99344)] INFO:__main__:Skipping.. data is on hourly basis.
+2024-07-19 14:24:09.597 [7/aggregate_data/58 (pid 99344)] Task finished successfully.
+2024-07-19 14:24:09.625 [7/split_data/59 (pid 99383)] Task is starting.
+2024-07-19 14:24:11.139 [7/split_data/59 (pid 99383)] INFO:__main__:Splitting data into test and train...
+2024-07-19 14:24:15.044 [7/split_data/59 (pid 99383)] Task finished successfully.
+2024-07-19 14:24:15.074 [7/make_x_y/60 (pid 99422)] Task is starting.
+2024-07-19 14:24:16.904 [7/make_x_y/60 (pid 99422)] INFO:__main__:Shape of X_train: (6978, 30, 1)
+2024-07-19 14:24:17.226 [7/make_x_y/60 (pid 99422)] Shape of y_train: (6978, 1)
+2024-07-19 14:24:17.226 [7/make_x_y/60 (pid 99422)] Shape of X_test: (1722, 30, 1)
+2024-07-19 14:24:17.226 [7/make_x_y/60 (pid 99422)] Shape of y_test: (1722, 1)
+2024-07-19 14:24:17.227 [7/make_x_y/60 (pid 99422)] Task finished successfully.
+2024-07-19 14:24:17.260 [7/cross_validate_train/61 (pid 99439)] Task is starting.
+2024-07-19 14:24:18.707 [7/cross_validate_train/61 (pid 99439)] INFO:__main__:Creating bgd_education_1001_5000_LSTM
+2024-07-19 14:24:18.708 [7/cross_validate_train/61 (pid 99439)] INFO:__main__:Performing cross validation..
+2024-07-19 14:24:19.451 [7/cross_validate_train/61 (pid 99439)] INFO:__main__:Epoch 1/50, Train Loss: 0.1916567465743503, Val Loss: 0.11219305232972712
+2024-07-19 14:24:19.667 [7/cross_validate_train/61 (pid 99439)] INFO:__main__:Epoch 2/50, Train Loss: 0.11700044461601489, Val Loss: 0.09875198639929295
+2024-07-19 14:24:19.882 [7/cross_validate_train/61 (pid 99439)] INFO:__main__:Epoch 3/50, Train Loss: 0.11259059185111844, Val Loss: 0.09274196886533015
+2024-07-19 14:24:20.094 [7/cross_validate_train/61 (pid 99439)] INFO:__main__:Epoch 4/50, Train Loss: 0.10793047307713612, Val Loss: 0.08821646335559923
+2024-07-19 14:24:20.305 [7/cross_validate_train/61 (pid 99439)] INFO:__main__:Epoch 5/50, Train Loss: 0.1026727043696352, Val Loss: 0.08415179719796052
+2024-07-19 14:24:20.526 [7/cross_validate_train/61 (pid 99439)] INFO:__main__:Epoch 6/50, Train Loss: 0.09555055100370098, Val Loss: 0.08210076170193183
+2024-07-19 14:24:20.735 [7/cross_validate_train/61 (pid 99439)] INFO:__main__:Epoch 7/50, Train Loss: 0.08876192514356729, Val Loss: 0.08004550268319813
+2024-07-19 14:24:20.951 [7/cross_validate_train/61 (pid 99439)] INFO:__main__:Epoch 8/50, Train Loss: 0.07755800366804406, Val Loss: 0.0649598288173611
+2024-07-19 14:24:21.165 [7/cross_validate_train/61 (pid 99439)] INFO:__main__:Epoch 9/50, Train Loss: 0.07635425630252103, Val Loss: 0.0698615077480271
+2024-07-19 14:24:21.399 [7/cross_validate_train/61 (pid 99439)] INFO:__main__:Epoch 10/50, Train Loss: 0.06849927082657814, Val Loss: 0.06113914531227704
+2024-07-19 14:24:21.623 [7/cross_validate_train/61 (pid 99439)] INFO:__main__:Epoch 11/50, Train Loss: 0.0650296599881069, Val Loss: 0.06225554896770297
+2024-07-19 14:24:21.835 [7/cross_validate_train/61 (pid 99439)] INFO:__main__:Epoch 12/50, Train Loss: 0.06374221924390341, Val Loss: 0.06229889256930029
+2024-07-19 14:24:22.051 [7/cross_validate_train/61 (pid 99439)] INFO:__main__:Epoch 13/50, Train Loss: 0.0624004856658143, Val Loss: 0.06163083691452
+2024-07-19 14:24:22.261 [7/cross_validate_train/61 (pid 99439)] INFO:__main__:Epoch 14/50, Train Loss: 0.059987120582042516, Val Loss: 0.057938645719676406
+2024-07-19 14:24:22.478 [7/cross_validate_train/61 (pid 99439)] INFO:__main__:Epoch 15/50, Train Loss: 0.05748258445512604, Val Loss: 0.05424085888709571
+2024-07-19 14:24:22.702 [7/cross_validate_train/61 (pid 99439)] INFO:__main__:Epoch 16/50, Train Loss: 0.055913753455152385, Val Loss: 0.05261589762930934
+2024-07-19 14:24:22.919 [7/cross_validate_train/61 (pid 99439)] INFO:__main__:Epoch 17/50, Train Loss: 0.05609496441241857, Val Loss: 0.05600084903071056
+2024-07-19 14:24:23.135 [7/cross_validate_train/61 (pid 99439)] INFO:__main__:Epoch 18/50, Train Loss: 0.05543212466747374, Val Loss: 0.05455798988003988
+2024-07-19 14:24:23.353 [7/cross_validate_train/61 (pid 99439)] INFO:__main__:Epoch 19/50, Train Loss: 0.054271601140499115, Val Loss: 0.05271896392711111
+2024-07-19 14:24:23.579 [7/cross_validate_train/61 (pid 99439)] INFO:__main__:Epoch 20/50, Train Loss: 0.05319998891571084, Val Loss: 0.05430302129605332
+2024-07-19 14:24:23.788 [7/cross_validate_train/61 (pid 99439)] INFO:__main__:Epoch 21/50, Train Loss: 0.05189713483323922, Val Loss: 0.04909670040816874
+2024-07-19 14:24:23.999 [7/cross_validate_train/61 (pid 99439)] INFO:__main__:Epoch 22/50, Train Loss: 0.05069769667209806, Val Loss: 0.049279688228223775
+2024-07-19 14:24:24.211 [7/cross_validate_train/61 (pid 99439)] INFO:__main__:Epoch 23/50, Train Loss: 0.04844446137950227, Val Loss: 0.044344830553273894
+2024-07-19 14:24:24.419 [7/cross_validate_train/61 (pid 99439)] INFO:__main__:Epoch 24/50, Train Loss: 0.04682002251816762, Val Loss: 0.04284936627624808
+2024-07-19 14:24:24.628 [7/cross_validate_train/61 (pid 99439)] INFO:__main__:Epoch 25/50, Train Loss: 0.04540485571566466, Val Loss: 0.04113922884838807
+2024-07-19 14:24:24.840 [7/cross_validate_train/61 (pid 99439)] INFO:__main__:Epoch 26/50, Train Loss: 0.04449890926480293, Val Loss: 0.0411168037838227
+2024-07-19 14:24:25.055 [7/cross_validate_train/61 (pid 99439)] INFO:__main__:Epoch 27/50, Train Loss: 0.043910230837158254, Val Loss: 0.03992302154467718
+2024-07-19 14:24:25.268 [7/cross_validate_train/61 (pid 99439)] INFO:__main__:Epoch 28/50, Train Loss: 0.04343415351232161, Val Loss: 0.03958254997190591
+2024-07-19 14:24:25.478 [7/cross_validate_train/61 (pid 99439)] INFO:__main__:Epoch 29/50, Train Loss: 0.04315314542602848, Val Loss: 0.039817681485736695
+2024-07-19 14:24:25.686 [7/cross_validate_train/61 (pid 99439)] INFO:__main__:Epoch 30/50, Train Loss: 0.04298032105371759, Val Loss: 0.03908557110038158
+2024-07-19 14:24:25.900 [7/cross_validate_train/61 (pid 99439)] INFO:__main__:Epoch 31/50, Train Loss: 0.04276499494507506, Val Loss: 0.03943177423364407
+2024-07-19 14:24:26.108 [7/cross_validate_train/61 (pid 99439)] INFO:__main__:Epoch 32/50, Train Loss: 0.04271347735177826, Val Loss: 0.03897881812441188
+2024-07-19 14:24:26.327 [7/cross_validate_train/61 (pid 99439)] INFO:__main__:Epoch 33/50, Train Loss: 0.042818008242426694, Val Loss: 0.038973822107387555
+2024-07-19 14:24:26.556 [7/cross_validate_train/61 (pid 99439)] INFO:__main__:Epoch 34/50, Train Loss: 0.04225131662914882, Val Loss: 0.03897966879948571
+2024-07-19 14:24:26.769 [7/cross_validate_train/61 (pid 99439)] INFO:__main__:Epoch 35/50, Train Loss: 0.043036362559006024, Val Loss: 0.03908728000179336
+2024-07-19 14:24:26.983 [7/cross_validate_train/61 (pid 99439)] INFO:__main__:Epoch 36/50, Train Loss: 0.04238078003195492, Val Loss: 0.038891594982831866
+2024-07-19 14:24:27.198 [7/cross_validate_train/61 (pid 99439)] INFO:__main__:Epoch 37/50, Train Loss: 0.042852812371141205, Val Loss: 0.0391956298435862
+2024-07-19 14:24:27.408 [7/cross_validate_train/61 (pid 99439)] INFO:__main__:Epoch 38/50, Train Loss: 0.042413903954061305, Val Loss: 0.03933105265369286
+2024-07-19 14:24:27.618 [7/cross_validate_train/61 (pid 99439)] INFO:__main__:Epoch 39/50, Train Loss: 0.04373990744352341, Val Loss: 0.03998782400142502
+2024-07-19 14:24:27.833 [7/cross_validate_train/61 (pid 99439)] INFO:__main__:Epoch 40/50, Train Loss: 0.04306564243460024, Val Loss: 0.03862797398422215
+2024-07-19 14:24:28.033 [7/cross_validate_train/61 (pid 99439)] INFO:__main__:Epoch 41/50, Train Loss: 0.0427834871854331, Val Loss: 0.03940204800282781
+2024-07-19 14:24:28.237 [7/cross_validate_train/61 (pid 99439)] INFO:__main__:Epoch 42/50, Train Loss: 0.04246685223502887, Val Loss: 0.03854746457088638
+2024-07-19 14:24:28.441 [7/cross_validate_train/61 (pid 99439)] INFO:__main__:Epoch 43/50, Train Loss: 0.042586662076614996, Val Loss: 0.03938081759858776
+2024-07-19 14:24:28.647 [7/cross_validate_train/61 (pid 99439)] INFO:__main__:Epoch 44/50, Train Loss: 0.04251603072358144, Val Loss: 0.03880274446832167
+2024-07-19 14:24:28.878 [7/cross_validate_train/61 (pid 99439)] INFO:__main__:Epoch 45/50, Train Loss: 0.04323482357368276, Val Loss: 0.03934194489910796
+2024-07-19 14:24:29.091 [7/cross_validate_train/61 (pid 99439)] INFO:__main__:Epoch 46/50, Train Loss: 0.04244178347289562, Val Loss: 0.03854226361255388
+2024-07-19 14:24:29.294 [7/cross_validate_train/61 (pid 99439)] INFO:__main__:Epoch 47/50, Train Loss: 0.04263651683121114, Val Loss: 0.039515811194841925
+2024-07-19 14:24:29.494 [7/cross_validate_train/61 (pid 99439)] INFO:__main__:Epoch 48/50, Train Loss: 0.042379918155839316, Val Loss: 0.03842192578658059
+2024-07-19 14:24:29.694 [7/cross_validate_train/61 (pid 99439)] INFO:__main__:Epoch 49/50, Train Loss: 0.04261906908170597, Val Loss: 0.03891126934841678
+2024-07-19 14:24:29.897 [7/cross_validate_train/61 (pid 99439)] INFO:__main__:Epoch 50/50, Train Loss: 0.042252655090713825, Val Loss: 0.03844205322801261
+2024-07-19 14:24:29.897 [7/cross_validate_train/61 (pid 99439)] INFO:__main__:Fold 0, MAPE: 6.22%
+2024-07-19 14:24:30.192 [7/cross_validate_train/61 (pid 99439)] INFO:__main__:Training image saved at metaflow_models//bgd_education_1001_5000_LSTM//train_f0_bgd_education_1001_5000_LSTM.png
+2024-07-19 14:24:30.680 [7/cross_validate_train/61 (pid 99439)] INFO:__main__:Epoch 1/50, Train Loss: 0.04177316307562263, Val Loss: 0.03980722238083143
+2024-07-19 14:24:31.026 [7/cross_validate_train/61 (pid 99439)] INFO:__main__:Epoch 2/50, Train Loss: 0.04099386413773037, Val Loss: 0.03844464930227479
+2024-07-19 14:24:31.402 [7/cross_validate_train/61 (pid 99439)] INFO:__main__:Epoch 3/50, Train Loss: 0.04063167505935855, Val Loss: 0.0382033906423965
+2024-07-19 14:24:31.812 [7/cross_validate_train/61 (pid 99439)] INFO:__main__:Epoch 4/50, Train Loss: 0.04063164269270962, Val Loss: 0.03823104571249034
+2024-07-19 14:24:32.159 [7/cross_validate_train/61 (pid 99439)] INFO:__main__:Epoch 5/50, Train Loss: 0.04070814132486304, Val Loss: 0.03842459316994693
+2024-07-19 14:24:32.503 [7/cross_validate_train/61 (pid 99439)] INFO:__main__:Epoch 6/50, Train Loss: 0.04077769095103626, Val Loss: 0.04031615492862624
+2024-07-19 14:24:32.853 [7/cross_validate_train/61 (pid 99439)] INFO:__main__:Epoch 7/50, Train Loss: 0.041171557844093404, Val Loss: 0.041430508919261595
+2024-07-19 14:24:33.196 [7/cross_validate_train/61 (pid 99439)] INFO:__main__:Epoch 8/50, Train Loss: 0.04098038931619631, Val Loss: 0.04106781858246069
+2024-07-19 14:24:33.549 [7/cross_validate_train/61 (pid 99439)] INFO:__main__:Epoch 9/50, Train Loss: 0.04073631767285605, Val Loss: 0.041183961807070554
+2024-07-19 14:24:33.909 [7/cross_validate_train/61 (pid 99439)] INFO:__main__:Epoch 10/50, Train Loss: 0.04081242810934782, Val Loss: 0.040116567894615034
+2024-07-19 14:24:34.273 [7/cross_validate_train/61 (pid 99439)] INFO:__main__:Epoch 11/50, Train Loss: 0.040676648779580854, Val Loss: 0.04052399909375487
+2024-07-19 14:24:34.639 [7/cross_validate_train/61 (pid 99439)] INFO:__main__:Epoch 12/50, Train Loss: 0.04072490446779826, Val Loss: 0.040521673984020144
+2024-07-19 14:24:35.002 [7/cross_validate_train/61 (pid 99439)] INFO:__main__:Epoch 13/50, Train Loss: 0.040532619717900883, Val Loss: 0.04013547822329644
+2024-07-19 14:24:35.372 [7/cross_validate_train/61 (pid 99439)] INFO:__main__:Epoch 14/50, Train Loss: 0.04051577076571037, Val Loss: 0.039741102908108686
+2024-07-19 14:24:35.731 [7/cross_validate_train/61 (pid 99439)] INFO:__main__:Epoch 15/50, Train Loss: 0.04050260831997411, Val Loss: 0.040474538112411626
+2024-07-19 14:24:36.093 [7/cross_validate_train/61 (pid 99439)] INFO:__main__:Epoch 16/50, Train Loss: 0.040366895420298185, Val Loss: 0.03945050836616271
+2024-07-19 14:24:36.456 [7/cross_validate_train/61 (pid 99439)] INFO:__main__:Epoch 17/50, Train Loss: 0.040290199079844234, Val Loss: 0.039691239243020884
+2024-07-19 14:24:36.813 [7/cross_validate_train/61 (pid 99439)] INFO:__main__:Epoch 18/50, Train Loss: 0.04027709199039087, Val Loss: 0.03898047046685541
+2024-07-19 14:24:37.177 [7/cross_validate_train/61 (pid 99439)] INFO:__main__:Epoch 19/50, Train Loss: 0.040117022989649476, Val Loss: 0.03913570829742664
+2024-07-19 14:24:37.544 [7/cross_validate_train/61 (pid 99439)] INFO:__main__:Epoch 20/50, Train Loss: 0.04009261759227677, Val Loss: 0.03917710916013331
+2024-07-19 14:24:37.913 [7/cross_validate_train/61 (pid 99439)] INFO:__main__:Epoch 21/50, Train Loss: 0.04001503455618473, Val Loss: 0.03805493583550324
+2024-07-19 14:24:38.273 [7/cross_validate_train/61 (pid 99439)] INFO:__main__:Epoch 22/50, Train Loss: 0.040159624223023244, Val Loss: 0.039131235859885406
+2024-07-19 14:24:38.650 [7/cross_validate_train/61 (pid 99439)] INFO:__main__:Epoch 23/50, Train Loss: 0.03999407595814499, Val Loss: 0.038368095920698064
+2024-07-19 14:24:39.027 [7/cross_validate_train/61 (pid 99439)] INFO:__main__:Epoch 24/50, Train Loss: 0.040049531548092626, Val Loss: 0.03955929761601461
+2024-07-19 14:24:39.383 [7/cross_validate_train/61 (pid 99439)] INFO:__main__:Epoch 25/50, Train Loss: 0.03991520458398617, Val Loss: 0.038718996594685154
+2024-07-19 14:24:39.731 [7/cross_validate_train/61 (pid 99439)] INFO:__main__:Epoch 26/50, Train Loss: 0.03991933816354977, Val Loss: 0.038432981391009445
+2024-07-19 14:24:40.085 [7/cross_validate_train/61 (pid 99439)] INFO:__main__:Epoch 27/50, Train Loss: 0.04007897163703017, Val Loss: 0.03963574580848217
+2024-07-19 14:24:40.453 [7/cross_validate_train/61 (pid 99439)] INFO:__main__:Epoch 28/50, Train Loss: 0.039932534443086955, Val Loss: 0.03918811150297925
+2024-07-19 14:24:40.818 [7/cross_validate_train/61 (pid 99439)] INFO:__main__:Epoch 29/50, Train Loss: 0.03999863792057723, Val Loss: 0.03912399905557568
+2024-07-19 14:24:41.185 [7/cross_validate_train/61 (pid 99439)] INFO:__main__:Epoch 30/50, Train Loss: 0.03986118524654271, Val Loss: 0.038962654140148614
+2024-07-19 14:24:41.551 [7/cross_validate_train/61 (pid 99439)] INFO:__main__:Epoch 31/50, Train Loss: 0.039774652328087044, Val Loss: 0.03861557732562761
+2024-07-19 14:24:41.915 [7/cross_validate_train/61 (pid 99439)] INFO:__main__:Epoch 32/50, Train Loss: 0.03996359259655623, Val Loss: 0.039272655556733545
+2024-07-19 14:24:42.281 [7/cross_validate_train/61 (pid 99439)] INFO:__main__:Epoch 33/50, Train Loss: 0.03977194955342845, Val Loss: 0.03832149450239297
+2024-07-19 14:24:42.645 [7/cross_validate_train/61 (pid 99439)] INFO:__main__:Epoch 34/50, Train Loss: 0.039794350004665656, Val Loss: 0.0382290856308631
+2024-07-19 14:24:43.024 [7/cross_validate_train/61 (pid 99439)] INFO:__main__:Epoch 35/50, Train Loss: 0.039827451543652845, Val Loss: 0.03877044436395974
+2024-07-19 14:24:43.390 [7/cross_validate_train/61 (pid 99439)] INFO:__main__:Epoch 36/50, Train Loss: 0.03974938103036113, Val Loss: 0.03791680375768526
+2024-07-19 14:24:43.753 [7/cross_validate_train/61 (pid 99439)] INFO:__main__:Epoch 37/50, Train Loss: 0.039853465130986414, Val Loss: 0.038811220107851804
+2024-07-19 14:24:44.111 [7/cross_validate_train/61 (pid 99439)] INFO:__main__:Epoch 38/50, Train Loss: 0.03962113482443846, Val Loss: 0.03759448708513299
+2024-07-19 14:24:44.471 [7/cross_validate_train/61 (pid 99439)] INFO:__main__:Epoch 39/50, Train Loss: 0.04005896134225473, Val Loss: 0.03773767397915189
+2024-07-19 14:24:44.832 [7/cross_validate_train/61 (pid 99439)] INFO:__main__:Epoch 40/50, Train Loss: 0.04020268688208028, Val Loss: 0.03739121901123105
+2024-07-19 14:24:45.195 [7/cross_validate_train/61 (pid 99439)] INFO:__main__:Epoch 41/50, Train Loss: 0.03994514559689041, Val Loss: 0.03750981846069162
+2024-07-19 14:24:45.556 [7/cross_validate_train/61 (pid 99439)] INFO:__main__:Epoch 42/50, Train Loss: 0.0396734962928785, Val Loss: 0.03772126299303931
+2024-07-19 14:24:45.915 [7/cross_validate_train/61 (pid 99439)] INFO:__main__:Epoch 43/50, Train Loss: 0.039815998266208665, Val Loss: 0.03762353025376797
+2024-07-19 14:24:46.286 [7/cross_validate_train/61 (pid 99439)] INFO:__main__:Epoch 44/50, Train Loss: 0.04006395250405759, Val Loss: 0.037800789886229744
+2024-07-19 14:24:46.655 [7/cross_validate_train/61 (pid 99439)] INFO:__main__:Epoch 45/50, Train Loss: 0.03981862820633878, Val Loss: 0.0376366501472689
+2024-07-19 14:24:47.020 [7/cross_validate_train/61 (pid 99439)] INFO:__main__:Epoch 46/50, Train Loss: 0.0403451339839256, Val Loss: 0.03832893901680772
+2024-07-19 14:24:47.384 [7/cross_validate_train/61 (pid 99439)] INFO:__main__:Epoch 47/50, Train Loss: 0.03950173004645191, Val Loss: 0.037620299722294546
+2024-07-19 14:24:47.746 [7/cross_validate_train/61 (pid 99439)] INFO:__main__:Epoch 48/50, Train Loss: 0.03974400774563012, Val Loss: 0.03769724735537091
+2024-07-19 14:24:48.121 [7/cross_validate_train/61 (pid 99439)] INFO:__main__:Epoch 49/50, Train Loss: 0.039921681115990634, Val Loss: 0.03793534560984856
+2024-07-19 14:24:48.482 [7/cross_validate_train/61 (pid 99439)] INFO:__main__:Epoch 50/50, Train Loss: 0.03969542092758499, Val Loss: 0.037564677916265825
+2024-07-19 14:24:48.482 [7/cross_validate_train/61 (pid 99439)] INFO:__main__:Fold 1, MAPE: 5.50%
+2024-07-19 14:24:48.577 [7/cross_validate_train/61 (pid 99439)] INFO:__main__:Training image saved at metaflow_models//bgd_education_1001_5000_LSTM//train_f1_bgd_education_1001_5000_LSTM.png
+2024-07-19 14:24:49.128 [7/cross_validate_train/61 (pid 99439)] INFO:__main__:Epoch 1/50, Train Loss: 0.040379010894420475, Val Loss: 0.03072029452871632
+2024-07-19 14:24:49.619 [7/cross_validate_train/61 (pid 99439)] INFO:__main__:Epoch 2/50, Train Loss: 0.04035430393097075, Val Loss: 0.03616292548139353
+2024-07-19 14:24:50.130 [7/cross_validate_train/61 (pid 99439)] INFO:__main__:Epoch 3/50, Train Loss: 0.040556894268163224, Val Loss: 0.03608231629068787
+2024-07-19 14:24:50.657 [7/cross_validate_train/61 (pid 99439)] INFO:__main__:Epoch 4/50, Train Loss: 0.04057450314814394, Val Loss: 0.034129921397244606
+2024-07-19 14:24:51.177 [7/cross_validate_train/61 (pid 99439)] INFO:__main__:Epoch 5/50, Train Loss: 0.04042946834286505, Val Loss: 0.03531056511643771
+2024-07-19 14:24:51.696 [7/cross_validate_train/61 (pid 99439)] INFO:__main__:Epoch 6/50, Train Loss: 0.04060216276821765, Val Loss: 0.03521864810908163
+2024-07-19 14:24:52.209 [7/cross_validate_train/61 (pid 99439)] INFO:__main__:Epoch 7/50, Train Loss: 0.040603294994004745, Val Loss: 0.03626647395258014
+2024-07-19 14:24:52.731 [7/cross_validate_train/61 (pid 99439)] INFO:__main__:Epoch 8/50, Train Loss: 0.04076183457774195, Val Loss: 0.03285392147262354
+2024-07-19 14:24:53.260 [7/cross_validate_train/61 (pid 99439)] INFO:__main__:Epoch 9/50, Train Loss: 0.04053776174445044, Val Loss: 0.03274422778269729
+2024-07-19 14:24:53.782 [7/cross_validate_train/61 (pid 99439)] INFO:__main__:Epoch 10/50, Train Loss: 0.040414251590316946, Val Loss: 0.033596662452092044
+2024-07-19 14:24:54.298 [7/cross_validate_train/61 (pid 99439)] INFO:__main__:Epoch 11/50, Train Loss: 0.04049847103147344, Val Loss: 0.03178309392486069
+2024-07-19 14:24:54.811 [7/cross_validate_train/61 (pid 99439)] INFO:__main__:Epoch 12/50, Train Loss: 0.04040929896079681, Val Loss: 0.03245833944025878
+2024-07-19 14:24:55.327 [7/cross_validate_train/61 (pid 99439)] INFO:__main__:Epoch 13/50, Train Loss: 0.04035328111018647, Val Loss: 0.03204852649690332
+2024-07-19 14:24:55.839 [7/cross_validate_train/61 (pid 99439)] INFO:__main__:Epoch 14/50, Train Loss: 0.04032940470867536, Val Loss: 0.03201678631877577
+2024-07-19 14:24:56.364 [7/cross_validate_train/61 (pid 99439)] INFO:__main__:Epoch 15/50, Train Loss: 0.0402753675441173, Val Loss: 0.031298143285754566
+2024-07-19 14:24:56.901 [7/cross_validate_train/61 (pid 99439)] INFO:__main__:Epoch 16/50, Train Loss: 0.04014254142106934, Val Loss: 0.03237052986750732
+2024-07-19 14:24:57.428 [7/cross_validate_train/61 (pid 99439)] INFO:__main__:Epoch 17/50, Train Loss: 0.04019162333147092, Val Loss: 0.03290565100473326
+2024-07-19 14:24:57.964 [7/cross_validate_train/61 (pid 99439)] INFO:__main__:Epoch 18/50, Train Loss: 0.040262150823731316, Val Loss: 0.032516358118202235
+2024-07-19 14:24:58.476 [7/cross_validate_train/61 (pid 99439)] INFO:__main__:Epoch 19/50, Train Loss: 0.04024829717183655, Val Loss: 0.03279592147147333
+2024-07-19 14:24:58.990 [7/cross_validate_train/61 (pid 99439)] INFO:__main__:Epoch 20/50, Train Loss: 0.04022143355316737, Val Loss: 0.03113937030571538
+2024-07-19 14:24:59.523 [7/cross_validate_train/61 (pid 99439)] INFO:__main__:Epoch 21/50, Train Loss: 0.04007315072654323, Val Loss: 0.03262657531209894
+2024-07-19 14:25:00.045 [7/cross_validate_train/61 (pid 99439)] INFO:__main__:Epoch 22/50, Train Loss: 0.04019140029664744, Val Loss: 0.03244467613262099
+2024-07-19 14:25:00.585 [7/cross_validate_train/61 (pid 99439)] INFO:__main__:Epoch 23/50, Train Loss: 0.040137549472803416, Val Loss: 0.03223613785529459
+2024-07-19 14:25:01.105 [7/cross_validate_train/61 (pid 99439)] INFO:__main__:Epoch 24/50, Train Loss: 0.04011798226697878, Val Loss: 0.03220800914474436
+2024-07-19 14:25:01.631 [7/cross_validate_train/61 (pid 99439)] INFO:__main__:Epoch 25/50, Train Loss: 0.0400710233995183, Val Loss: 0.03245713118765805
+2024-07-19 14:25:02.149 [7/cross_validate_train/61 (pid 99439)] INFO:__main__:Epoch 26/50, Train Loss: 0.04004379737783562, Val Loss: 0.031947155457896156
+2024-07-19 14:25:02.729 [7/cross_validate_train/61 (pid 99439)] INFO:__main__:Epoch 27/50, Train Loss: 0.04002391535111449, Val Loss: 0.03230370128074208
+2024-07-19 14:25:03.254 [7/cross_validate_train/61 (pid 99439)] INFO:__main__:Epoch 28/50, Train Loss: 0.040025780282237314, Val Loss: 0.03165694245615521
+2024-07-19 14:25:03.770 [7/cross_validate_train/61 (pid 99439)] INFO:__main__:Epoch 29/50, Train Loss: 0.03993531410497698, Val Loss: 0.03152390217056145
+2024-07-19 14:25:04.284 [7/cross_validate_train/61 (pid 99439)] INFO:__main__:Epoch 30/50, Train Loss: 0.039833273467692464, Val Loss: 0.03219009553258483
+2024-07-19 14:25:04.798 [7/cross_validate_train/61 (pid 99439)] INFO:__main__:Epoch 31/50, Train Loss: 0.03987728609618815, Val Loss: 0.03333043135903977
+2024-07-19 14:25:05.319 [7/cross_validate_train/61 (pid 99439)] INFO:__main__:Epoch 32/50, Train Loss: 0.04015843172303655, Val Loss: 0.030264964780291996
+2024-07-19 14:25:05.828 [7/cross_validate_train/61 (pid 99439)] INFO:__main__:Epoch 33/50, Train Loss: 0.03988233739510179, Val Loss: 0.033061677489329026
+2024-07-19 14:25:06.355 [7/cross_validate_train/61 (pid 99439)] INFO:__main__:Epoch 34/50, Train Loss: 0.03997780873694203, Val Loss: 0.03151127796720814
+2024-07-19 14:25:06.881 [7/cross_validate_train/61 (pid 99439)] INFO:__main__:Epoch 35/50, Train Loss: 0.039792781534858726, Val Loss: 0.03183124254684191
+2024-07-19 14:25:07.409 [7/cross_validate_train/61 (pid 99439)] INFO:__main__:Epoch 36/50, Train Loss: 0.03986643877896395, Val Loss: 0.031001282100741927
+2024-07-19 14:25:07.933 [7/cross_validate_train/61 (pid 99439)] INFO:__main__:Epoch 37/50, Train Loss: 0.03990289613773877, Val Loss: 0.030404338260760177
+2024-07-19 14:25:08.461 [7/cross_validate_train/61 (pid 99439)] INFO:__main__:Epoch 38/50, Train Loss: 0.039779071501371534, Val Loss: 0.03073345990599813
+2024-07-19 14:25:08.996 [7/cross_validate_train/61 (pid 99439)] INFO:__main__:Epoch 39/50, Train Loss: 0.03977495562285185, Val Loss: 0.031000312216378546
+2024-07-19 14:25:09.522 [7/cross_validate_train/61 (pid 99439)] INFO:__main__:Epoch 40/50, Train Loss: 0.03995233044366945, Val Loss: 0.029732347239513655
+2024-07-19 14:25:10.050 [7/cross_validate_train/61 (pid 99439)] INFO:__main__:Epoch 41/50, Train Loss: 0.04007476611401547, Val Loss: 0.028727423047294486
+2024-07-19 14:25:10.551 [7/cross_validate_train/61 (pid 99439)] INFO:__main__:Epoch 42/50, Train Loss: 0.03984022970226678, Val Loss: 0.029049979472482525
+2024-07-19 14:25:11.042 [7/cross_validate_train/61 (pid 99439)] INFO:__main__:Epoch 43/50, Train Loss: 0.03985665092583407, Val Loss: 0.028623234228910627
+2024-07-19 14:25:11.540 [7/cross_validate_train/61 (pid 99439)] INFO:__main__:Epoch 44/50, Train Loss: 0.0400168238715692, Val Loss: 0.02822733826532557
+2024-07-19 14:25:12.038 [7/cross_validate_train/61 (pid 99439)] INFO:__main__:Epoch 45/50, Train Loss: 0.03981765833767978, Val Loss: 0.028605803142528276
+2024-07-19 14:25:12.555 [7/cross_validate_train/61 (pid 99439)] INFO:__main__:Epoch 46/50, Train Loss: 0.039814714875749564, Val Loss: 0.02831442407458215
+2024-07-19 14:25:13.080 [7/cross_validate_train/61 (pid 99439)] INFO:__main__:Epoch 47/50, Train Loss: 0.03990847383710471, Val Loss: 0.028071017231087427
+2024-07-19 14:25:13.601 [7/cross_validate_train/61 (pid 99439)] INFO:__main__:Epoch 48/50, Train Loss: 0.03983083743263375, Val Loss: 0.0282788538952937
+2024-07-19 14:25:14.147 [7/cross_validate_train/61 (pid 99439)] INFO:__main__:Epoch 49/50, Train Loss: 0.03976830425248905, Val Loss: 0.02814947093862134
+2024-07-19 14:25:14.668 [7/cross_validate_train/61 (pid 99439)] INFO:__main__:Epoch 50/50, Train Loss: 0.0396361495537514, Val Loss: 0.028662713445924425
+2024-07-19 14:25:14.668 [7/cross_validate_train/61 (pid 99439)] INFO:__main__:Fold 2, MAPE: 3.30%
+2024-07-19 14:25:14.760 [7/cross_validate_train/61 (pid 99439)] INFO:__main__:Training image saved at metaflow_models//bgd_education_1001_5000_LSTM//train_f2_bgd_education_1001_5000_LSTM.png
+2024-07-19 14:25:15.467 [7/cross_validate_train/61 (pid 99439)] INFO:__main__:Epoch 1/50, Train Loss: 0.03604217484108593, Val Loss: 0.027045147493481636
+2024-07-19 14:25:16.150 [7/cross_validate_train/61 (pid 99439)] INFO:__main__:Epoch 2/50, Train Loss: 0.036136653446528604, Val Loss: 0.026734001481452503
+2024-07-19 14:25:16.794 [7/cross_validate_train/61 (pid 99439)] INFO:__main__:Epoch 3/50, Train Loss: 0.03596288518189159, Val Loss: 0.026526266910337114
+2024-07-19 14:25:17.424 [7/cross_validate_train/61 (pid 99439)] INFO:__main__:Epoch 4/50, Train Loss: 0.036023929944797736, Val Loss: 0.026867808824455417
+2024-07-19 14:25:18.075 [7/cross_validate_train/61 (pid 99439)] INFO:__main__:Epoch 5/50, Train Loss: 0.03583110768781745, Val Loss: 0.02653906202396831
+2024-07-19 14:25:18.738 [7/cross_validate_train/61 (pid 99439)] INFO:__main__:Epoch 6/50, Train Loss: 0.03608467047778915, Val Loss: 0.026995192860832084
+2024-07-19 14:25:19.430 [7/cross_validate_train/61 (pid 99439)] INFO:__main__:Epoch 7/50, Train Loss: 0.03589804383785757, Val Loss: 0.026684520564771986
+2024-07-19 14:25:20.102 [7/cross_validate_train/61 (pid 99439)] INFO:__main__:Epoch 8/50, Train Loss: 0.035891432072712136, Val Loss: 0.026026971487177385
+2024-07-19 14:25:20.793 [7/cross_validate_train/61 (pid 99439)] INFO:__main__:Epoch 9/50, Train Loss: 0.0359926312995998, Val Loss: 0.02663856855518109
+2024-07-19 14:25:21.465 [7/cross_validate_train/61 (pid 99439)] INFO:__main__:Epoch 10/50, Train Loss: 0.036139272306471654, Val Loss: 0.02706840795439643
+2024-07-19 14:25:22.141 [7/cross_validate_train/61 (pid 99439)] INFO:__main__:Epoch 11/50, Train Loss: 0.03584394580365656, Val Loss: 0.027873140885620505
+2024-07-19 14:25:22.808 [7/cross_validate_train/61 (pid 99439)] INFO:__main__:Epoch 12/50, Train Loss: 0.03598675672092462, Val Loss: 0.02698685525841004
+2024-07-19 14:25:23.483 [7/cross_validate_train/61 (pid 99439)] INFO:__main__:Epoch 13/50, Train Loss: 0.03593754980789676, Val Loss: 0.026496836965953983
+2024-07-19 14:25:24.151 [7/cross_validate_train/61 (pid 99439)] INFO:__main__:Epoch 14/50, Train Loss: 0.035931320146542704, Val Loss: 0.02757583573661946
+2024-07-19 14:25:24.820 [7/cross_validate_train/61 (pid 99439)] INFO:__main__:Epoch 15/50, Train Loss: 0.035876565204601585, Val Loss: 0.027097461845826457
+2024-07-19 14:25:25.489 [7/cross_validate_train/61 (pid 99439)] INFO:__main__:Epoch 16/50, Train Loss: 0.03593777495831864, Val Loss: 0.027171117027063627
+2024-07-19 14:25:26.157 [7/cross_validate_train/61 (pid 99439)] INFO:__main__:Epoch 17/50, Train Loss: 0.03586946478215595, Val Loss: 0.026959832103268522
+2024-07-19 14:25:26.839 [7/cross_validate_train/61 (pid 99439)] INFO:__main__:Epoch 18/50, Train Loss: 0.03588840750696724, Val Loss: 0.027747823328182503
+2024-07-19 14:25:27.512 [7/cross_validate_train/61 (pid 99439)] INFO:__main__:Epoch 19/50, Train Loss: 0.03588194396244745, Val Loss: 0.027546667871443
+2024-07-19 14:25:28.195 [7/cross_validate_train/61 (pid 99439)] INFO:__main__:Epoch 20/50, Train Loss: 0.035899621970339184, Val Loss: 0.02725689228926156
+2024-07-19 14:25:28.872 [7/cross_validate_train/61 (pid 99439)] INFO:__main__:Epoch 21/50, Train Loss: 0.03580395563518348, Val Loss: 0.0274130765952774
+2024-07-19 14:25:29.582 [7/cross_validate_train/61 (pid 99439)] INFO:__main__:Epoch 22/50, Train Loss: 0.035931353106431356, Val Loss: 0.027223208113699347
+2024-07-19 14:25:30.251 [7/cross_validate_train/61 (pid 99439)] INFO:__main__:Epoch 23/50, Train Loss: 0.0358927084375428, Val Loss: 0.027108395472168922
+2024-07-19 14:25:30.925 [7/cross_validate_train/61 (pid 99439)] INFO:__main__:Epoch 24/50, Train Loss: 0.03593332097189476, Val Loss: 0.02625206032314816
+2024-07-19 14:25:31.604 [7/cross_validate_train/61 (pid 99439)] INFO:__main__:Epoch 25/50, Train Loss: 0.035826941875562276, Val Loss: 0.027807364491997538
+2024-07-19 14:25:32.282 [7/cross_validate_train/61 (pid 99439)] INFO:__main__:Epoch 26/50, Train Loss: 0.03572934509369813, Val Loss: 0.026302074560442486
+2024-07-19 14:25:32.957 [7/cross_validate_train/61 (pid 99439)] INFO:__main__:Epoch 27/50, Train Loss: 0.03586209576883136, Val Loss: 0.02688961158934477
+2024-07-19 14:25:33.651 [7/cross_validate_train/61 (pid 99439)] INFO:__main__:Epoch 28/50, Train Loss: 0.03586143246303274, Val Loss: 0.02701861290512858
+2024-07-19 14:25:34.292 [7/cross_validate_train/61 (pid 99439)] INFO:__main__:Epoch 29/50, Train Loss: 0.035901242184567535, Val Loss: 0.026337786149736996
+2024-07-19 14:25:34.949 [7/cross_validate_train/61 (pid 99439)] INFO:__main__:Epoch 30/50, Train Loss: 0.03581035665989126, Val Loss: 0.026866652876944154
+2024-07-19 14:25:35.621 [7/cross_validate_train/61 (pid 99439)] INFO:__main__:Epoch 31/50, Train Loss: 0.03584954702639825, Val Loss: 0.02668004684351586
+2024-07-19 14:25:36.333 [7/cross_validate_train/61 (pid 99439)] INFO:__main__:Epoch 32/50, Train Loss: 0.03583317063110944, Val Loss: 0.02679313955878889
+2024-07-19 14:25:37.029 [7/cross_validate_train/61 (pid 99439)] INFO:__main__:Epoch 33/50, Train Loss: 0.03594405360341276, Val Loss: 0.026249723307587004
+2024-07-19 14:25:37.709 [7/cross_validate_train/61 (pid 99439)] INFO:__main__:Epoch 34/50, Train Loss: 0.03575762820570436, Val Loss: 0.027353524356274993
+2024-07-19 14:25:38.352 [7/cross_validate_train/61 (pid 99439)] INFO:__main__:Epoch 35/50, Train Loss: 0.03579685661610063, Val Loss: 0.026278533091818965
+2024-07-19 14:25:39.028 [7/cross_validate_train/61 (pid 99439)] INFO:__main__:Epoch 36/50, Train Loss: 0.03581486836279908, Val Loss: 0.026951763879608463
+2024-07-19 14:25:39.729 [7/cross_validate_train/61 (pid 99439)] INFO:__main__:Epoch 37/50, Train Loss: 0.035685197507630884, Val Loss: 0.028171905240899808
+2024-07-19 14:25:40.428 [7/cross_validate_train/61 (pid 99439)] INFO:__main__:Epoch 38/50, Train Loss: 0.03606069198337524, Val Loss: 0.028475719680254523
+2024-07-19 14:25:41.078 [7/cross_validate_train/61 (pid 99439)] INFO:__main__:Epoch 39/50, Train Loss: 0.03596790090892209, Val Loss: 0.027612333110458142
+2024-07-19 14:25:41.752 [7/cross_validate_train/61 (pid 99439)] INFO:__main__:Epoch 40/50, Train Loss: 0.035968022312560716, Val Loss: 0.026973526874506795
+2024-07-19 14:25:42.421 [7/cross_validate_train/61 (pid 99439)] INFO:__main__:Epoch 41/50, Train Loss: 0.03586559451172409, Val Loss: 0.02643291697510191
+2024-07-19 14:25:43.097 [7/cross_validate_train/61 (pid 99439)] INFO:__main__:Epoch 42/50, Train Loss: 0.035741464962085634, Val Loss: 0.0261285881939772
+2024-07-19 14:25:43.764 [7/cross_validate_train/61 (pid 99439)] INFO:__main__:Epoch 43/50, Train Loss: 0.035654164040588764, Val Loss: 0.02596551431594668
+2024-07-19 14:25:44.421 [7/cross_validate_train/61 (pid 99439)] INFO:__main__:Epoch 44/50, Train Loss: 0.035681500303724856, Val Loss: 0.026437254874287424
+2024-07-19 14:25:45.094 [7/cross_validate_train/61 (pid 99439)] INFO:__main__:Epoch 45/50, Train Loss: 0.03561333707240347, Val Loss: 0.027275602459102065
+2024-07-19 14:25:45.767 [7/cross_validate_train/61 (pid 99439)] INFO:__main__:Epoch 46/50, Train Loss: 0.03566870807146985, Val Loss: 0.027847325580345618
+2024-07-19 14:25:46.444 [7/cross_validate_train/61 (pid 99439)] INFO:__main__:Epoch 47/50, Train Loss: 0.0357320014808378, Val Loss: 0.028088429691018286
+2024-07-19 14:25:47.108 [7/cross_validate_train/61 (pid 99439)] INFO:__main__:Epoch 48/50, Train Loss: 0.03555107702922127, Val Loss: 0.02789197363764853
+2024-07-19 14:25:47.775 [7/cross_validate_train/61 (pid 99439)] INFO:__main__:Epoch 49/50, Train Loss: 0.035783722531050444, Val Loss: 0.027412097045295947
+2024-07-19 14:25:48.454 [7/cross_validate_train/61 (pid 99439)] INFO:__main__:Epoch 50/50, Train Loss: 0.0356381584711577, Val Loss: 0.02715139911585563
+2024-07-19 14:25:48.454 [7/cross_validate_train/61 (pid 99439)] INFO:__main__:Fold 3, MAPE: 2.55%
+2024-07-19 14:25:48.563 [7/cross_validate_train/61 (pid 99439)] INFO:__main__:Training image saved at metaflow_models//bgd_education_1001_5000_LSTM//train_f3_bgd_education_1001_5000_LSTM.png
+2024-07-19 14:25:49.427 [7/cross_validate_train/61 (pid 99439)] INFO:__main__:Epoch 1/50, Train Loss: 0.02939352942221276, Val Loss: 0.029218825826270355
+2024-07-19 14:25:50.240 [7/cross_validate_train/61 (pid 99439)] INFO:__main__:Epoch 2/50, Train Loss: 0.02925050324136084, Val Loss: 0.02620941205453631
+2024-07-19 14:25:51.035 [7/cross_validate_train/61 (pid 99439)] INFO:__main__:Epoch 3/50, Train Loss: 0.029029508648378836, Val Loss: 0.02607097547199275
+2024-07-19 14:25:51.837 [7/cross_validate_train/61 (pid 99439)] INFO:__main__:Epoch 4/50, Train Loss: 0.02896824575817356, Val Loss: 0.026410877666864042
+2024-07-19 14:25:52.621 [7/cross_validate_train/61 (pid 99439)] INFO:__main__:Epoch 5/50, Train Loss: 0.029013453583632196, Val Loss: 0.02601009655139736
+2024-07-19 14:25:53.402 [7/cross_validate_train/61 (pid 99439)] INFO:__main__:Epoch 6/50, Train Loss: 0.029017003723880747, Val Loss: 0.026384984117907448
+2024-07-19 14:25:54.184 [7/cross_validate_train/61 (pid 99439)] INFO:__main__:Epoch 7/50, Train Loss: 0.029011799303998987, Val Loss: 0.02723260792727406
+2024-07-19 14:25:54.969 [7/cross_validate_train/61 (pid 99439)] INFO:__main__:Epoch 8/50, Train Loss: 0.029005678119854286, Val Loss: 0.02704789624171885
+2024-07-19 14:25:55.757 [7/cross_validate_train/61 (pid 99439)] INFO:__main__:Epoch 9/50, Train Loss: 0.029001213640875215, Val Loss: 0.026482129633124615
+2024-07-19 14:25:56.534 [7/cross_validate_train/61 (pid 99439)] INFO:__main__:Epoch 10/50, Train Loss: 0.02903744268261797, Val Loss: 0.026989759323564736
+2024-07-19 14:25:57.320 [7/cross_validate_train/61 (pid 99439)] INFO:__main__:Epoch 11/50, Train Loss: 0.02903584234293673, Val Loss: 0.027165361969555553
+2024-07-19 14:25:58.131 [7/cross_validate_train/61 (pid 99439)] INFO:__main__:Epoch 12/50, Train Loss: 0.029038884845859075, Val Loss: 0.026505739918935137
+2024-07-19 14:25:58.959 [7/cross_validate_train/61 (pid 99439)] INFO:__main__:Epoch 13/50, Train Loss: 0.02902303817221424, Val Loss: 0.027123971917742008
+2024-07-19 14:25:59.786 [7/cross_validate_train/61 (pid 99439)] INFO:__main__:Epoch 14/50, Train Loss: 0.0290317725298087, Val Loss: 0.026456357231615362
+2024-07-19 14:26:00.632 [7/cross_validate_train/61 (pid 99439)] INFO:__main__:Epoch 15/50, Train Loss: 0.0290105299573842, Val Loss: 0.02741864518690351
+2024-07-19 14:26:01.489 [7/cross_validate_train/61 (pid 99439)] INFO:__main__:Epoch 16/50, Train Loss: 0.029072673126522983, Val Loss: 0.025981794690360892
+2024-07-19 14:26:02.318 [7/cross_validate_train/61 (pid 99439)] INFO:__main__:Epoch 17/50, Train Loss: 0.028963159421806807, Val Loss: 0.02802786572106384
+2024-07-19 14:26:03.147 [7/cross_validate_train/61 (pid 99439)] INFO:__main__:Epoch 18/50, Train Loss: 0.02908248060822978, Val Loss: 0.026109217590576893
+2024-07-19 14:26:03.974 [7/cross_validate_train/61 (pid 99439)] INFO:__main__:Epoch 19/50, Train Loss: 0.028891624616725103, Val Loss: 0.025953378805236238
+2024-07-19 14:26:04.792 [7/cross_validate_train/61 (pid 99439)] INFO:__main__:Epoch 20/50, Train Loss: 0.02897268460019604, Val Loss: 0.02745586130264643
+2024-07-19 14:26:05.645 [7/cross_validate_train/61 (pid 99439)] INFO:__main__:Epoch 21/50, Train Loss: 0.028980230728348533, Val Loss: 0.02764161004105935
+2024-07-19 14:26:06.463 [7/cross_validate_train/61 (pid 99439)] INFO:__main__:Epoch 22/50, Train Loss: 0.029274949507153297, Val Loss: 0.026058666533916384
+2024-07-19 14:26:07.274 [7/cross_validate_train/61 (pid 99439)] INFO:__main__:Epoch 23/50, Train Loss: 0.028972220013511706, Val Loss: 0.026178427078333254
+2024-07-19 14:26:08.097 [7/cross_validate_train/61 (pid 99439)] INFO:__main__:Epoch 24/50, Train Loss: 0.028851996298756573, Val Loss: 0.026263696305151726
+2024-07-19 14:26:08.927 [7/cross_validate_train/61 (pid 99439)] INFO:__main__:Epoch 25/50, Train Loss: 0.028924895629573327, Val Loss: 0.02636362546803178
+2024-07-19 14:26:09.757 [7/cross_validate_train/61 (pid 99439)] INFO:__main__:Epoch 26/50, Train Loss: 0.029113611999571652, Val Loss: 0.026189954296962636
+2024-07-19 14:26:10.614 [7/cross_validate_train/61 (pid 99439)] INFO:__main__:Epoch 27/50, Train Loss: 0.02912827461937463, Val Loss: 0.025947695346297445
+2024-07-19 14:26:11.459 [7/cross_validate_train/61 (pid 99439)] INFO:__main__:Epoch 28/50, Train Loss: 0.02905664370385009, Val Loss: 0.026121131572368984
+2024-07-19 14:26:12.286 [7/cross_validate_train/61 (pid 99439)] INFO:__main__:Epoch 29/50, Train Loss: 0.029089369683188725, Val Loss: 0.026420529226999025
+2024-07-19 14:26:13.110 [7/cross_validate_train/61 (pid 99439)] INFO:__main__:Epoch 30/50, Train Loss: 0.02900959389120504, Val Loss: 0.025822117295418237
+2024-07-19 14:26:13.931 [7/cross_validate_train/61 (pid 99439)] INFO:__main__:Epoch 31/50, Train Loss: 0.02894221165903158, Val Loss: 0.026410408242530114
+2024-07-19 14:26:14.784 [7/cross_validate_train/61 (pid 99439)] INFO:__main__:Epoch 32/50, Train Loss: 0.029110583190161448, Val Loss: 0.02594921534025186
+2024-07-19 14:26:15.614 [7/cross_validate_train/61 (pid 99439)] INFO:__main__:Epoch 33/50, Train Loss: 0.02901185222051956, Val Loss: 0.026146736524596408
+2024-07-19 14:26:16.455 [7/cross_validate_train/61 (pid 99439)] INFO:__main__:Epoch 34/50, Train Loss: 0.02892586626214804, Val Loss: 0.02604052839750374
+2024-07-19 14:26:17.276 [7/cross_validate_train/61 (pid 99439)] INFO:__main__:Epoch 35/50, Train Loss: 0.02900886259829769, Val Loss: 0.025866202582177276
+2024-07-19 14:26:18.099 [7/cross_validate_train/61 (pid 99439)] INFO:__main__:Epoch 36/50, Train Loss: 0.0290580033427002, Val Loss: 0.028133839066769625
+2024-07-19 14:26:18.892 [7/cross_validate_train/61 (pid 99439)] INFO:__main__:Epoch 37/50, Train Loss: 0.029137313580856875, Val Loss: 0.026103482632016815
+2024-07-19 14:26:19.701 [7/cross_validate_train/61 (pid 99439)] INFO:__main__:Epoch 38/50, Train Loss: 0.028968452511785123, Val Loss: 0.02587408041329803
+2024-07-19 14:26:20.495 [7/cross_validate_train/61 (pid 99439)] INFO:__main__:Epoch 39/50, Train Loss: 0.028924044149999436, Val Loss: 0.025839958742663666
+2024-07-19 14:26:21.285 [7/cross_validate_train/61 (pid 99439)] INFO:__main__:Epoch 40/50, Train Loss: 0.028959797894848243, Val Loss: 0.025805215099574747
+2024-07-19 14:26:22.078 [7/cross_validate_train/61 (pid 99439)] INFO:__main__:Epoch 41/50, Train Loss: 0.02886530086602811, Val Loss: 0.025820330867694842
+2024-07-19 14:26:22.860 [7/cross_validate_train/61 (pid 99439)] INFO:__main__:Epoch 42/50, Train Loss: 0.028903756725632553, Val Loss: 0.02585477246021902
+2024-07-19 14:26:23.664 [7/cross_validate_train/61 (pid 99439)] INFO:__main__:Epoch 43/50, Train Loss: 0.028855554493410245, Val Loss: 0.026130902102670155
+2024-07-19 14:26:24.464 [7/cross_validate_train/61 (pid 99439)] INFO:__main__:Epoch 44/50, Train Loss: 0.02883341947857004, Val Loss: 0.026353893474348494
+2024-07-19 14:26:25.259 [7/cross_validate_train/61 (pid 99439)] INFO:__main__:Epoch 45/50, Train Loss: 0.028983025432942986, Val Loss: 0.026190123671816813
+2024-07-19 14:26:26.038 [7/cross_validate_train/61 (pid 99439)] INFO:__main__:Epoch 46/50, Train Loss: 0.029034668088450538, Val Loss: 0.02668189729337354
+2024-07-19 14:26:26.823 [7/cross_validate_train/61 (pid 99439)] INFO:__main__:Epoch 47/50, Train Loss: 0.02906641810313686, Val Loss: 0.025890802763201094
+2024-07-19 14:26:27.631 [7/cross_validate_train/61 (pid 99439)] INFO:__main__:Epoch 48/50, Train Loss: 0.02885576756671071, Val Loss: 0.026001389767672564
+2024-07-19 14:26:28.461 [7/cross_validate_train/61 (pid 99439)] INFO:__main__:Epoch 49/50, Train Loss: 0.02892261016397522, Val Loss: 0.02587300314995888
+2024-07-19 14:26:29.296 [7/cross_validate_train/61 (pid 99439)] INFO:__main__:Epoch 50/50, Train Loss: 0.02880709496541665, Val Loss: 0.02638646508441181
+2024-07-19 14:26:29.297 [7/cross_validate_train/61 (pid 99439)] INFO:__main__:Fold 4, MAPE: 3.00%
+2024-07-19 14:26:29.398 [7/cross_validate_train/61 (pid 99439)] INFO:__main__:Training image saved at metaflow_models//bgd_education_1001_5000_LSTM//train_f4_bgd_education_1001_5000_LSTM.png
+2024-07-19 14:26:33.633 [7/cross_validate_train/61 (pid 99439)] Task finished successfully.
+2024-07-19 14:26:33.664 [7/model_scores/62 (pid 99994)] Task is starting.
+2024-07-19 14:26:35.130 [7/model_scores/62 (pid 99994)] INFO:__main__:Average Train Loss across all folds: 0.03720589580172491
+2024-07-19 14:26:39.024 [7/model_scores/62 (pid 99994)] INFO:__main__:Average Validation Loss across all folds: 0.03164146175809406
+2024-07-19 14:26:39.024 [7/model_scores/62 (pid 99994)] INFO:__main__:Average MAPE across all folds: 4.12%
+2024-07-19 14:26:39.026 [7/model_scores/62 (pid 99994)] Task finished successfully.
+2024-07-19 14:26:39.060 [7/validate_model/63 (pid 199)] Task is starting.
+2024-07-19 14:26:40.540 [7/validate_model/63 (pid 199)] INFO:__main__:Validating LSTM on test set..
+2024-07-19 14:26:40.646 [7/validate_model/63 (pid 199)] INFO:__main__:Test Set MAPE: 7.20%
+2024-07-19 14:26:41.009 [7/validate_model/63 (pid 199)] INFO:__main__:Test image saved at metaflow_models//bgd_education_1001_5000_LSTM//test_bgd_education_1001_5000_LSTM.png
+2024-07-19 14:26:41.459 [7/validate_model/63 (pid 199)] Task finished successfully.
+2024-07-19 14:26:41.491 [7/log_model/64 (pid 218)] Task is starting.
+2024-07-19 14:26:42.953 [7/log_model/64 (pid 218)] INFO:__main__:Logging model bgd_education_1001_5000_LSTM
+2024-07-19 14:26:42.954 [7/log_model/64 (pid 218)] INFO:__main__:Model logged at metaflow_models//bgd_education_1001_5000_LSTM//bgd_education_1001_5000_LSTM.pth
+2024-07-19 14:26:46.854 [7/log_model/64 (pid 218)] Task finished successfully.
+2024-07-19 14:26:46.884 [7/end/65 (pid 269)] Task is starting.
+2024-07-19 14:26:48.347 [7/end/65 (pid 269)] INFO:__main__:Pipeline end.
+2024-07-19 14:26:48.686 [7/end/65 (pid 269)] Task finished successfully.
+2024-07-19 14:26:48.687 Done!
+
+-- stderr --
+Metaflow 2.12.8 executing BGD_LinearFlow for user:nikhilkapila
+Validating your flow...
+    The graph looks good!
+

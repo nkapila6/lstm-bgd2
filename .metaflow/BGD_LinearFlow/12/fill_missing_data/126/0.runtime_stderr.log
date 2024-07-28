@@ -1,0 +1,73 @@
+[MFLOG|0|2024-07-19T10:39:13.499796Z|runtime|9d78c881-8a8b-4709-af01-8e48830c0d26]INFO:__main__:Filling missing data points using weighted average..
+[MFLOG|0|2024-07-19T10:39:13.513922Z|runtime|fbf18a80-2dcb-4b87-aec4-a5bf11dc7305]INFO:__main__:NaN counts per column:
+[MFLOG|0|2024-07-19T10:39:13.514318Z|runtime|8c493ecd-c82a-4d62-9cf2-0d20c7b314dc]INFO:__main__:Panther_education_Teofila        11
+[MFLOG|0|2024-07-19T10:39:13.514516Z|runtime|74c3b731-b514-4c6d-a24c-88f291f21b70]Panther_education_Annetta        10
+[MFLOG|0|2024-07-19T10:39:13.514563Z|runtime|c6291b2e-1da2-468c-a438-2144b4954aed]Panther_education_Ivan           12
+[MFLOG|0|2024-07-19T10:39:13.514596Z|runtime|e7820398-7a09-4908-8bb7-cf430c3d3c64]Panther_education_Neal           10
+[MFLOG|0|2024-07-19T10:39:13.514630Z|runtime|25467348-8730-4759-ae79-eaa2be6d2d02]Panther_education_Enriqueta      41
+[MFLOG|0|2024-07-19T10:39:13.514659Z|runtime|f273f9f1-0038-437e-8003-a9592483e064]Panther_education_Shelton        12
+[MFLOG|0|2024-07-19T10:39:13.514693Z|runtime|fde60359-28ef-4a26-9888-b149e16c3bbf]Panther_education_Aurora         10
+[MFLOG|0|2024-07-19T10:39:13.514726Z|runtime|47906e17-2a20-4780-8a73-b216c9559e98]Panther_education_Emily          12
+[MFLOG|0|2024-07-19T10:39:13.514754Z|runtime|8c5ba2c1-f60d-4c26-9715-726fb1de2245]Panther_education_Zelda          12
+[MFLOG|0|2024-07-19T10:39:13.514813Z|runtime|c3fd0ebc-0c21-467e-9a1f-1c904b8c4f87]Panther_education_Karri         333
+[MFLOG|0|2024-07-19T10:39:13.514927Z|runtime|95255302-3709-4052-a3b0-64346104a029]Robin_education_Lashandra         0
+[MFLOG|0|2024-07-19T10:39:13.514969Z|runtime|a6737a61-5473-4bd4-88e6-9193205363f6]Robin_education_Terrance          0
+[MFLOG|0|2024-07-19T10:39:13.515007Z|runtime|afc565db-84cf-4e70-9af3-18f4eb7dbc3f]Robin_education_Margarito         0
+[MFLOG|0|2024-07-19T10:39:13.515046Z|runtime|33403b7d-9c60-4acf-b86e-4e03fcd0e63a]Robin_education_Kristopher        0
+[MFLOG|0|2024-07-19T10:39:13.515077Z|runtime|34ae602d-7c41-4e87-a7aa-89bcd724fed9]Fox_education_Jaclyn             13
+[MFLOG|0|2024-07-19T10:39:13.515107Z|runtime|777a397a-94fa-4ddb-ade4-74a707958efa]Rat_education_Penny            8760
+[MFLOG|0|2024-07-19T10:39:13.515145Z|runtime|619bee02-4630-4004-b894-5cef29d89ec9]Rat_education_Calvin             26
+[MFLOG|0|2024-07-19T10:39:13.515177Z|runtime|4b6f3ba1-76df-4a35-ac58-de1a267c915e]Rat_education_Jacob              50
+[MFLOG|0|2024-07-19T10:39:13.515212Z|runtime|71ae2bc0-7ed2-4e2d-ab8f-d31795022315]Rat_education_Rogelio            50
+[MFLOG|0|2024-07-19T10:39:13.515243Z|runtime|3b172c98-2f3d-4a5d-bf52-f859f09c0d9b]Rat_education_Kristie          8760
+[MFLOG|0|2024-07-19T10:39:13.515279Z|runtime|034e9b2d-46a5-4726-a45e-8d9525c55e50]Rat_education_Cinthia          5531
+[MFLOG|0|2024-07-19T10:39:13.515308Z|runtime|cc44f7a2-a120-440d-937a-b25d353bfa57]Bear_education_Nanette           38
+[MFLOG|0|2024-07-19T10:39:13.515339Z|runtime|72278c95-0afe-4c08-93dd-77c755c89de4]Bear_education_Pattie            42
+[MFLOG|0|2024-07-19T10:39:13.515366Z|runtime|6e618522-3555-4b56-b474-ece03288f0bb]Bear_education_Leonel             1
+[MFLOG|0|2024-07-19T10:39:13.515394Z|runtime|95c5c655-b1f7-414a-8791-ad9a00ae3d7f]Cockatoo_education_Nelda        113
+[MFLOG|0|2024-07-19T10:39:13.515420Z|runtime|f27132d6-5296-4894-a2ef-c7f6fb8e2ea2]Cockatoo_education_Julio        113
+[MFLOG|0|2024-07-19T10:39:13.515451Z|runtime|3ca49e04-f6e3-4568-a7e2-c4242a70ef15]dtype: int64
+[MFLOG|0|2024-07-19T10:39:13.515483Z|runtime|16110973-9391-4878-8cbe-b068a53dd0c9]--- Logging error ---
+[MFLOG|0|2024-07-19T10:39:13.517101Z|runtime|5c7b5ea6-f032-44b2-aaba-980126f374d9]Traceback (most recent call last):
+[MFLOG|0|2024-07-19T10:39:13.517211Z|runtime|05bca062-0cfc-4355-ae91-23b57e70ab82]  File "/Users/nikhilkapila/miniconda3/envs/8903env/lib/python3.10/logging/__init__.py", line 1100, in emit
+[MFLOG|0|2024-07-19T10:39:13.517283Z|runtime|7d337ffc-555a-4325-9f36-5202856fad4b]    msg = self.format(record)
+[MFLOG|0|2024-07-19T10:39:13.517332Z|runtime|eca3d3d4-c7c2-43bb-862e-47b7ccfdcbaf]  File "/Users/nikhilkapila/miniconda3/envs/8903env/lib/python3.10/logging/__init__.py", line 943, in format
+[MFLOG|0|2024-07-19T10:39:13.517370Z|runtime|948f52c9-cf9f-41ce-836e-f94d5606ee2f]    return fmt.format(record)
+[MFLOG|0|2024-07-19T10:39:13.517405Z|runtime|ff0d546f-1b60-4fbd-8235-f20d155dfeef]  File "/Users/nikhilkapila/miniconda3/envs/8903env/lib/python3.10/logging/__init__.py", line 678, in format
+[MFLOG|0|2024-07-19T10:39:13.517435Z|runtime|ba16bbbe-c516-4336-8961-feb8cd528db9]    record.message = record.getMessage()
+[MFLOG|0|2024-07-19T10:39:13.517468Z|runtime|6b4cb137-2cc2-4daa-ba2f-6dedcd846f8b]  File "/Users/nikhilkapila/miniconda3/envs/8903env/lib/python3.10/logging/__init__.py", line 368, in getMessage
+[MFLOG|0|2024-07-19T10:39:13.517501Z|runtime|51488984-df62-4f03-b21a-d3ff8d4377cb]    msg = msg % self.args
+[MFLOG|0|2024-07-19T10:39:13.517529Z|runtime|ef70ac44-dfc2-47a5-98ab-23a3fa3e0364]TypeError: not all arguments converted during string formatting
+[MFLOG|0|2024-07-19T10:39:13.517558Z|runtime|9841fcbf-9d20-49f9-a859-815880f34915]Call stack:
+[MFLOG|0|2024-07-19T10:39:13.517587Z|runtime|bd9e50fb-0bb3-4a05-b6e7-c674db9bc520]  File "/Users/nikhilkapila/Developer/lstm-training/bgd_flow.py", line 337, in <module>
+[MFLOG|0|2024-07-19T10:39:25.770228Z|runtime|4f59c710-3b8c-41a7-90d3-df266d02798e]    BGD_LinearFlow()
+[MFLOG|0|2024-07-19T10:39:25.770397Z|runtime|18066432-e3bf-4621-a226-badca1644a44]  File "/Users/nikhilkapila/miniconda3/envs/8903env/lib/python3.10/site-packages/metaflow/flowspec.py", line 120, in __init__
+[MFLOG|0|2024-07-19T10:39:25.770435Z|runtime|3c4d5a8d-f68d-46a1-a763-c8ca3e17654e]    cli.main(self)
+[MFLOG|0|2024-07-19T10:39:25.770464Z|runtime|0beb8d26-5600-4e45-8557-62ff7de05df1]  File "/Users/nikhilkapila/miniconda3/envs/8903env/lib/python3.10/site-packages/metaflow/cli.py", line 1126, in main
+[MFLOG|0|2024-07-19T10:39:25.770496Z|runtime|64b421ec-e9fc-4134-aafc-15c2c08f6632]    start(auto_envvar_prefix="METAFLOW", obj=state)
+[MFLOG|0|2024-07-19T10:39:25.770523Z|runtime|284d3299-27bb-4125-9fe9-df2f0c68deeb]  File "/Users/nikhilkapila/miniconda3/envs/8903env/lib/python3.10/site-packages/metaflow/tracing/__init__.py", line 27, in wrapper_func
+[MFLOG|0|2024-07-19T10:39:25.770551Z|runtime|9d9e5a99-22b4-45ab-ac3d-92e3d17ecd02]    return func(*args, **kwargs)
+[MFLOG|0|2024-07-19T10:39:25.770576Z|runtime|7319b02c-2fe9-4fec-b667-465dd3a2d422]  File "/Users/nikhilkapila/miniconda3/envs/8903env/lib/python3.10/site-packages/metaflow/_vendor/click/core.py", line 829, in __call__
+[MFLOG|0|2024-07-19T10:39:25.770603Z|runtime|cba0aec8-cc5d-477b-8e7b-880d70d448ab]    return self.main(*args, **kwargs)
+[MFLOG|0|2024-07-19T10:39:25.770629Z|runtime|3fe257b6-eba6-41bf-82fe-164acce4b665]  File "/Users/nikhilkapila/miniconda3/envs/8903env/lib/python3.10/site-packages/metaflow/_vendor/click/core.py", line 782, in main
+[MFLOG|0|2024-07-19T10:39:25.770654Z|runtime|fb3fc177-8b22-4ef9-b6e6-e77763620a82]    rv = self.invoke(ctx)
+[MFLOG|0|2024-07-19T10:39:25.770678Z|runtime|09a41905-e368-4a89-9590-9e4fe730e340]  File "/Users/nikhilkapila/miniconda3/envs/8903env/lib/python3.10/site-packages/metaflow/_vendor/click/core.py", line 1259, in invoke
+[MFLOG|0|2024-07-19T10:39:25.770703Z|runtime|cd6098a4-ba30-4464-b312-f4c98d594b68]    return _process_result(sub_ctx.command.invoke(sub_ctx))
+[MFLOG|0|2024-07-19T10:39:25.770727Z|runtime|e1931ecc-09e1-4568-9015-e9dd21350d51]  File "/Users/nikhilkapila/miniconda3/envs/8903env/lib/python3.10/site-packages/metaflow/_vendor/click/core.py", line 1066, in invoke
+[MFLOG|0|2024-07-19T10:39:25.770751Z|runtime|5e5cf5a2-98d0-47ae-9442-ef9bd087d1b8]    return ctx.invoke(self.callback, **ctx.params)
+[MFLOG|0|2024-07-19T10:39:25.770774Z|runtime|0cfd1870-1722-4b37-bc0f-a6bf7bd290c8]  File "/Users/nikhilkapila/miniconda3/envs/8903env/lib/python3.10/site-packages/metaflow/_vendor/click/core.py", line 610, in invoke
+[MFLOG|0|2024-07-19T10:39:25.770797Z|runtime|9859586d-3c9b-4f88-ae13-3ebf407c51b3]    return callback(*args, **kwargs)
+[MFLOG|0|2024-07-19T10:39:25.770821Z|runtime|212d69f0-01d8-45cf-9b9f-01cfb06e7b74]  File "/Users/nikhilkapila/miniconda3/envs/8903env/lib/python3.10/site-packages/metaflow/_vendor/click/decorators.py", line 21, in new_func
+[MFLOG|0|2024-07-19T10:39:25.770845Z|runtime|98f9d79f-8a0c-493d-8ef8-3c2a12b437c2]    return f(get_current_context(), *args, **kwargs)
+[MFLOG|0|2024-07-19T10:39:25.770869Z|runtime|5531ce45-1803-452d-b7fc-b6d17ec6840c]  File "/Users/nikhilkapila/miniconda3/envs/8903env/lib/python3.10/site-packages/metaflow/cli.py", line 468, in step
+[MFLOG|0|2024-07-19T10:39:25.770892Z|runtime|779a6d34-e5af-4fe0-abfe-415bb9b0f6d0]    task.run_step(
+[MFLOG|0|2024-07-19T10:39:25.770916Z|runtime|c988d0af-f597-4c34-921c-e3945c1c1aba]  File "/Users/nikhilkapila/miniconda3/envs/8903env/lib/python3.10/site-packages/metaflow/task.py", line 650, in run_step
+[MFLOG|0|2024-07-19T10:39:25.770939Z|runtime|2aefec19-7fef-48a2-85e7-cf3edc4c79d1]    self._exec_step_function(step_func)
+[MFLOG|0|2024-07-19T10:39:25.770962Z|runtime|a230bfb7-fab0-4446-814b-91aa2fe7de5c]  File "/Users/nikhilkapila/miniconda3/envs/8903env/lib/python3.10/site-packages/metaflow/task.py", line 62, in _exec_step_function
+[MFLOG|0|2024-07-19T10:39:25.770985Z|runtime|c5df2a6f-d2a7-4732-9f9d-0c081b07238c]    step_function()
+[MFLOG|0|2024-07-19T10:39:25.771012Z|runtime|619ed70a-1a41-4de9-b479-8d59ecaf7a8f]  File "/Users/nikhilkapila/Developer/lstm-training/bgd_flow.py", line 78, in fill_missing_data
+[MFLOG|0|2024-07-19T10:39:25.771040Z|runtime|0c62213e-89bf-4e11-8c12-de097779f306]    self.missing_values = find_nan_counts(self.df)
+[MFLOG|0|2024-07-19T10:39:25.771064Z|runtime|4549d4ee-0101-45ec-83df-3d8152e3003c]  File "/Users/nikhilkapila/Developer/lstm-training/bgd_flow.py", line 292, in find_nan_counts
+[MFLOG|0|2024-07-19T10:39:25.771088Z|runtime|27a46f72-d4d5-4b0b-8a15-70c07305666c]    logger.info("\nTotal NaN count in the DataFrame:", total_nan_count)
+[MFLOG|0|2024-07-19T10:39:25.771115Z|runtime|34dd7246-be3e-472b-9ce8-ebf37a449807]Message: '\nTotal NaN count in the DataFrame:'
+[MFLOG|0|2024-07-19T10:39:25.771138Z|runtime|091b9aa7-ad11-4aa3-9998-20ad4b78a37c]Arguments: (23960,)

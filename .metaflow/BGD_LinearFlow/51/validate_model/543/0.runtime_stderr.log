@@ -1,0 +1,3 @@
+[MFLOG|0|2024-07-23T02:09:35.627420Z|runtime|8948a9ca-ec55-4e72-9ba1-22f41257c605]INFO:__main__:Validating LSTM on test set..
+[MFLOG|0|2024-07-23T02:09:36.422830Z|runtime|bdd7fec0-c422-40e0-8d15-7d7773bdd56f]INFO:__main__:Test Set MAPE: 5.93%
+[MFLOG|0|2024-07-23T02:09:36.783715Z|runtime|f4a81ff6-1681-474e-816f-c820a0b2ce33]INFO:__main__:Test image saved at metaflow_models_360hrs//bgd_education_25001_50000_LSTM//test_bgd_education_25001_50000_LSTM.png

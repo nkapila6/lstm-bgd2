@@ -1,0 +1,239 @@
+,building_id,site_id,primaryspaceusage,sub_primaryspaceusage,sqm,sqft,lat,lng,timezone,electricity,yearbuilt,sqft_bin
+3,Panther_education_Rosalie,Panther,Education,Research,690.5,7432.0,28.5176885788321,-81.3790387999998,US/Eastern,Yes,2008.0,5001_10000
+4,Panther_education_Misty,Panther,Education,Research,252.7,2720.0,28.5176885788321,-81.3790387999998,US/Eastern,Yes,2004.0,1001_5000
+6,Panther_education_Mattie,Panther,Education,Classroom,499.4,5376.0,28.5176885788321,-81.3790387999998,US/Eastern,Yes,1991.0,5001_10000
+8,Panther_education_Diann,Panther,Education,Classroom,2200.4,23685.0,28.5176885788321,-81.3790387999998,US/Eastern,Yes,2002.0,10001_25000
+10,Panther_education_Tina,Panther,Education,Research,743.2,8000.0,28.5176885788321,-81.3790387999998,US/Eastern,Yes,2000.0,5001_10000
+11,Panther_lodging_Russell,Panther,Lodging/residential,Residence Hall,2594.4,27926.0,28.5176885788321,-81.3790387999998,US/Eastern,Yes,1981.0,25001_50000
+14,Panther_education_Vincent,Panther,Education,Classroom,11248.1,121074.0,28.5176885788321,-81.3790387999998,US/Eastern,Yes,1989.0,100001_200000
+15,Panther_education_Shelton,Panther,Education,Classroom,5649.3,60809.0,28.5176885788321,-81.3790387999998,US/Eastern,Yes,2003.0,50001_100000
+16,Panther_office_Karla,Panther,Office,Office,2508.4,27000.0,28.5176885788321,-81.3790387999998,US/Eastern,Yes,2010.0,25001_50000
+17,Panther_assembly_Denice,Panther,Entertainment/public assembly,Stadium,34445.9,370773.0,28.5176885788321,-81.3790387999998,US/Eastern,Yes,1991.0,200001_500000
+20,Panther_lodging_Willa,Panther,Lodging/residential,Residence Hall,3446.7,37100.0,28.5176885788321,-81.3790387999998,US/Eastern,Yes,1999.0,25001_50000
+21,Panther_education_Annetta,Panther,Education,Classroom,9232.7,99380.0,28.5176885788321,-81.3790387999998,US/Eastern,Yes,2000.0,50001_100000
+22,Panther_education_Aurora,Panther,Education,Classroom,8012.9,86250.0,28.5176885788321,-81.3790387999998,US/Eastern,Yes,2013.0,50001_100000
+24,Panther_education_Karri,Panther,Education,Classroom,5076.6,54644.0,28.5176885788321,-81.3790387999998,US/Eastern,Yes,1996.0,50001_100000
+27,Panther_education_Hugh,Panther,Education,Research,10395.0,111891.0,28.5176885788321,-81.3790387999998,US/Eastern,Yes,1996.0,100001_200000
+29,Panther_office_Larry,Panther,Office,Office,1738.9,18717.0,28.5176885788321,-81.3790387999998,US/Eastern,Yes,2004.0,10001_25000
+32,Panther_office_Jeane,Panther,Office,Office,654.3,7043.0,28.5176885788321,-81.3790387999998,US/Eastern,Yes,1990.0,5001_10000
+33,Panther_education_Jonathan,Panther,Education,Research,331.6,3569.0,28.5176885788321,-81.3790387999998,US/Eastern,Yes,1996.0,1001_5000
+34,Panther_education_Genevieve,Panther,Education,Classroom,12159.6,130885.0,28.5176885788321,-81.3790387999998,US/Eastern,Yes,1985.0,100001_200000
+35,Panther_education_Alecia,Panther,Education,Classroom,9805.4,105545.0,28.5176885788321,-81.3790387999998,US/Eastern,Yes,2001.0,100001_200000
+37,Panther_office_Catherine,Panther,Office,Office,2504.0,26953.0,28.5176885788321,-81.3790387999998,US/Eastern,Yes,2005.0,25001_50000
+38,Panther_lodging_Awilda,Panther,Lodging/residential,Residence Hall,5499.9,59200.0,28.5176885788321,-81.3790387999998,US/Eastern,Yes,1999.0,50001_100000
+40,Panther_office_Garth,Panther,Office,Office,4919.9,52957.0,28.5176885788321,-81.3790387999998,US/Eastern,Yes,2016.0,50001_100000
+41,Panther_education_Quintin,Panther,Education,Classroom,10578.5,113866.0,28.5176885788321,-81.3790387999998,US/Eastern,Yes,2006.0,100001_200000
+42,Panther_education_Teofila,Panther,Education,Classroom,8723.3,93897.0,28.5176885788321,-81.3790387999998,US/Eastern,Yes,1999.0,50001_100000
+43,Panther_education_Ivan,Panther,Education,Classroom,5751.1,61904.0,28.5176885788321,-81.3790387999998,US/Eastern,Yes,2001.0,50001_100000
+44,Panther_office_Shauna,Panther,Office,Office,4495.8,48392.0,28.5176885788321,-81.3790387999998,US/Eastern,Yes,2005.0,25001_50000
+45,Panther_lodging_Hattie,Panther,Lodging/residential,Residence Hall,3594.0,38686.0,28.5176885788321,-81.3790387999998,US/Eastern,Yes,2002.0,25001_50000
+46,Panther_lodging_Jana,Panther,Lodging/residential,Residence Hall,3969.8,42731.0,28.5176885788321,-81.3790387999998,US/Eastern,Yes,2002.0,25001_50000
+47,Panther_lodging_Teresita,Panther,Lodging/residential,Residence Hall,3866.3,41617.0,28.5176885788321,-81.3790387999998,US/Eastern,Yes,2002.0,25001_50000
+48,Panther_lodging_Cornelia,Panther,Lodging/residential,Residence Hall,4935.9,53130.0,28.5176885788321,-81.3790387999998,US/Eastern,Yes,2002.0,50001_100000
+49,Panther_lodging_Tracie,Panther,Lodging/residential,Residence Hall,4935.9,53130.0,28.5176885788321,-81.3790387999998,US/Eastern,Yes,2002.0,50001_100000
+51,Panther_office_Lois,Panther,Office,Office,1186.3,12769.0,28.5176885788321,-81.3790387999998,US/Eastern,Yes,2013.0,10001_25000
+53,Panther_assembly_David,Panther,Entertainment/public assembly,Stadium,2503.2,26944.0,28.5176885788321,-81.3790387999998,US/Eastern,Yes,2001.0,25001_50000
+61,Panther_retail_Rachel,Panther,Retail,Retail,26.3,283.0,28.5176885788321,-81.3790387999998,US/Eastern,Yes,1985.0,
+62,Panther_retail_Gilbert,Panther,Retail,Retail,1421.8,15304.0,28.5176885788321,-81.3790387999998,US/Eastern,Yes,2016.0,10001_25000
+63,Panther_retail_Lester,Panther,Retail,Retail,840.3,9045.0,28.5176885788321,-81.3790387999998,US/Eastern,Yes,2016.0,5001_10000
+64,Panther_retail_Felix,Panther,Retail,Retail,2941.9,31666.0,28.5176885788321,-81.3790387999998,US/Eastern,Yes,2008.0,25001_50000
+65,Panther_other_Tyrone,Panther,Other,Other,889.0,9569.0,28.5176885788321,-81.3790387999998,US/Eastern,Yes,1989.0,5001_10000
+72,Panther_other_Bettie,Panther,Other,Other,436.5,4698.0,28.5176885788321,-81.3790387999998,US/Eastern,Yes,1981.0,1001_5000
+73,Panther_parking_Asia,Panther,Parking,Parking Garage,36012.7,387638.0,28.5176885788321,-81.3790387999998,US/Eastern,Yes,2014.0,200001_500000
+76,Panther_education_Violet,Panther,Education,Research,730.9,7867.0,28.5176885788321,-81.3790387999998,US/Eastern,Yes,2011.0,5001_10000
+77,Panther_office_Christian,Panther,Office,Office,1553.9,16726.0,28.5176885788321,-81.3790387999998,US/Eastern,Yes,2011.0,10001_25000
+78,Panther_lodging_Alita,Panther,Lodging/residential,Residence Hall	,5582.4,60088.0,28.5176885788321,-81.3790387999998,US/Eastern,Yes,2013.0,50001_100000
+79,Panther_lodging_Edison,Panther,Lodging/residential,Residence Hall,6072.0,65359.0,28.5176885788321,-81.3790387999998,US/Eastern,Yes,2013.0,50001_100000
+80,Panther_lodging_Sonja,Panther,Lodging/residential,Residence Hall,7746.2,83379.0,28.5176885788321,-81.3790387999998,US/Eastern,Yes,2013.0,50001_100000
+81,Panther_assembly_Pamella,Panther,Entertainment/public assembly,Stadium,7556.5,81337.0,28.5176885788321,-81.3790387999998,US/Eastern,Yes,2005.0,50001_100000
+82,Panther_education_Neal,Panther,Education,Classroom,7578.7,81576.0,28.5176885788321,-81.3790387999998,US/Eastern,Yes,1997.0,50001_100000
+83,Panther_lodging_Blaine,Panther,Lodging/residential,Residence Hall,3594.0,38686.0,28.5176885788321,-81.3790387999998,US/Eastern,Yes,2001.0,25001_50000
+84,Panther_lodging_Floyd,Panther,Lodging/residential,Residence Hall,3969.8,42731.0,28.5176885788321,-81.3790387999998,US/Eastern,Yes,2001.0,25001_50000
+85,Panther_lodging_Jorge,Panther,Lodging/residential,Residence Hall,3866.3,41617.0,28.5176885788321,-81.3790387999998,US/Eastern,Yes,2001.0,25001_50000
+86,Panther_lodging_Edmond,Panther,Lodging/residential,Residence Hall,4935.9,53130.0,28.5176885788321,-81.3790387999998,US/Eastern,Yes,2001.0,50001_100000
+87,Panther_lodging_Kaitlin,Panther,Lodging/residential,Residence Hall,4935.9,53130.0,28.5176885788321,-81.3790387999998,US/Eastern,Yes,2001.0,50001_100000
+89,Panther_lodging_Fausto,Panther,Lodging/residential,Residence Hall,3459.8,37241.0,28.5176885788321,-81.3790387999998,US/Eastern,Yes,1981.0,25001_50000
+91,Panther_parking_Charlene,Panther,Parking,Parking Garage,45284.0,487433.0,28.5176885788321,-81.3790387999998,US/Eastern,Yes,2007.0,200001_500000
+92,Panther_parking_Jody,Panther,Parking,Parking Garage,36012.7,387638.0,28.5176885788321,-81.3790387999998,US/Eastern,Yes,2000.0,200001_500000
+93,Panther_parking_Mellissa,Panther,Parking,Parking Garage,36012.7,387638.0,28.5176885788321,-81.3790387999998,US/Eastern,Yes,2007.0,200001_500000
+95,Panther_parking_Stanley,Panther,Parking,Parking Garage,36012.7,387638.0,28.5176885788321,-81.3790387999998,US/Eastern,Yes,1998.0,200001_500000
+96,Panther_parking_Adela,Panther,Parking,Parking Garage,36012.7,387638.0,28.5176885788321,-81.3790387999998,US/Eastern,Yes,2002.0,200001_500000
+97,Panther_parking_Lorriane,Panther,Parking,Parking Garage,36012.7,387638.0,28.5176885788321,-81.3790387999998,US/Eastern,Yes,2008.0,200001_500000
+98,Panther_parking_Alaina,Panther,Parking,Parking Garage,36012.7,387638.0,28.5176885788321,-81.3790387999998,US/Eastern,Yes,1997.0,200001_500000
+99,Panther_education_Zelda,Panther,Education,Classroom,7519.8,80942.0,28.5176885788321,-81.3790387999998,US/Eastern,Yes,2010.0,50001_100000
+100,Panther_education_Jerome,Panther,Education,Research,11974.0,128887.0,28.5176885788321,-81.3790387999998,US/Eastern,Yes,2009.0,100001_200000
+104,Panther_education_Enriqueta,Panther,Education,Classroom,7084.5,76257.0,28.5176885788321,-81.3790387999998,US/Eastern,Yes,2007.0,50001_100000
+105,Panther_office_Lauretta,Panther,Office,Office,3366.8,36240.0,28.5176885788321,-81.3790387999998,US/Eastern,Yes,2010.0,25001_50000
+106,Panther_office_Patti,Panther,Office,Office,14503.2,156111.0,28.5176885788321,-81.3790387999998,US/Eastern,Yes,2001.0,100001_200000
+110,Panther_other_Lula,Panther,Other,Other,192.3,2070.0,28.5176885788321,-81.3790387999998,US/Eastern,Yes,1996.0,1001_5000
+111,Panther_office_Hannah,Panther,Office,Office,375.1,4038.0,28.5176885788321,-81.3790387999998,US/Eastern,Yes,1986.0,1001_5000
+112,Panther_lodging_Else,Panther,Lodging/residential,Residence Hall,3459.8,37241.0,28.5176885788321,-81.3790387999998,US/Eastern,Yes,1981.0,25001_50000
+113,Panther_education_Janis,Panther,Education,Research,1015.6,10932.0,28.5176885788321,-81.3790387999998,US/Eastern,Yes,1986.0,10001_25000
+114,Panther_assembly_Carrol,Panther,Entertainment/public assembly,Stadium,595.7,6412.0,28.5176885788321,-81.3790387999998,US/Eastern,Yes,2006.0,5001_10000
+115,Panther_assembly_Gwyneth,Panther,Entertainment/public assembly,Stadium,7109.6,76527.0,28.5176885788321,-81.3790387999998,US/Eastern,Yes,2007.0,50001_100000
+117,Panther_retail_Romeo,Panther,Retail,Retail,15027.5,161755.0,28.5176885788321,-81.3790387999998,US/Eastern,Yes,1996.0,100001_200000
+118,Panther_lodging_Gale,Panther,Lodging/residential,Residence Hall,5499.9,59200.0,28.5176885788321,-81.3790387999998,US/Eastern,Yes,1999.0,50001_100000
+119,Panther_education_Emily,Panther,Education,Classroom,6326.1,68094.0,28.5176885788321,-81.3790387999998,US/Eastern,Yes,2003.0,50001_100000
+121,Panther_office_Clementine,Panther,Office,Office,3100.2,33370.0,28.5176885788321,-81.3790387999998,US/Eastern,Yes,1982.0,25001_50000
+124,Panther_lodging_Kara,Panther,Lodging/residential,Residence Hall,18667.3,200933.0,28.5176885788321,-81.3790387999998,US/Eastern,Yes,2006.0,200001_500000
+125,Panther_lodging_Kirk,Panther,Lodging/residential,Residence Hall,18667.3,200933.0,28.5176885788321,-81.3790387999998,US/Eastern,Yes,2006.0,200001_500000
+126,Panther_lodging_Cora,Panther,Lodging/residential,Residence Hall,17433.0,187647.0,28.5176885788321,-81.3790387999998,US/Eastern,Yes,2007.0,100001_200000
+127,Panther_lodging_Marisol,Panther,Lodging/residential,Residence Hall,18667.3,200933.0,28.5176885788321,-81.3790387999998,US/Eastern,Yes,2007.0,200001_500000
+128,Panther_office_Danica,Panther,Office,Office,210.0,2260.0,28.5176885788321,-81.3790387999998,US/Eastern,Yes,2016.0,1001_5000
+131,Panther_office_Antonette,Panther,Office,Office,1752.2,18860.0,28.5176885788321,-81.3790387999998,US/Eastern,Yes,1986.0,10001_25000
+132,Panther_office_Christin,Panther,Office,Office,1474.9,15876.0,28.5176885788321,-81.3790387999998,US/Eastern,Yes,1983.0,10001_25000
+133,Panther_education_Cleopatra,Panther,Education,Classroom,2012.0,21657.0,28.5176885788321,-81.3790387999998,US/Eastern,Yes,2016.0,10001_25000
+134,Panther_office_Ruthie,Panther,Office,Office,4211.3,45330.0,28.5176885788321,-81.3790387999998,US/Eastern,Yes,2003.0,25001_50000
+138,Robin_education_Lashandra,Robin,Education,College Classroom,9061.0,97532.0,51.51878965384613,-0.1345562307692307,Europe/London,Yes,2005.0,50001_100000
+141,Robin_education_Audrea,Robin,Education,College Laboratory,2584.0,27814.0,51.51878965384613,-0.1345562307692307,Europe/London,Yes,2006.0,25001_50000
+148,Robin_education_Cecilia,Robin,Education,College Laboratory,1439.0,15489.0,51.51878965384613,-0.1345562307692307,Europe/London,Yes,2004.0,10001_25000
+150,Robin_education_Margarito,Robin,Education,College Laboratory,8468.0,91149.0,51.51878965384613,-0.1345562307692307,Europe/London,Yes,2007.0,50001_100000
+153,Robin_education_Terrance,Robin,Education,College Laboratory,7714.9,83043.0,51.51878965384613,-0.1345562307692307,Europe/London,Yes,1991.0,50001_100000
+154,Robin_education_Kristopher,Robin,Education,College Laboratory,5686.0,61204.0,51.51878965384613,-0.1345562307692307,Europe/London,Yes,1989.0,50001_100000
+156,Robin_education_Takako,Robin,Education,College Laboratory,1561.0,16802.0,51.51878965384613,-0.1345562307692307,Europe/London,Yes,1995.0,10001_25000
+157,Robin_education_Lizbeth,Robin,Education,College Laboratory,2001.0,21539.0,51.51878965384613,-0.1345562307692307,Europe/London,Yes,2004.0,10001_25000
+163,Robin_lodging_Celia,Robin,Lodging/residential,Dormitory,7721.0,83108.0,51.51878965384613,-0.1345562307692307,Europe/London,Yes,1995.0,50001_100000
+165,Robin_lodging_Pricilla,Robin,Lodging/residential,Dormitory,4607.0,49589.0,51.51878965384613,-0.1345562307692307,Europe/London,Yes,1998.0,25001_50000
+182,Robin_office_Serena,Robin,Office,Office,2833.1,30495.0,51.51878965384613,-0.1345562307692307,Europe/London,Yes,1997.0,25001_50000
+188,Fox_public_Denny,Fox,Public services,Police Station,4058.1,43681.0,33.42442530000004,-111.9281403999998,US/Mountain,Yes,2007.0,25001_50000
+199,Fox_lodging_Helen,Fox,Lodging/residential,Dormitory,51394.9,553210.0,33.42442530000004,-111.9281403999998,US/Mountain,Yes,2009.0,
+201,Fox_education_Andre,Fox,Education,College Laboratory,17044.0,183460.0,33.42442530000004,-111.9281403999998,US/Mountain,Yes,2005.0,100001_200000
+202,Fox_education_Yolande,Fox,Education,College Laboratory,16681.6,179559.0,33.42442530000004,-111.9281403999998,US/Mountain,Yes,2006.0,100001_200000
+203,Fox_retail_Manie,Fox,Retail,Retail,4201.4,45224.0,33.42442530000004,-111.9281403999998,US/Mountain,Yes,1982.0,25001_50000
+205,Fox_office_Israel,Fox,Office,Office,11282.1,121440.0,33.42442530000004,-111.9281403999998,US/Mountain,Yes,1983.0,100001_200000
+208,Fox_education_Nilda,Fox,Education,College Classroom,10371.2,111635.0,33.42442530000004,-111.9281403999998,US/Mountain,Yes,1989.0,100001_200000
+210,Fox_assembly_Boyce,Fox,Entertainment/public assembly,Fitness Center,15520.9,167066.0,33.42442530000004,-111.9281403999998,US/Mountain,Yes,1989.0,100001_200000
+212,Fox_food_Francesco,Fox,Food sales and service,Restaurant,2310.2,24867.0,33.42442530000004,-111.9281403999998,US/Mountain,Yes,2012.0,10001_25000
+214,Fox_education_Elvira,Fox,Education,Student Union,13826.7,148829.0,33.42442530000004,-111.9281403999998,US/Mountain,Yes,2014.0,100001_200000
+216,Fox_education_Leota,Fox,Education,College Laboratory,12311.3,132518.0,33.42442530000004,-111.9281403999998,US/Mountain,Yes,1992.0,100001_200000
+219,Fox_education_Maureen,Fox,Education,College Classroom,22757.9,244964.0,33.42442530000004,-111.9281403999998,US/Mountain,Yes,2008.0,200001_500000
+226,Fox_education_Gloria,Fox,Education,College Laboratory,14087.5,151637.0,33.42442530000004,-111.9281403999998,US/Mountain,Yes,1983.0,100001_200000
+227,Fox_office_Molly,Fox,Office,Office,576.3,6203.0,33.42442530000004,-111.9281403999998,US/Mountain,Yes,1999.0,5001_10000
+232,Fox_office_Yong,Fox,Office,Office,15232.3,163959.0,33.42442530000004,-111.9281403999998,US/Mountain,Yes,2004.0,100001_200000
+233,Fox_parking_Tommie,Fox,Parking,Parking Garage,37633.4,405083.0,33.42442530000004,-111.9281403999998,US/Mountain,Yes,2004.0,200001_500000
+235,Fox_education_Wendell,Fox,Education,College Laboratory,20402.2,219608.0,33.42442530000004,-111.9281403999998,US/Mountain,Yes,1992.0,200001_500000
+236,Fox_lodging_Alana,Fox,Lodging/residential,Dormitory,6938.2,74682.0,33.42442530000004,-111.9281403999998,US/Mountain,Yes,2006.0,50001_100000
+237,Fox_lodging_Wallace,Fox,Lodging/residential,Dormitory,5885.2,63348.0,33.42442530000004,-111.9281403999998,US/Mountain,Yes,2007.0,50001_100000
+239,Fox_lodging_Winifred,Fox,Lodging/residential,Dormitory,5582.2,60086.0,33.42442530000004,-111.9281403999998,US/Mountain,Yes,2001.0,50001_100000
+243,Fox_education_Claude,Fox,Education,College Laboratory,17957.6,193294.0,33.42442530000004,-111.9281403999998,US/Mountain,Yes,2006.0,100001_200000
+244,Fox_education_Jaclyn,Fox,Education,College Laboratory,6619.2,71248.0,33.42442530000004,-111.9281403999998,US/Mountain,Yes,2004.0,50001_100000
+246,Fox_education_Otilia,Fox,Education,College Laboratory,30403.1,327256.0,33.42442530000004,-111.9281403999998,US/Mountain,Yes,2012.0,200001_500000
+251,Fox_education_Leona,Fox,Education,College Classroom,26286.5,282946.0,33.42442530000004,-111.9281403999998,US/Mountain,Yes,2003.0,200001_500000
+255,Fox_education_Melinda,Fox,Education,College Laboratory,18984.6,204349.0,33.42442530000004,-111.9281403999998,US/Mountain,Yes,1993.0,200001_500000
+266,Fox_assembly_Gary,Fox,Entertainment/public assembly,Swimming Pool,2261.7,24345.0,33.42442530000004,-111.9281403999998,US/Mountain,Yes,1981.0,10001_25000
+270,Fox_assembly_Cathy,Fox,Entertainment/public assembly,Museum,13386.0,144086.0,33.42442530000004,-111.9281403999998,US/Mountain,Yes,1989.0,100001_200000
+271,Fox_public_Bart,Fox,Public services,Library,9407.5,101262.0,33.42442530000004,-111.9281403999998,US/Mountain,Yes,1982.0,100001_200000
+276,Fox_parking_Lynelle,Fox,Parking,Parking Garage,14596.3,157113.0,33.42442530000004,-111.9281403999998,US/Mountain,Yes,1987.0,100001_200000
+277,Fox_parking_Felipa,Fox,Parking,Parking Garage,51767.1,557217.0,33.42442530000004,-111.9281403999998,US/Mountain,Yes,2004.0,
+282,Fox_education_Melvin,Fox,Education,College Laboratory,2289.4,24643.0,33.42442530000004,-111.9281403999998,US/Mountain,Yes,1982.0,10001_25000
+284,Fox_education_Lilly,Fox,Education,College Laboratory,12236.3,131710.0,33.42442530000004,-111.9281403999998,US/Mountain,Yes,1991.0,100001_200000
+288,Fox_assembly_Johnnie,Fox,Entertainment/public assembly,Fitness Center,23668.5,254766.0,33.42442530000004,-111.9281403999998,US/Mountain,Yes,1989.0,200001_500000
+296,Fox_assembly_Leeanne,Fox,Entertainment/public assembly,Sports Stadium,1932.8,20804.0,33.42442530000004,-111.9281403999998,US/Mountain,Yes,1999.0,10001_25000
+299,Fox_office_Thelma,Fox,Office,Office,11052.3,118966.0,33.42442530000004,-111.9281403999998,US/Mountain,Yes,1988.0,100001_200000
+301,Fox_assembly_Carlos,Fox,Entertainment/public assembly,Fitness Center,6706.9,72193.0,33.42442530000004,-111.9281403999998,US/Mountain,Yes,2013.0,50001_100000
+308,Fox_office_Brandy,Fox,Office,Office,3921.8,42214.0,33.42442530000004,-111.9281403999998,US/Mountain,Yes,1985.0,25001_50000
+309,Fox_office_Vicki,Fox,Office,Office,6580.5,70832.0,33.42442530000004,-111.9281403999998,US/Mountain,Yes,2014.0,50001_100000
+310,Fox_office_Joy,Fox,Office,Office,6581.0,70837.0,33.42442530000004,-111.9281403999998,US/Mountain,Yes,2014.0,50001_100000
+314,Fox_assembly_Dixie,Fox,Entertainment/public assembly,Sports Stadium,9801.7,105505.0,33.42442530000004,-111.9281403999998,US/Mountain,Yes,2008.0,100001_200000
+322,Fox_assembly_Christie,Fox,Entertainment/public assembly,Fitness Center,997.1,10733.0,33.42442530000004,-111.9281403999998,US/Mountain,Yes,2005.0,10001_25000
+323,Fox_assembly_Lakeisha,Fox,Entertainment/public assembly,Fitness Center,898.0,9666.0,33.42442530000004,-111.9281403999998,US/Mountain,Yes,2005.0,5001_10000
+325,Rat_public_Dalia,Rat,Public services,Police Station,8420.3,90635.0,38.9035039800032,-77.0053494170663,US/Eastern,Yes,2011.0,50001_100000
+327,Rat_office_Adele,Rat,Office,Office,37904.4,408000.0,38.9035039800032,-77.0053494170663,US/Eastern,Yes,2010.0,200001_500000
+337,Rat_education_Conrad,Rat,Education,K-12 School,33073.5,356000.0,38.9035039800032,-77.0053494170663,US/Eastern,Yes,2014.0,200001_500000
+338,Rat_education_Rogelio,Rat,Education,K-12 School,5834.3,62800.0,38.9035039800032,-77.0053494170663,US/Eastern,Yes,2014.0,50001_100000
+340,Rat_education_Calvin,Rat,Education,K-12 School,5304.8,57100.0,38.9035039800032,-77.0053494170663,US/Eastern,Yes,2015.0,50001_100000
+373,Rat_education_Eleonora,Rat,Education,K-12 School,10683.8,115000.0,38.9035039800032,-77.0053494170663,US/Eastern,Yes,2004.0,100001_200000
+375,Rat_office_Lora,Rat,Office,Office,21274.8,229000.0,38.9035039800032,-77.0053494170663,US/Eastern,Yes,2010.0,200001_500000
+384,Rat_education_Penny,Rat,Education,K-12 School,7014.2,75500.0,38.9035039800032,-77.0053494170663,US/Eastern,Yes,2007.0,50001_100000
+389,Rat_education_Veronica,Rat,Education,K-12 School,14307.1,154000.0,38.9035039800032,-77.0053494170663,US/Eastern,Yes,2015.0,100001_200000
+405,Rat_education_Cinthia,Rat,Education,K-12 School,6438.2,69300.0,38.9035039800032,-77.0053494170663,US/Eastern,Yes,2017.0,50001_100000
+412,Rat_assembly_Adolfo,Rat,Entertainment/public assembly,Other - Recreation,1482.7,15960.0,38.9035039800032,-77.0053494170663,US/Eastern,Yes,2005.0,10001_25000
+417,Rat_office_Colby,Rat,Office,Office,79000.4,850354.0,38.9035039800032,-77.0053494170663,US/Eastern,Yes,1989.0,
+424,Rat_education_Carmela,Rat,Education,K-12 School,4457.9,47984.0,38.9035039800032,-77.0053494170663,US/Eastern,Yes,2002.0,25001_50000
+429,Rat_assembly_Francine,Rat,Entertainment/public assembly,Other - Recreation,1603.7,17262.0,38.9035039800032,-77.0053494170663,US/Eastern,Yes,2003.0,10001_25000
+430,Rat_education_Willie,Rat,Education,K-12 School,9680.5,104200.0,38.9035039800032,-77.0053494170663,US/Eastern,Yes,2009.0,100001_200000
+432,Rat_education_Jacob,Rat,Education,K-12 School,5310.8,57165.0,38.9035039800032,-77.0053494170663,US/Eastern,Yes,2014.0,50001_100000
+437,Rat_assembly_Trent,Rat,Entertainment/public assembly,Other - Recreation,329.3,3545.0,38.9035039800032,-77.0053494170663,US/Eastern,Yes,2000.0,1001_5000
+440,Rat_public_Lloyd,Rat,Public services,Social/Meeting Hall,5022.4,54061.0,38.9035039800032,-77.0053494170663,US/Eastern,Yes,2006.0,50001_100000
+451,Rat_education_Kathryn,Rat,Education,K-12 School,30213.6,325217.0,38.9035039800032,-77.0053494170663,US/Eastern,Yes,2006.0,200001_500000
+454,Rat_education_Candida,Rat,Education,K-12 School,3576.8,38500.0,38.9035039800032,-77.0053494170663,US/Eastern,Yes,2016.0,25001_50000
+459,Rat_warehouse_Maegan,Rat,Warehouse/storage,Non-Refrigerated Warehouse,1378.6,14839.0,38.9035039800032,-77.0053494170663,US/Eastern,Yes,2005.0,10001_25000
+467,Rat_public_Angle,Rat,Public services,Social/Meeting Hall,7562.0,81397.0,38.9035039800032,-77.0053494170663,US/Eastern,Yes,2004.0,50001_100000
+472,Rat_warehouse_Eloisa,Rat,Warehouse/storage,Non-Refrigerated Warehouse,18843.4,202829.0,38.9035039800032,-77.0053494170663,US/Eastern,Yes,1983.0,200001_500000
+483,Rat_office_Loyd,Rat,Office,Office,2779.3,29916.0,38.9035039800032,-77.0053494170663,US/Eastern,Yes,2002.0,25001_50000
+495,Rat_public_Roma,Rat,Public services,Library,1994.8,21472.0,38.9035039800032,-77.0053494170663,US/Eastern,Yes,2011.0,10001_25000
+501,Rat_public_Corinne,Rat,Public services,Fire Station,2311.0,24875.0,38.9035039800032,-77.0053494170663,US/Eastern,Yes,1984.0,10001_25000
+503,Rat_health_Tanya,Rat,Healthcare,Urgent Care Center/Clinic/Other Outpatient Office,2712.0,29192.0,38.9035039800032,-77.0053494170663,US/Eastern,Yes,2014.0,25001_50000
+507,Rat_assembly_Frieda,Rat,Entertainment/public assembly,Other - Recreation,3413.6,36744.0,38.9035039800032,-77.0053494170663,US/Eastern,Yes,2004.0,25001_50000
+527,Rat_office_Avis,Rat,Office,Office,44099.2,474680.0,38.9035039800032,-77.0053494170663,US/Eastern,Yes,1986.0,200001_500000
+535,Rat_education_Beverly,Rat,Education,K-12 School,36603.8,394000.0,38.9035039800032,-77.0053494170663,US/Eastern,Yes,2013.0,200001_500000
+538,Rat_public_Yessenia,Rat,Public services,Library,2043.9,22000.0,38.9035039800032,-77.0053494170663,US/Eastern,Yes,2007.0,10001_25000
+548,Rat_education_Lee,Rat,Education,K-12 School,26291.5,283000.0,38.9035039800032,-77.0053494170663,US/Eastern,Yes,2014.0,200001_500000
+555,Rat_education_Elsie,Rat,Education,K-12 School,34978.6,376507.0,38.9035039800032,-77.0053494170663,US/Eastern,Yes,2011.0,200001_500000
+570,Rat_lodging_Jeannette,Rat,Lodging/residential,Other - Lodging/Residential,464.5,5000.0,38.9035039800032,-77.0053494170663,US/Eastern,Yes,2010.0,1001_5000
+596,Rat_health_Rosaria,Rat,Healthcare,Senior Care Community,1393.5,15000.0,38.9035039800032,-77.0053494170663,US/Eastern,Yes,2010.0,10001_25000
+599,Rat_religion_Kathy,Rat,Religious worship,Worship Facility,929.0,10000.0,38.9035039800032,-77.0053494170663,US/Eastern,Yes,2010.0,5001_10000
+609,Rat_health_Mildred,Rat,Healthcare,Senior Care Community,911.7,9813.0,38.9035039800032,-77.0053494170663,US/Eastern,Yes,2010.0,5001_10000
+611,Rat_public_Nelson,Rat,Public services,Library,1486.4,16000.0,38.9035039800032,-77.0053494170663,US/Eastern,Yes,2014.0,10001_25000
+614,Rat_education_Kristie,Rat,Education,K-12 School,5778.6,62200.0,38.9035039800032,-77.0053494170663,US/Eastern,Yes,2004.0,50001_100000
+618,Rat_health_Shane,Rat,Healthcare,Hospital (General Medical & Surgical),41806.4,450000.0,38.9035039800032,-77.0053494170663,US/Eastern,Yes,2012.0,200001_500000
+623,Rat_education_Salvatore,Rat,Education,K-12 School,4551.7,48994.0,38.9035039800032,-77.0053494170663,US/Eastern,Yes,2015.0,25001_50000
+624,Rat_office_Jill,Rat,Office,Office,31587.0,340000.0,38.9035039800032,-77.0053494170663,US/Eastern,Yes,2010.0,200001_500000
+627,Rat_education_Tania,Rat,Education,K-12 School,21832.2,235000.0,38.9035039800032,-77.0053494170663,US/Eastern,Yes,2013.0,200001_500000
+632,Bear_assembly_Danial,Bear,Entertainment/public assembly,Entertainment/public assembly,7680.3,82670.0,37.87190340000003,-122.26072860000008,US/Pacific,Yes,2016.0,50001_100000
+641,Bear_education_Pattie,Bear,Education,Education,8032.9,86465.0,37.87190340000003,-122.26072860000008,US/Pacific,Yes,2014.0,50001_100000
+643,Bear_lodging_Erick,Bear,Lodging/residential,Lodging/residential,6688.5,71994.0,37.87190340000003,-122.26072860000008,US/Pacific,Yes,2004.0,50001_100000
+657,Bear_education_Lorie,Bear,Education,Education,11212.8,120694.0,37.87190340000003,-122.26072860000008,US/Pacific,Yes,2012.0,100001_200000
+658,Bear_education_Nanette,Bear,Education,Education,6150.5,66203.0,37.87190340000003,-122.26072860000008,US/Pacific,Yes,2015.0,50001_100000
+662,Bear_public_Valorie,Bear,Public services,Public services,17598.2,189425.0,37.87190340000003,-122.26072860000008,US/Pacific,Yes,1994.0,100001_200000
+668,Bear_public_Orville,Bear,Public services,Public services,2700.0,29063.0,37.87190340000003,-122.26072860000008,US/Pacific,Yes,2004.0,25001_50000
+671,Bear_utility_Sidney,Bear,Utility,Utility,2176.9,23432.0,37.87190340000003,-122.26072860000008,US/Pacific,Yes,1999.0,10001_25000
+672,Bear_education_Merrill,Bear,Education,Education,3235.3,34825.0,37.87190340000003,-122.26072860000008,US/Pacific,Yes,1999.0,25001_50000
+678,Bear_assembly_Diana,Bear,Entertainment/public assembly,Entertainment/public assembly,121.2,1305.0,37.87190340000003,-122.26072860000008,US/Pacific,Yes,1995.0,1001_5000
+680,Bear_education_Rebecca,Bear,Education,Education,14279.2,153700.0,37.87190340000003,-122.26072860000008,US/Pacific,Yes,1990.0,100001_200000
+685,Bear_education_Bulah,Bear,Education,Education,20504.0,220703.0,37.87190340000003,-122.26072860000008,US/Pacific,Yes,2011.0,200001_500000
+698,Bear_parking_Gordon,Bear,Parking,Parking,9154.6,98539.0,37.87190340000003,-122.26072860000008,US/Pacific,Yes,1989.0,50001_100000
+706,Bear_education_Alvaro,Bear,Education,Education,10181.1,109588.0,37.87190340000003,-122.26072860000008,US/Pacific,Yes,1994.0,100001_200000
+710,Bear_education_Wilton,Bear,Education,Education,28273.4,304333.0,37.87190340000003,-122.26072860000008,US/Pacific,Yes,2006.0,200001_500000
+713,Bear_education_Zandra,Bear,Education,Education,14372.7,154706.0,37.87190340000003,-122.26072860000008,US/Pacific,Yes,2009.0,100001_200000
+714,Bear_education_Fannie,Bear,Education,Education,10788.0,116121.0,37.87190340000003,-122.26072860000008,US/Pacific,Yes,1996.0,100001_200000
+715,Bear_education_Leonel,Bear,Education,Education,6988.9,75228.0,37.87190340000003,-122.26072860000008,US/Pacific,Yes,1993.0,50001_100000
+717,Bear_parking_Bruce,Bear,Parking,Parking,28441.3,306140.0,37.87190340000003,-122.26072860000008,US/Pacific,Yes,2007.0,200001_500000
+854,Lamb_education_Luz,Lamb,Education,Primary/Secondary Classroom,14474.9,155807.0,51.49783804108846,-3.186245571244898,Europe/London,Yes,2013.0,100001_200000
+929,Moose_education_Florence,Moose,Education,College Classroom,26999.9,290625.0,45.4215,-75.6972,US/Eastern,Yes,1995.0,200001_500000
+1178,Shrew_office_Sherill,Shrew,Office,Office,18098.0,194805.0,51.49984,-0.124663,Europe/London,Yes,2000.0,100001_200000
+1507,Cockatoo_education_Julio,Cockatoo,Education,College Laboratory,9116.1,98125.0,42.45983685925793,-76.4852915864667,US/Eastern,Yes,2011.0,50001_100000
+1508,Cockatoo_education_Brigitte,Cockatoo,Education,College Laboratory,25998.0,279840.0,42.45983685925793,-76.4852915864667,US/Eastern,Yes,2008.0,200001_500000
+1523,Cockatoo_office_Laila,Cockatoo,Office,Office,10254.6,110380.0,42.45983685925793,-76.4852915864667,US/Eastern,Yes,1985.0,100001_200000
+1526,Cockatoo_education_Melanie,Cockatoo,Education,College Classroom,3240.0,34875.0,42.45983685925793,-76.4852915864667,US/Eastern,Yes,1993.0,25001_50000
+1527,Cockatoo_education_Janet,Cockatoo,Education,College Laboratory,29946.4,322341.0,42.45983685925793,-76.4852915864667,US/Eastern,Yes,1995.0,200001_500000
+1528,Cockatoo_education_Eunice,Cockatoo,Education,College Laboratory,12195.5,131271.0,42.45983685925793,-76.4852915864667,US/Eastern,Yes,2010.0,100001_200000
+1530,Cockatoo_education_Flora,Cockatoo,Education,College Laboratory,13913.3,149762.0,42.45983685925793,-76.4852915864667,US/Eastern,Yes,2004.0,100001_200000
+1540,Cockatoo_assembly_Heath,Cockatoo,Entertainment/public assembly,Theater,10361.5,111530.0,42.45983685925793,-76.4852915864667,US/Eastern,Yes,1988.0,100001_200000
+1553,Cockatoo_education_Evangeline,Cockatoo,Education,College Classroom,9795.1,105434.0,42.45983685925793,-76.4852915864667,US/Eastern,Yes,2014.0,100001_200000
+1557,Cockatoo_education_Nelda,Cockatoo,Education,College Laboratory,6930.5,74599.0,42.45983685925793,-76.4852915864667,US/Eastern,Yes,1984.0,50001_100000
+1558,Cockatoo_education_Tyler,Cockatoo,Education,College Laboratory,19928.2,214505.0,42.45983685925793,-76.4852915864667,US/Eastern,Yes,1990.0,200001_500000
+1560,Cockatoo_education_Terrence,Cockatoo,Education,College Laboratory,18954.9,204029.0,42.45983685925793,-76.4852915864667,US/Eastern,Yes,2010.0,200001_500000
+1573,Cockatoo_assembly_Valencia,Cockatoo,Entertainment/public assembly,Gymnasium,14112.0,151900.0,42.45983685925793,-76.4852915864667,US/Eastern,Yes,1990.0,100001_200000
+1574,Cockatoo_assembly_Genoveva,Cockatoo,Entertainment/public assembly,Gymnasium,1519.1,16351.0,42.45983685925793,-76.4852915864667,US/Eastern,Yes,2002.0,10001_25000
+1583,Cockatoo_lodging_Josephine,Cockatoo,Lodging/residential,Dormitory,7287.1,78438.0,42.45983685925793,-76.4852915864667,US/Eastern,Yes,2004.0,50001_100000
+1584,Cockatoo_lodging_Tessie,Cockatoo,Lodging/residential,Dormitory,15727.5,169290.0,42.45983685925793,-76.4852915864667,US/Eastern,Yes,2006.0,100001_200000
+1585,Cockatoo_lodging_Kyle,Cockatoo,Lodging/residential,Dormitory,13275.9,142901.0,42.45983685925793,-76.4852915864667,US/Eastern,Yes,2007.0,100001_200000
+1586,Cockatoo_lodging_Lynne,Cockatoo,Lodging/residential,Dormitory,12683.3,136522.0,42.45983685925793,-76.4852915864667,US/Eastern,Yes,2005.0,100001_200000
+1587,Cockatoo_lodging_Raphael,Cockatoo,Lodging/residential,Dormitory,7724.0,83141.0,42.45983685925793,-76.4852915864667,US/Eastern,Yes,2006.0,50001_100000
+1588,Cockatoo_assembly_Griselda,Cockatoo,Entertainment/public assembly,Community Center,2671.9,28760.0,42.45983685925793,-76.4852915864667,US/Eastern,Yes,2007.0,25001_50000
+1590,Cockatoo_office_Lorraine,Cockatoo,Office,Office,1070.6,11524.0,42.45983685925793,-76.4852915864667,US/Eastern,Yes,1994.0,10001_25000
+1605,Cockatoo_utility_Kimiko,Cockatoo,Utility,Services Plant,378.2,4071.0,42.45983685925793,-76.4852915864667,US/Eastern,Yes,1990.0,1001_5000
+1609,Cockatoo_education_Julia,Cockatoo,Education,College Classroom,3758.9,40461.0,42.45983685925793,-76.4852915864667,US/Eastern,Yes,2002.0,25001_50000
+1610,Cockatoo_office_Ada,Cockatoo,Office,Office,4952.0,53303.0,42.45983685925793,-76.4852915864667,US/Eastern,Yes,1981.0,50001_100000
+1611,Cockatoo_public_Shad,Cockatoo,Public services,Library,10345.7,111360.0,42.45983685925793,-76.4852915864667,US/Eastern,Yes,2000.0,100001_200000
+1618,Cockatoo_education_Marva,Cockatoo,Education,College Classroom,10123.7,108971.0,42.45983685925793,-76.4852915864667,US/Eastern,Yes,1990.0,100001_200000
+1620,Cockatoo_lodging_Elvia,Cockatoo,Lodging/residential,Hotel,13962.8,150294.0,42.45983685925793,-76.4852915864667,US/Eastern,Yes,1987.0,100001_200000
+1622,Cockatoo_public_Chiquita,Cockatoo,Public services,Library,9247.7,99541.0,42.45983685925793,-76.4852915864667,US/Eastern,Yes,1993.0,50001_100000
+1626,Cockatoo_assembly_Mimi,Cockatoo,Entertainment/public assembly,Gymnasium,1046.6,11265.0,42.45983685925793,-76.4852915864667,US/Eastern,Yes,1997.0,10001_25000
+1627,Cockatoo_lodging_Jimmie,Cockatoo,Lodging/residential,Dormitory,2766.2,29775.0,42.45983685925793,-76.4852915864667,US/Eastern,Yes,2001.0,25001_50000
+1628,Cockatoo_office_Margaret,Cockatoo,Office,Office,8572.3,92271.0,42.45983685925793,-76.4852915864667,US/Eastern,Yes,2001.0,50001_100000
+1629,Mouse_health_Modesto,Mouse,Healthcare,Hospital,17993.0,193675.0,51.52193899999999,-0.120069,Europe/London,Yes,1994.0,100001_200000
+1630,Mouse_health_Justin,Mouse,Healthcare,Hospital,17735.0,190898.0,51.52193899999999,-0.120069,Europe/London,Yes,2012.0,100001_200000
+1634,Mouse_lodging_Vicente,Mouse,Lodging/residential,Hotel,3489.0,37555.0,51.52193899999999,-0.120069,Europe/London,Yes,2006.0,25001_50000
+1635,Mouse_science_Micheal,Mouse,Technology/science,Laboratory,5931.0,63841.0,51.52193899999999,-0.120069,Europe/London,Yes,1996.0,50001_100000

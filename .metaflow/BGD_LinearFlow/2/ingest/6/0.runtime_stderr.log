@@ -1,0 +1,41 @@
+[MFLOG|0|2024-07-19T10:10:20.896820Z|runtime|1167ff03-7814-4e0a-a7a3-b211b1df414b]INFO:__main__:Fetching dataframe..
+[MFLOG|0|2024-07-19T10:10:20.899672Z|runtime|89a14285-d4c0-438a-8534-4a1125b955b3]<flow BGD_LinearFlow step ingest> failed:
+[MFLOG|0|2024-07-19T10:10:20.930253Z|runtime|f2f2abd7-7f18-46de-aad4-962fe02273ba]    Internal error
+[MFLOG|0|2024-07-19T10:10:20.930844Z|runtime|6f03fb77-bd50-4de1-af4e-84d597b6f5af]Traceback (most recent call last):
+[MFLOG|0|2024-07-19T10:10:20.930935Z|runtime|9338f8cf-a2f3-40b7-ae8c-8fa28298f1bb]  File "/Users/nikhilkapila/miniconda3/envs/8903env/lib/python3.10/site-packages/metaflow/cli.py", line 1126, in main
+[MFLOG|0|2024-07-19T10:10:20.930999Z|runtime|253b3e98-7189-41d1-a0f1-856b37a4f65a]    start(auto_envvar_prefix="METAFLOW", obj=state)
+[MFLOG|0|2024-07-19T10:10:20.931058Z|runtime|2cf86c56-0b13-4b3a-9d91-ea05439bd20f]  File "/Users/nikhilkapila/miniconda3/envs/8903env/lib/python3.10/site-packages/metaflow/tracing/__init__.py", line 27, in wrapper_func
+[MFLOG|0|2024-07-19T10:10:20.931093Z|runtime|36c01c48-22c8-4c46-8424-61275cfe6f27]    return func(args, kwargs)
+[MFLOG|0|2024-07-19T10:10:20.931130Z|runtime|4018f3e3-6097-47d3-86b3-8fa25cc6775d]  File "/Users/nikhilkapila/miniconda3/envs/8903env/lib/python3.10/site-packages/metaflow/_vendor/click/core.py", line 829, in __call__
+[MFLOG|0|2024-07-19T10:10:20.931164Z|runtime|ad2af2ef-6bf8-4c53-b3eb-cd0ace1a73b7]    return self.main(args, kwargs)
+[MFLOG|0|2024-07-19T10:10:20.931192Z|runtime|e80c88f5-7031-4bc8-abd8-4e64ee84984b]  File "/Users/nikhilkapila/miniconda3/envs/8903env/lib/python3.10/site-packages/metaflow/_vendor/click/core.py", line 782, in main
+[MFLOG|0|2024-07-19T10:10:20.931222Z|runtime|affecf48-d466-486c-8486-71de7c2c0a22]    rv = self.invoke(ctx)
+[MFLOG|0|2024-07-19T10:10:20.931255Z|runtime|83d61f3f-762b-457a-b801-558126b668c7]  File "/Users/nikhilkapila/miniconda3/envs/8903env/lib/python3.10/site-packages/metaflow/_vendor/click/core.py", line 1259, in invoke
+[MFLOG|0|2024-07-19T10:10:20.931290Z|runtime|313e8e50-0f64-4a92-a2d3-7136802bc652]    return _process_result(sub_ctx.command.invoke(sub_ctx))
+[MFLOG|0|2024-07-19T10:10:20.931319Z|runtime|bb88613a-2366-483c-ae3d-63a5df187272]  File "/Users/nikhilkapila/miniconda3/envs/8903env/lib/python3.10/site-packages/metaflow/_vendor/click/core.py", line 1066, in invoke
+[MFLOG|0|2024-07-19T10:10:20.931353Z|runtime|6dd52188-f65a-4a1d-a529-e3dca1fd753a]    return ctx.invoke(self.callback, ctx.params)
+[MFLOG|0|2024-07-19T10:10:21.182890Z|runtime|65533784-86ff-4859-8c1e-0f2f7c0df069]  File "/Users/nikhilkapila/miniconda3/envs/8903env/lib/python3.10/site-packages/metaflow/_vendor/click/core.py", line 610, in invoke
+[MFLOG|0|2024-07-19T10:10:21.183061Z|runtime|5be40a66-89b6-4e7c-946d-45612b659ef0]    return callback(args, kwargs)
+[MFLOG|0|2024-07-19T10:10:21.183102Z|runtime|bb06d2e2-6ad9-4af6-8c0f-0591221c0433]  File "/Users/nikhilkapila/miniconda3/envs/8903env/lib/python3.10/site-packages/metaflow/_vendor/click/decorators.py", line 21, in new_func
+[MFLOG|0|2024-07-19T10:10:21.183130Z|runtime|b9e38a3e-9cd2-4e7e-b0bb-af6b8e1ac96b]    return f(get_current_context(), args, kwargs)
+[MFLOG|0|2024-07-19T10:10:21.183159Z|runtime|3b7ed2e7-4e89-436c-88d2-5cbbb7953db0]  File "/Users/nikhilkapila/miniconda3/envs/8903env/lib/python3.10/site-packages/metaflow/cli.py", line 468, in step
+[MFLOG|0|2024-07-19T10:10:21.183184Z|runtime|8c1cc9c4-a52b-4d52-a7e4-5c4f80d7dc81]    task.run_step(
+[MFLOG|0|2024-07-19T10:10:21.183208Z|runtime|dea745ac-5ee2-4c1c-9c80-9d351a319504]  File "/Users/nikhilkapila/miniconda3/envs/8903env/lib/python3.10/site-packages/metaflow/task.py", line 650, in run_step
+[MFLOG|0|2024-07-19T10:10:21.183236Z|runtime|c1265eb2-ad26-4868-8415-a9acdfec132f]    self._exec_step_function(step_func)
+[MFLOG|0|2024-07-19T10:10:21.183260Z|runtime|d0abdefd-d40c-4619-8782-3d16a2c9e30b]  File "/Users/nikhilkapila/miniconda3/envs/8903env/lib/python3.10/site-packages/metaflow/task.py", line 62, in _exec_step_function
+[MFLOG|0|2024-07-19T10:10:21.183289Z|runtime|69d85549-2640-47b4-814e-198e15a814d1]    step_function()
+[MFLOG|0|2024-07-19T10:10:21.183314Z|runtime|310b5faa-43e0-4840-82fd-288d1a969bea]  File "/Users/nikhilkapila/Developer/lstm-training/bgd_flow.py", line 56, in ingest
+[MFLOG|0|2024-07-19T10:10:21.183338Z|runtime|9a37d05d-35ae-46cf-b707-6022e8c120b4]    self.df = pd.read_csv(self.file_path, index_col='timestamp', parse_dates=True)
+[MFLOG|0|2024-07-19T10:10:21.183362Z|runtime|2890e3ae-9379-4aa4-8faa-612f66b44af8]  File "/Users/nikhilkapila/miniconda3/envs/8903env/lib/python3.10/site-packages/pandas/io/parsers/readers.py", line 1026, in read_csv
+[MFLOG|0|2024-07-19T10:10:21.183424Z|runtime|a952afa2-7599-491f-a0ff-2ba53714d9e3]    return _read(filepath_or_buffer, kwds)
+[MFLOG|0|2024-07-19T10:10:21.183528Z|runtime|d449c4b1-7048-4af8-b421-10a762c43279]  File "/Users/nikhilkapila/miniconda3/envs/8903env/lib/python3.10/site-packages/pandas/io/parsers/readers.py", line 620, in _read
+[MFLOG|0|2024-07-19T10:10:21.183564Z|runtime|1b298bde-f860-40b5-9573-7593839d329f]    parser = TextFileReader(filepath_or_buffer, kwds)
+[MFLOG|0|2024-07-19T10:10:21.183591Z|runtime|7c6a1766-5bf4-455e-9cf0-9304d8150a90]  File "/Users/nikhilkapila/miniconda3/envs/8903env/lib/python3.10/site-packages/pandas/io/parsers/readers.py", line 1620, in __init__
+[MFLOG|0|2024-07-19T10:10:21.183615Z|runtime|716bee2c-2cc0-4e10-a7c0-2acef401374e]    self._engine = self._make_engine(f, self.engine)
+[MFLOG|0|2024-07-19T10:10:21.183638Z|runtime|e487f7c8-4946-4747-aa93-2d07c0c8d6a7]  File "/Users/nikhilkapila/miniconda3/envs/8903env/lib/python3.10/site-packages/pandas/io/parsers/readers.py", line 1880, in _make_engine
+[MFLOG|0|2024-07-19T10:10:21.183664Z|runtime|63457c18-2c36-4300-9066-59df40c97db3]    self.handles = get_handle(
+[MFLOG|0|2024-07-19T10:10:21.183687Z|runtime|e3d9cf13-ba8a-46e3-8615-d59088b196b7]  File "/Users/nikhilkapila/miniconda3/envs/8903env/lib/python3.10/site-packages/pandas/io/common.py", line 873, in get_handle
+[MFLOG|0|2024-07-19T10:10:21.183712Z|runtime|66bec365-a7c5-4486-9d4c-52f24eb6c79b]    handle = open(
+[MFLOG|0|2024-07-19T10:10:21.183734Z|runtime|a8acd9fa-4429-4b55-9d34-c761f3a43e2a]FileNotFoundError: [Errno 2] No such file or directory: '/datasets/building_genome_dataset/data_subsets/bgd_Education_1001_5000.csv'
+[MFLOG|0|2024-07-19T10:10:21.183762Z|runtime|1da828ef-9ea5-4af4-8161-4d1db4fc0485]
+[MFLOG|0|2024-07-19T10:10:21.184153Z|runtime|f113fa1d-d207-42e8-a045-ec2f5d362995]Task failed.

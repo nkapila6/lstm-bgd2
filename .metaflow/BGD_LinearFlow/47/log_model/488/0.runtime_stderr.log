@@ -1,0 +1,2 @@
+[MFLOG|0|2024-07-22T23:56:12.989969Z|runtime|f7344b43-c907-41ff-bade-963d667c2c11]INFO:__main__:Logging model bgd_office_50001_100000_LSTM
+[MFLOG|0|2024-07-22T23:56:12.990931Z|runtime|221b6670-d6e2-4252-af14-342a2c43ad4c]INFO:__main__:Model logged at metaflow_models_360hrs//bgd_office_50001_100000_LSTM//bgd_office_50001_100000_LSTM.pth

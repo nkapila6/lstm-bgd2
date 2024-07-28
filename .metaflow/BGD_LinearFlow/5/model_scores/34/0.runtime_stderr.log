@@ -1,0 +1,3 @@
+[MFLOG|0|2024-07-19T10:20:16.562316Z|runtime|f9a46692-444c-49cf-811e-7e5a87567d8e]INFO:__main__:Average Train Loss across all folds: 0.026534838792485575
+[MFLOG|0|2024-07-19T10:20:20.423885Z|runtime|f3f5cd09-8768-4ace-b568-0b9be754a857]INFO:__main__:Average Validation Loss across all folds: 0.02312021001896544
+[MFLOG|0|2024-07-19T10:20:20.424073Z|runtime|6cdb741b-a321-4e4a-b335-1d26370f11cd]INFO:__main__:Average MAPE across all folds: 5.40%

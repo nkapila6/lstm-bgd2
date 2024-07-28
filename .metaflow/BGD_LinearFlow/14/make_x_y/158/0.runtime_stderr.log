@@ -1,0 +1,4 @@
+[MFLOG|0|2024-07-19T10:45:40.518206Z|runtime|47fe81e5-3795-40db-b20d-0bd41022505c]INFO:__main__:Shape of X_train: (6978, 30, 1)
+[MFLOG|0|2024-07-19T10:45:40.840825Z|runtime|9a9fcffa-ee51-45e0-bb04-0b764bf1523b]Shape of y_train: (6978, 1)
+[MFLOG|0|2024-07-19T10:45:40.841018Z|runtime|3b3c5f76-8258-419a-815b-8ee10f639ce3]Shape of X_test: (1722, 30, 1)
+[MFLOG|0|2024-07-19T10:45:40.841061Z|runtime|17bf51b5-25f9-4ba2-908e-de0e22d6ddc7]Shape of y_test: (1722, 1)

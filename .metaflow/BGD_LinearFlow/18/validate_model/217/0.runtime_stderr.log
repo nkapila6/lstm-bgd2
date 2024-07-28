@@ -1,0 +1,3 @@
+[MFLOG|0|2024-07-19T11:00:14.804190Z|runtime|5c2d6e7c-7139-4e40-8b09-48faff333925]INFO:__main__:Validating LSTM on test set..
+[MFLOG|0|2024-07-19T11:00:14.921135Z|runtime|2e625725-3f77-4133-a55d-0b439ad93d0f]INFO:__main__:Test Set MAPE: 8.01%
+[MFLOG|0|2024-07-19T11:00:15.324957Z|runtime|1ad6d935-e6fb-475f-b010-772ee580a461]INFO:__main__:Test image saved at metaflow_models//bgd_office_10001_25000_LSTM//test_bgd_office_10001_25000_LSTM.png
