@@ -18,7 +18,7 @@ The BGD2 dataset is a big mix of data over different building usage types. Since
 - **Building Usage Type**: Office, Education, Lodging/Residential. The image does show many primary building usage types but we focus on only these 3 for now.
 - **Size in sq ft**: 1001-5000, 5001-10000, 10001-25000, 25001-50000, 50001-100000, 100001-200000, 200001-500000
 
-![Folder showing filtered data](images/fig1-uml_with_metaflowui.png) 
+![Folder showing filtered data](images/fig2-image-folder.png) 
 <p align="center"><em>Fig 2. Image showing data filtered out of BGD2 dataset.</em></p>
 
 The BGD2 dataset has definite building sizes but we categorize our data based on size bins defined in Comstock to be able to fetch a building to benchmark against. Due to lack of availability for some size bins in the BGD2 dataset, we were able to train a total number of 19 LSTM models.
