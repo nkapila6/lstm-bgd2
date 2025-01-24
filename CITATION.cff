@@ -1,0 +1,19 @@
+cff-version: 1.2.0
+title: 'LSTMs trained on Building Genome Dataset 2 '
+message: >-
+  If you use this software, please cite it using the
+  metadata from this file.
+type: software
+authors:
+  - given-names: Nikhil
+    family-names: Kapila
+    email: info@nkapila.me
+    affiliation: Georgia Tech University
+repository-code: 'https://github.com/nkapila6/lstm-bgd2'
+keywords:
+  - lstm
+  - bgd
+  - Building Genome
+license: GPL-3.0-only
+commit: a3b3139fa32b77144bedda864a320e015c357c4f
+date-released: '2024-09-22'
